@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Controller</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Thu, 17 Sep 2026 16:03:18 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Controller 1.0.0 is the first direct release for macOS 27 on Apple silicon.
+
+- Project threads for installed coding agents
+- File inspection and an integrated terminal
+- Signed Sparkle updates with a Check for Updates command
+- System-installed Node and coding tools; no bundled coding-tool executables
+
+Download the ZIP, unzip it, and move Controller.app into Applications. Install Node 18 or later and the coding tools you plan to use separately. OpenCode integration expects OpenCode 2.0.3.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.0/Controller-1.0.0-arm64.zip" length="39460998" type="application/octet-stream" sparkle:edSignature="mJ3MrCWJD5nGn5zEqbdozdN8IU+lxVh78JCfNRRHpo1FaJccjcZXj7smbfchXrrA9pWLWRqUPpptSEs9MEnHAA=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: MNowyYQtGx22Of5uc/f3NiS80HTaEJVK0AXuaRCCKNwGnRgWYlH3Sr2BtS/Kv0FyD11Ywus0BcRhuQqz7AaECg==
+length: 1692
+-->
