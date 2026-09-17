@@ -8,10 +8,9 @@ A native macOS app for working with coding agents in project threads, with a fil
 
 - macOS 27 or later
 - Apple silicon
-- Node.js 18 or later for SDK and MCP bridge features
 - The coding tools you want to use installed on your system
 
-Controller connects to installed Codex, Claude Code, Cursor, Grok, Factory Droid and OpenCode tools. It does not bundle Node or coding-tool executables. OpenCode integration currently expects OpenCode 2.0.3.
+Controller connects directly to installed Codex, Claude Code, Cursor, Grok, Factory Droid and OpenCode tools. Its agent clients and MCP tools run natively, with no Node runtime, npm packages, JavaScript workers or separate MCP helper required by Controller. Installed coding tools retain their own requirements. OpenCode uses its installed v2 background service without requiring a specific patch release.
 
 ## Install
 

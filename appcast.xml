@@ -1,8 +1,28 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Controller</title>
+        <item>
+            <title>1.0.1</title>
+            <pubDate>Thu, 17 Sep 2026 18:50:17 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Controller 1.0.1 moves coding-tool integration into native Swift and removes Controller's Node bridge.
+
+- Claude Code runs directly through the installed native CLI, with streaming, questions, plan review, approvals, and session continuation.
+- Cursor, Grok, and Factory Droid use native Commander MCP tools over HTTP or stdio. Controller no longer needs Node, npm packages, JavaScript workers, or a separately bundled MCP helper.
+- OpenCode connects directly to its native background service, preserving native account configuration and model discovery.
+- Adds image attachments and supported in-turn steering, and improves composer accessories and running-tool presentation.
+
+Installed coding tools retain their own installation requirements. Existing accounts and conversation bindings are preserved.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.1/Controller-1.0.1-arm64.zip" length="13230827" type="application/octet-stream" sparkle:edSignature="mE+YBlLwapT83CD9za+CA3VtBH5YDOByqb30VU5Y2pSfXTIdkp/pOqUEa7xtPS8Tt2019MKtLXI6l7wR/0MkBg=="/>
+        </item>
         <item>
             <title>1.0.0</title>
             <pubDate>Thu, 17 Sep 2026 16:03:18 -0400</pubDate>
@@ -19,10 +39,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
 Download the ZIP, unzip it, and move Controller.app into Applications. Install Node 18 or later and the coding tools you plan to use separately. OpenCode integration expects OpenCode 2.0.3.
 ]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.0/Controller-1.0.0-arm64.zip" length="39460998" type="application/octet-stream" sparkle:edSignature="mJ3MrCWJD5nGn5zEqbdozdN8IU+lxVh78JCfNRRHpo1FaJccjcZXj7smbfchXrrA9pWLWRqUPpptSEs9MEnHAA=="></enclosure>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.0/Controller-1.0.0-arm64.zip" length="39460998" type="application/octet-stream" sparkle:edSignature="mJ3MrCWJD5nGn5zEqbdozdN8IU+lxVh78JCfNRRHpo1FaJccjcZXj7smbfchXrrA9pWLWRqUPpptSEs9MEnHAA=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: MNowyYQtGx22Of5uc/f3NiS80HTaEJVK0AXuaRCCKNwGnRgWYlH3Sr2BtS/Kv0FyD11Ywus0BcRhuQqz7AaECg==
-length: 1692
+</rss>
+<!-- sparkle-signatures:
+edSignature: dW/nsQbjbvNP/IWaBd34L08gOOgMuawYSpvYLgGDoCC/0hxcFxDhI1ovs0Hmw6//oNxBlzE8Luoe63qoVydQAw==
+length: 3244
 -->
