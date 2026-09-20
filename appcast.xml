@@ -6,6 +6,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.5</title>
+            <pubDate>Sun, 20 Sep 2026 16:35:44 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Controller 1.0.5 improves Git workflows and remote access.
+
+- Browse repository files and Git state from connected mobile clients.
+- Expand repository operations with pull request lifecycle, review threads, and stacked pull request support.
+- Configure Git actions when starting a new thread, with app defaults and per-project overrides.
+- Improve shared mobile navigation, conversation controls, and list behavior.
+
+Requires macOS 27 and Apple silicon. Coding tools are installed separately.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.5/Controller-1.0.5-arm64.zip" length="40699644" type="application/octet-stream" sparkle:edSignature="+ZBJ8aWstZxa8wBhb5ERaXPXyXI50QrfUG/kf+6pyGAINlUkei8m+mfMfQefVPFOhDXAuxk4lBX+rM6QsRtfCQ=="/>
+        </item>
+        <item>
             <title>1.0.4</title>
             <pubDate>Sun, 20 Sep 2026 14:02:05 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -45,30 +63,9 @@ Requires macOS 27 and Apple silicon. Coding tools are installed separately. The 
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.3/Controller-1.0.3-arm64.zip" length="40466332" type="application/octet-stream" sparkle:edSignature="wcAQyx4Il4XQ9ty0I43Tuf/hlfSlTnuLFPmzsVmG77qbQQLhkHhdOwPqcw5R29tYpLEiVjXekBxPIWfxY6auAg=="/>
         </item>
-        <item>
-            <title>1.0.2</title>
-            <pubDate>Fri, 18 Sep 2026 14:58:32 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Controller 1.0.2 adds microphone dictation beside Send.
-
-Click the microphone to transcribe speech into your message draft on your Mac. Click again or press Escape to stop, then review, edit, and send. Recording has no app-imposed duration limit.
-
-- Dictation appends to existing text and preserves recognized words in their original conversation when you switch threads.
-- Send stays disabled until the final words finish transcribing.
-- Microphone and transcription errors keep the recognized draft available for review or another recording.
-
-Controller requests microphone permission on first use. The first use of a language may download Apple's speech model before recording starts.
-
-Requires macOS 27 or later on Apple silicon.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.2/Controller-1.0.2-arm64.zip" length="19973467" type="application/octet-stream" sparkle:edSignature="UL834JsAOA9EREtr5st3EPlzb7Mlhm+oTJEXOO5BWivf6hBDGVmU4Tu3BX8kC9yL4vTI8kTbyTB6aTK1/a0aAA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: nHQZHS+opVqXKvVwBg9yIyugJfa1cnZffBcF+Zz3ikSQ4P5uyrq+6tRWBGWho0pdR/TTON349kEqNDVxtZOFAw==
-length: 5106
+edSignature: aOSi4wXE39fCyL3fFdlY7BqIgu96WXwVFgadw06Kq0vfJ1hus4gqBWejwZ/AG0D36Frtm+V4R93SNs47yK+SBw==
+length: 4865
 -->
