@@ -6,6 +6,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.3</title>
+            <pubDate>Sun, 20 Sep 2026 10:10:24 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Controller 1.0.3 adds an integrated browser, native repository workflows, and Controller Connect.
+
+- Browse in persistent WebKit tabs with session restore, history, native browser controls, and browser tools for agents.
+- Review Git changes and GitHub pull requests, manage worktrees, and open related checkout conversations from the sidebar.
+- Connect to your Mac workspace from another Mac or the Controller iPhone and iPad client using authenticated, encrypted connections.
+- Enable optional iCloud synchronization and remote activity notifications for Controller Connect.
+- Improve transcript text selection, source highlighting, Mermaid diagram sizing, and conversation layout when the inspector opens.
+- Improve composer attachment clicks, browser focus, and resize-handle behavior.
+
+Requires macOS 27 and Apple silicon. Coding tools are installed separately. The iPhone and iPad client is distributed separately.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.3/Controller-1.0.3-arm64.zip" length="40466332" type="application/octet-stream" sparkle:edSignature="wcAQyx4Il4XQ9ty0I43Tuf/hlfSlTnuLFPmzsVmG77qbQQLhkHhdOwPqcw5R29tYpLEiVjXekBxPIWfxY6auAg=="/>
+        </item>
+        <item>
             <title>1.0.2</title>
             <pubDate>Fri, 18 Sep 2026 14:58:32 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -44,27 +64,9 @@ Installed coding tools retain their own installation requirements. Existing acco
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.1/Controller-1.0.1-arm64.zip" length="13230827" type="application/octet-stream" sparkle:edSignature="mE+YBlLwapT83CD9za+CA3VtBH5YDOByqb30VU5Y2pSfXTIdkp/pOqUEa7xtPS8Tt2019MKtLXI6l7wR/0MkBg=="/>
         </item>
-        <item>
-            <title>1.0.0</title>
-            <pubDate>Thu, 17 Sep 2026 16:03:18 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Controller 1.0.0 is the first direct release for macOS 27 on Apple silicon.
-
-- Project threads for installed coding agents
-- File inspection and an integrated terminal
-- Signed Sparkle updates with a Check for Updates command
-- System-installed Node and coding tools; no bundled coding-tool executables
-
-Download the ZIP, unzip it, and move Controller.app into Applications. Install Node 18 or later and the coding tools you plan to use separately. OpenCode integration expects OpenCode 2.0.3.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.0/Controller-1.0.0-arm64.zip" length="39460998" type="application/octet-stream" sparkle:edSignature="mJ3MrCWJD5nGn5zEqbdozdN8IU+lxVh78JCfNRRHpo1FaJccjcZXj7smbfchXrrA9pWLWRqUPpptSEs9MEnHAA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: lnYBZBl6cj6xWjmcGjuISuMRMXfdVL9nLq4IlyvNIiL93pfxltkCkA3e0k0v53aBXLkKoPZ4sHcEyeRqjnAcCw==
-length: 4734
+edSignature: Si3He6c1xaMrrllgdKapJOZzbzsJ5JbDgy3ZcKz7lWqSXJasNe2XIeknlh4vf+feBpSV1wmWRf/cvWwbLpkCBw==
+length: 5160
 -->
