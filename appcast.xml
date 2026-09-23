@@ -6,6 +6,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.6</title>
+            <pubDate>Wed, 23 Sep 2026 18:08:46 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Controller 1.0.6 adds provider usage reporting, answers agents' MCP questions and tightens the conversation view.
+
+- See each provider account's usage on a new Usage page in Settings, and how full a conversation's context is in the composer.
+- Answer MCP questions and tool approvals from Codex, Claude, Grok and OpenCode inside the thread.
+- Create isolated checkouts as copy-on-write clones, with linked worktrees as the fallback, and see checkout names in the sidebar.
+- Open New Thread as a centered palette.
+- Show skill loads, Cursor subagent work, Claude's retries and limits, and Grok's billing and turn costs more clearly.
+- Handle more Codex, Claude and OpenCode 2.0.7 events, and explain harness failures using their last error output.
+- Keep streaming from re-rendering the composer, slow busy harnesses instead of stopping them, and stop a harness's processes when it or the app quits.
+- Smooth the sidebar's archive and settle animations.
+
+Requires macOS 27 and Apple silicon. Coding tools are installed separately.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.6/Controller-1.0.6-arm64.zip" length="41502157" type="application/octet-stream" sparkle:edSignature="jwfflgyZv/QQMY3u0IAm+YouRq2IYdFuEA3W/Yv4GbeJ2JrBRFa7zu8ds5OBaDV4s7PlnNFThkcRyqfoNSqiAg=="/>
+        </item>
+        <item>
             <title>1.0.5</title>
             <pubDate>Sun, 20 Sep 2026 16:35:44 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -43,29 +65,9 @@ Requires macOS 27 and Apple silicon. Coding tools are installed separately.
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.4/Controller-1.0.4-arm64.zip" length="40765496" type="application/octet-stream" sparkle:edSignature="0s/Np/n3Si7a9VHWaOc3SVLifOqh0OYrs7PLvrRIJNDEYkEz9eZc0a1pbRlXCChDuf4dWmNWYikg3gzqwwofCA=="/>
         </item>
-        <item>
-            <title>1.0.3</title>
-            <pubDate>Sun, 20 Sep 2026 10:10:24 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Controller 1.0.3 adds an integrated browser, native repository workflows, and Controller Connect.
-
-- Browse in persistent WebKit tabs with session restore, history, native browser controls, and browser tools for agents.
-- Review Git changes and GitHub pull requests, manage worktrees, and open related checkout conversations from the sidebar.
-- Connect to your Mac workspace from another Mac or the Controller iPhone and iPad client using authenticated, encrypted connections.
-- Enable optional iCloud synchronization and remote activity notifications for Controller Connect.
-- Improve transcript text selection, source highlighting, Mermaid diagram sizing, and conversation layout when the inspector opens.
-- Improve composer attachment clicks, browser focus, and resize-handle behavior.
-
-Requires macOS 27 and Apple silicon. Coding tools are installed separately. The iPhone and iPad client is distributed separately.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.3/Controller-1.0.3-arm64.zip" length="40466332" type="application/octet-stream" sparkle:edSignature="wcAQyx4Il4XQ9ty0I43Tuf/hlfSlTnuLFPmzsVmG77qbQQLhkHhdOwPqcw5R29tYpLEiVjXekBxPIWfxY6auAg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: aOSi4wXE39fCyL3fFdlY7BqIgu96WXwVFgadw06Kq0vfJ1hus4gqBWejwZ/AG0D36Frtm+V4R93SNs47yK+SBw==
-length: 4865
+edSignature: Sklrin0hcWHjEiPy8+fRB51A1fLiYxg38/HQ492N3WMedfjRGAFym9Q57PQdF5E1r8tDgt9vleX2HRw72i5iBQ==
+length: 4975
 -->
