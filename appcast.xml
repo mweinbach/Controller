@@ -6,6 +6,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.8</title>
+            <pubDate>Sat, 26 Sep 2026 22:25:51 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Controller 1.0.8 updates agent controls and makes model selection more consistent across Mac, iPhone, and iPad.
+
+- Choose models, reasoning effort, speed, and provider options from one expanding model card.
+- Use additional native Codex, Claude, Cursor, Grok, and OpenCode conversation controls.
+- Keep a started conversation on its account while allowing account selection for new work.
+- Manage background work from the activity card and let agents manage threads and worktrees.
+- Improve provider usage reporting and shared remote controls.
+
+Requires macOS 27 and Apple silicon. Coding tools are installed separately.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.8/Controller-1.0.8-arm64.zip" length="43128975" type="application/octet-stream" sparkle:edSignature="bYUxLtfMgBX013t1p3DuNXquTiqkb+NKCC4fAbSXy4uHMq8kdQ5QUWHJS4xfAZlFn97+1ea4/Itqie/1cmsRDA=="/>
+        </item>
+        <item>
             <title>1.0.7</title>
             <pubDate>Thu, 24 Sep 2026 18:17:12 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -47,27 +66,9 @@ Requires macOS 27 and Apple silicon. Coding tools are installed separately.
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.6/Controller-1.0.6-arm64.zip" length="41502157" type="application/octet-stream" sparkle:edSignature="jwfflgyZv/QQMY3u0IAm+YouRq2IYdFuEA3W/Yv4GbeJ2JrBRFa7zu8ds5OBaDV4s7PlnNFThkcRyqfoNSqiAg=="/>
         </item>
-        <item>
-            <title>1.0.5</title>
-            <pubDate>Sun, 20 Sep 2026 16:35:44 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Controller 1.0.5 improves Git workflows and remote access.
-
-- Browse repository files and Git state from connected mobile clients.
-- Expand repository operations with pull request lifecycle, review threads, and stacked pull request support.
-- Configure Git actions when starting a new thread, with app defaults and per-project overrides.
-- Improve shared mobile navigation, conversation controls, and list behavior.
-
-Requires macOS 27 and Apple silicon. Coding tools are installed separately.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.5/Controller-1.0.5-arm64.zip" length="40699644" type="application/octet-stream" sparkle:edSignature="+ZBJ8aWstZxa8wBhb5ERaXPXyXI50QrfUG/kf+6pyGAINlUkei8m+mfMfQefVPFOhDXAuxk4lBX+rM6QsRtfCQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: ooiY+C31S6QVMAzZvW9y877OcRlVI6GaW9QqsLHHu0JEQYV8AunzQUWK0HUvw7NHONi0E/AtbzRRmKRqshzeAw==
-length: 5154
+edSignature: mNprS9wd9JI/TSwsTEjrS51pNx/xspPOm/VfVhIkXQ+AxQobm9VIPMDB1c6521Oe8HvSI20ub8ei63RNXwHRAg==
+length: 5283
 -->
