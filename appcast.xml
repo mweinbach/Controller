@@ -6,6 +6,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.9</title>
+            <pubDate>Mon, 28 Sep 2026 23:11:08 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.9
+
+- Improved transcript scrolling, streaming follow behavior, and conversation transitions.
+- Refined workspace, browser, Files, and inspector navigation and lifecycle handling.
+- Improved provider session handling and live context usage reporting.
+- Strengthened background persistence and process cleanup.
+
+Requires Apple silicon and macOS 27 or later.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.9/Controller-1.0.9-arm64.zip" length="43657973" type="application/octet-stream" sparkle:edSignature="jCln6N49jnV1LsZOwKzRDKzyx9QN0Jkxn5pkHNII3YvY7Sfig3cDnkBU25nss38mjgu5LM4Kmi7ASId6M5gHCg=="/>
+        </item>
+        <item>
             <title>1.0.8</title>
             <pubDate>Sat, 26 Sep 2026 22:25:51 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -44,31 +62,9 @@ Live Activities require ControllerMobile 1.0.2 or later. Requires macOS 27 and A
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.7/Controller-1.0.7-arm64.zip" length="41746758" type="application/octet-stream" sparkle:edSignature="W9QEQwQ5nlfWtCHw5Xzy0LQBSFUWjIlt6qMGRoBxmOX2RC6yp9gn3714U30rnYfPn4Ve0F7E+wmJKoDYFRPJCA=="/>
         </item>
-        <item>
-            <title>1.0.6</title>
-            <pubDate>Wed, 23 Sep 2026 18:08:46 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Controller 1.0.6 adds provider usage reporting, answers agents' MCP questions and tightens the conversation view.
-
-- See each provider account's usage on a new Usage page in Settings, and how full a conversation's context is in the composer.
-- Answer MCP questions and tool approvals from Codex, Claude, Grok and OpenCode inside the thread.
-- Create isolated checkouts as copy-on-write clones, with linked worktrees as the fallback, and see checkout names in the sidebar.
-- Open New Thread as a centered palette.
-- Show skill loads, Cursor subagent work, Claude's retries and limits, and Grok's billing and turn costs more clearly.
-- Handle more Codex, Claude and OpenCode 2.0.7 events, and explain harness failures using their last error output.
-- Keep streaming from re-rendering the composer, slow busy harnesses instead of stopping them, and stop a harness's processes when it or the app quits.
-- Smooth the sidebar's archive and settle animations.
-
-Requires macOS 27 and Apple silicon. Coding tools are installed separately.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.6/Controller-1.0.6-arm64.zip" length="41502157" type="application/octet-stream" sparkle:edSignature="jwfflgyZv/QQMY3u0IAm+YouRq2IYdFuEA3W/Yv4GbeJ2JrBRFa7zu8ds5OBaDV4s7PlnNFThkcRyqfoNSqiAg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: mNprS9wd9JI/TSwsTEjrS51pNx/xspPOm/VfVhIkXQ+AxQobm9VIPMDB1c6521Oe8HvSI20ub8ei63RNXwHRAg==
-length: 5283
+edSignature: ROjHJJx4BhA8YCS4IwmqPC+V3sszkp7i/uVh1k4rcmmj3NfIRyYO55p2lHoMwBtsMlIOLzaaNhbYS0dR2gM9BQ==
+length: 4628
 -->
