@@ -6,6 +6,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.10</title>
+            <pubDate>Tue, 29 Sep 2026 11:45:40 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Release notes
+
+- **Simpler composer on Mac and iOS:** One button now switches between Send, Stop, Steer and Queue as the conversation changes, keeping the controls compact.
+- **More reliable dictation:** Fixed an issue that could cut off the final words when stopping a recording.
+- **Improved iPhone dictation layout:** The waveform appears beneath your prompt, keeping the microphone and send controls in place.
+- **Smoother mobile transitions:** Settings, New Chat, Files and Settled now expand from their buttons. Model selection and smaller control animations also feel more consistent and respect Reduce Motion.
+- **Easier attachments on iOS:** The attachment button opens a compact popover for choosing Photos or Files.
+- **Better Mac conversation spacing:** Pinning the activity card adjusts the transcript and composer to make room beside them.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.10/Controller-1.0.10-arm64.zip" length="43399977" type="application/octet-stream" sparkle:edSignature="+3SyrtajPTgNMo7YLrrsiUAlTZlv9oemsxiJ8DuZ2D9p3jzyKdUeST9E151/z6Mb4WXruI+KfQvUDngZjRYGCg=="/>
+        </item>
+        <item>
             <title>1.0.9</title>
             <pubDate>Mon, 28 Sep 2026 23:11:08 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -42,29 +60,9 @@ Requires macOS 27 and Apple silicon. Coding tools are installed separately.
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.8/Controller-1.0.8-arm64.zip" length="43128975" type="application/octet-stream" sparkle:edSignature="bYUxLtfMgBX013t1p3DuNXquTiqkb+NKCC4fAbSXy4uHMq8kdQ5QUWHJS4xfAZlFn97+1ea4/Itqie/1cmsRDA=="/>
         </item>
-        <item>
-            <title>1.0.7</title>
-            <pubDate>Thu, 24 Sep 2026 18:17:12 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Controller 1.0.7 adds Live Activity updates and direct push alerts for connected iPhones and iPads, expands Claude conversation controls, and improves streaming performance.
-
-- Keep remote work visible on the Lock Screen and in the Dynamic Island, including approval requests, questions, and completed or failed turns.
-- Deliver alerts through Controller Connect, with CloudKit as a fallback.
-- Import existing Claude Code conversations, fork from a turn, ask side questions with /btw, and steer running turns.
-- Change Claude permission modes during a conversation and stop individual background agents.
-- Improve streamed text and code rendering, scrolling through long conversations, and recovery of work after quitting.
-- Expand the context meter into a glass card on Mac, iPhone, and iPad.
-
-Live Activities require ControllerMobile 1.0.2 or later. Requires macOS 27 and Apple silicon. Coding tools are installed separately.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.7/Controller-1.0.7-arm64.zip" length="41746758" type="application/octet-stream" sparkle:edSignature="W9QEQwQ5nlfWtCHw5Xzy0LQBSFUWjIlt6qMGRoBxmOX2RC6yp9gn3714U30rnYfPn4Ve0F7E+wmJKoDYFRPJCA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: ROjHJJx4BhA8YCS4IwmqPC+V3sszkp7i/uVh1k4rcmmj3NfIRyYO55p2lHoMwBtsMlIOLzaaNhbYS0dR2gM9BQ==
-length: 4628
+edSignature: S1XW9/TEnEPs1eMjK1uyumRac2pY9Z3CnvN/8V7ogoMy1eGO3pm5/29fxqTLNdA13X82ldkpAkgSKUJjDxIPBA==
+length: 4560
 -->
