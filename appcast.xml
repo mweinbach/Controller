@@ -6,6 +6,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.13</title>
+            <pubDate>Tue, 29 Sep 2026 23:09:45 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>1.0.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Release notes
+
+## Mac and connected devices
+
+- **Better coordination between agents:** New conversations can see which other threads are working in the project, what they were last asked to do and whether they share a checkout, helping agents coordinate their work.
+- **More reliable notifications:** Improved notification handling and opening conversations from notifications on Mac, iPhone and iPad.
+- **Working chats stay up to date:** Remote conversations that are still working keep receiving updates when you switch to another chat, so their latest progress is ready when you return.
+- **Immediate feedback for remote actions:** Sent messages, queued prompts and answers to agent questions appear locally while the Mac processes them. If the host rejects a message, its text and attachments return to your draft.
+- **Images stay ready:** Attached images appear while uploading, and images already viewed or sent are cached on the device to avoid downloading them again when you revisit a conversation.
+
+## ControllerMobile for iPhone and iPad
+
+- **Smoother activity card:** The activity orb animates while work is running and expands into its card with a continuous glass transition.
+- **Native attachment menu:** The attachment button opens the system menu for choosing Photos or Files, making the choices more reliable to open from the composer.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.13/Controller-1.0.13-arm64.zip" length="43681349" type="application/octet-stream" sparkle:edSignature="M6bpL6/bH3tyJKSLOp6F0Wquchr0S7Sdb0G2XE/Zx/2CKDFyn4Ajc//xpJ+mCb+t5bKe4PlHmAI6wvEkyd3PBQ=="/>
+        </item>
+        <item>
             <title>1.0.12</title>
             <pubDate>Tue, 29 Sep 2026 21:36:05 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -51,27 +75,9 @@ Requires Apple silicon and macOS 27 or later. Coding tools are installed separat
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.11/Controller-1.0.11-arm64.zip" length="43501204" type="application/octet-stream" sparkle:edSignature="grPKM38A0Dc/UiEpHoU6GhXYEy0r/ziezhrMLNsRD38RtPb2DI/QYxD0A/s9wLXKLntI+UfJkiFbPQQie/ymDg=="/>
         </item>
-        <item>
-            <title>1.0.10</title>
-            <pubDate>Tue, 29 Sep 2026 11:45:40 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Release notes
-
-- **Simpler composer on Mac and iOS:** One button now switches between Send, Stop, Steer and Queue as the conversation changes, keeping the controls compact.
-- **More reliable dictation:** Fixed an issue that could cut off the final words when stopping a recording.
-- **Improved iPhone dictation layout:** The waveform appears beneath your prompt, keeping the microphone and send controls in place.
-- **Smoother mobile transitions:** Settings, New Chat, Files and Settled now expand from their buttons. Model selection and smaller control animations also feel more consistent and respect Reduce Motion.
-- **Easier attachments on iOS:** The attachment button opens a compact popover for choosing Photos or Files.
-- **Better Mac conversation spacing:** Pinning the activity card adjusts the transcript and composer to make room beside them.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.10/Controller-1.0.10-arm64.zip" length="43399977" type="application/octet-stream" sparkle:edSignature="+3SyrtajPTgNMo7YLrrsiUAlTZlv9oemsxiJ8DuZ2D9p3jzyKdUeST9E151/z6Mb4WXruI+KfQvUDngZjRYGCg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: baQstr/7lDIqiSsY8zifqmo+p0CwvNNxxBIJHogLozHvd04M8xcpxk19B5lsmg/6Fmh+6zi1ey+YI4mqyfNLBA==
-length: 5899
+edSignature: ln8uVV7AM5ViI28VWP/oZ2KtUEi/Ugl+qCbjo6kEkby4N/X7Zni3WnHPG+966pCO3MdUuFayQ9Ak81DzIX4lBw==
+length: 6399
 -->
