@@ -6,6 +6,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.17</title>
+            <pubDate>Wed, 30 Sep 2026 13:11:59 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>1.0.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Release notes
+
+## Mac and connected devices
+
+- **Replies keep arriving after Reconnect:** Choosing **Retry** or **Reconnect** could leave every new message on "Thinking…" until Controller was quit. The agent kept working, but its replies, its requests to Controller and its progress never reached the chat, on the Mac or on your iPhone. Reconnecting now keeps them coming.
+- **Dictation cleanup you can watch:** When Apple Intelligence tidies a dictated message, the words it removes or changes dissolve into smoke and the corrected words form out of it, while the words it kept glide to their new places. This works on the Mac and on iPhone. With Reduce Motion on, it's a short crossfade.
+- **Steadier dictation waveform:** The waveform scrolls at an even pace instead of pausing and jumping ahead when the app is busy.
+- **Smoother animations on iPhone:** On ProMotion iPhones, Controller's own animations now run at up to 120 Hz, including the model and effort cards, the activity card, the dictation waveform and the jump-to-latest button. Before, they were held to 60 Hz. Opening the effort, context and activity cards no longer rebuilds them on every frame.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.17/Controller-1.0.17-arm64.zip" length="25188799" type="application/octet-stream" sparkle:edSignature="GS6hqRshy3S01OdFXtkPLNtqQuRzztaQzKWQUi8r7a9Hbgbh35I+I5jGyW5xpRpc7bOzGqQlYxJQbOnTACeCCw=="/>
+        </item>
+        <item>
             <title>1.0.16</title>
             <pubDate>Wed, 30 Sep 2026 11:55:23 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -46,33 +64,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.15/Controller-1.0.15-arm64.zip" length="24799972" type="application/octet-stream" sparkle:edSignature="jO7e1T1gMG9S78kRc1txYg3ODH6nRJ00ByYUft3OwTjCpHYECNmf5RjDrv0Cq7avHXwY3QP2gV3OVBbv36P8DQ=="/>
         </item>
-        <item>
-            <title>1.0.13</title>
-            <pubDate>Tue, 29 Sep 2026 23:09:45 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>16</sparkle:version>
-            <sparkle:shortVersionString>1.0.13</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Release notes
-
-## Mac and connected devices
-
-- **Better coordination between agents:** New conversations can see which other threads are working in the project, what they were last asked to do and whether they share a checkout, helping agents coordinate their work.
-- **More reliable notifications:** Improved notification handling and opening conversations from notifications on Mac, iPhone and iPad.
-- **Working chats stay up to date:** Remote conversations that are still working keep receiving updates when you switch to another chat, so their latest progress is ready when you return.
-- **Immediate feedback for remote actions:** Sent messages, queued prompts and answers to agent questions appear locally while the Mac processes them. If the host rejects a message, its text and attachments return to your draft.
-- **Images stay ready:** Attached images appear while uploading, and images already viewed or sent are cached on the device to avoid downloading them again when you revisit a conversation.
-
-## ControllerMobile for iPhone and iPad
-
-- **Smoother activity card:** The activity orb animates while work is running and expands into its card with a continuous glass transition.
-- **Native attachment menu:** The attachment button opens the system menu for choosing Photos or Files, making the choices more reliable to open from the composer.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.13/Controller-1.0.13-arm64.zip" length="43681349" type="application/octet-stream" sparkle:edSignature="M6bpL6/bH3tyJKSLOp6F0Wquchr0S7Sdb0G2XE/Zx/2CKDFyn4Ajc//xpJ+mCb+t5bKe4PlHmAI6wvEkyd3PBQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: Qq0bIzG6f7K/DbHa2cGNnwnlpUeggEVnahy0F5mxhZk4Vm6y3tj8dsiNbeP3/F77d2jkQQZa4XkkpbRY7Dl8Ag==
-length: 7405
+edSignature: TE1z1n97kJ4VJE8sZ+XrGma6IXLECPjUUAzHHXGeidUXNVJRRhuJNoznWYcd0kIZammsu009R/YVIXQkK7dEAg==
+length: 7217
 -->
