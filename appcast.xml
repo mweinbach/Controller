@@ -6,6 +6,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.16</title>
+            <pubDate>Wed, 30 Sep 2026 11:55:23 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>1.0.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Release notes
+
+## Mac and connected devices
+
+- **Updates on their own:** Controller looks for a new version every 15 minutes and downloads it in the background. When one is ready, choose **Install Controller *version* and Restart** from the Controller menu, or it installs the next time you quit.
+- **Update a Mac from your iPhone or another Mac:** A Mac's details on iPhone and iPad, and **Settings → Connect → Your Macs** on another Mac, show its version and an **Update and Restart** button when an update is ready. Chats that are working stop before the update installs and pick up where they left off once Controller restarts, and your devices reconnect on their own. This works from the next update onwards, once each Mac runs this version.
+- **Faster start on a slow connection:** Your iPhone opens straight to the chats, projects and models it saved last time and connects to the Mac in the background, instead of waiting for the account check and the connection first.
+- **Keep working while it reconnects:** While your iPhone is still connecting or verifying the Mac, you can send messages, start a chat, change the model or its settings, and pin or settle chats; each goes to the Mac as soon as it's reached.
+- **Quicker to connect:** Connecting to a Mac takes fewer round trips, which is most noticeable on a slow or distant connection. Both the Mac and the device need this version.
+- **Steadier on changing networks:** When your iPhone switches between Wi-Fi and cellular or gets its signal back, it reconnects right away instead of waiting up to a minute. A message sent just as the connection dropped goes through once it's back, without being sent twice. Returning to Controller within 20 seconds of switching apps finds the Mac still connected.
+- **Large chats load on slow connections:** Opening a long chat, loading older messages or viewing pictures no longer times out on a slow link, and background loading of recent chats pauses in Low Data Mode and while you open a chat.
+- **Pictures in replies hold their place:** An inline picture keeps the same space while it loads, fails or is retried, so the chat no longer jumps.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.16/Controller-1.0.16-arm64.zip" length="24890552" type="application/octet-stream" sparkle:edSignature="t2xv2NvwcmOv5kR9vauI9d/osZzroeRLC7AHkER4k4CRYYlQ9//5hGFrCwlUfB4AY1a8/hpNsUzCwY+DqLAsAA=="/>
+        </item>
+        <item>
             <title>1.0.15</title>
             <pubDate>Wed, 30 Sep 2026 09:20:03 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -48,35 +70,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.13/Controller-1.0.13-arm64.zip" length="43681349" type="application/octet-stream" sparkle:edSignature="M6bpL6/bH3tyJKSLOp6F0Wquchr0S7Sdb0G2XE/Zx/2CKDFyn4Ajc//xpJ+mCb+t5bKe4PlHmAI6wvEkyd3PBQ=="/>
         </item>
-        <item>
-            <title>1.0.12</title>
-            <pubDate>Tue, 29 Sep 2026 21:36:05 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>15</sparkle:version>
-            <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Release notes
-
-## Mac and connected devices
-
-- **Related threads stay together:** Threads started by an agent now appear beneath their parent conversation. Expand or collapse the group to follow delegated work without filling the sidebar or chat list.
-- **Less repeated agent context:** Agents can discover tools on demand, and unchanged browser and session instructions are no longer repeated on every prompt. Thread-management tools also return more concise results.
-- **More reliable image attachments:** Imported images now appear in the composer when loading finishes.
-- **Smoother interface:** Sidebar gestures, activity indicators, pending requests and composer controls transition more smoothly, with improved support for Reduce Motion.
-
-## ControllerMobile for iPhone and iPad
-
-- **Activity at a glance:** The conversation's activity orb brings together agents, background work, sources and repository status. Open its card or keep it pinned while you follow a chat. Files and Git are now in the conversation menu.
-- **Faster recent chats:** Recent conversation history is cached and preloaded, so reopening a chat can show its messages while the host refreshes agent state.
-- **Images from your Mac, inline:** Images and screenshots saved by agents on the host now appear directly in the conversation.
-- **Steadier streaming and scrolling:** Running work appears step by step, with a smoother transition to the finished reply. Loading earlier messages and following long replies better preserve your reading position.
-- **More comfortable composing:** Slash-command search keeps the keyboard open. Dictation and attachment loading keep the controls steady, with larger touch targets and clearer haptic feedback.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.12/Controller-1.0.12-arm64.zip" length="43632989" type="application/octet-stream" sparkle:edSignature="QcIcRECQ1rDlXTyiyqoJoq3EQ3bHVk8iEKuNaDz9gbI2+8EVC8eDLuazaloQnVMKo5ufkFH7pnoH0BOkxoSUDw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 9gzpFJ1SE9H+spqvPu/X2ddkSJDosq8zlrlOEDcNTa6Bf4AmuoqU1TooHwo4lIrTXpJqNymdqPRU9PoPP8ZlBQ==
-length: 6977
+edSignature: Qq0bIzG6f7K/DbHa2cGNnwnlpUeggEVnahy0F5mxhZk4Vm6y3tj8dsiNbeP3/F77d2jkQQZa4XkkpbRY7Dl8Ag==
+length: 7405
 -->
