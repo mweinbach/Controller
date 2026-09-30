@@ -6,6 +6,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.15</title>
+            <pubDate>Wed, 30 Sep 2026 09:20:03 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>1.0.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Release notes
+
+## Mac and connected devices
+
+- **New connection service for remote access:** Making this Mac reachable from your other devices now uses OpenTunnel instead of a Cloudflare tunnel. There is no helper to download, and the Mac handles the secure connection itself, so the relay only carries encrypted traffic. The first time you turn it on, the Mac requests a certificate, which takes about a minute. Update each Mac you host from; until it updates, your other devices won't see it.
+- **Smoother streaming replies:** Replies appear a whole word at a time and new text fades in, instead of showing half-finished words and raw formatting marks while an agent writes.
+- **Answer tool requests from anywhere:** When a tool asks for permission, Decline and Cancel now work from your iPhone as well as the Mac.
+- **Screenshots in replies open reliably:** Images an agent links to by a screenshot's file name now open even when the name was typed with an ordinary space before AM or PM.
+- **Faster remote chats:** When viewing another Mac, the chat list and pictures in replies are saved on this device, so they appear at once when you reconnect or revisit a conversation.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.15/Controller-1.0.15-arm64.zip" length="24799972" type="application/octet-stream" sparkle:edSignature="jO7e1T1gMG9S78kRc1txYg3ODH6nRJ00ByYUft3OwTjCpHYECNmf5RjDrv0Cq7avHXwY3QP2gV3OVBbv36P8DQ=="/>
+        </item>
+        <item>
             <title>1.0.13</title>
             <pubDate>Tue, 29 Sep 2026 23:09:45 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -55,29 +74,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.12/Controller-1.0.12-arm64.zip" length="43632989" type="application/octet-stream" sparkle:edSignature="QcIcRECQ1rDlXTyiyqoJoq3EQ3bHVk8iEKuNaDz9gbI2+8EVC8eDLuazaloQnVMKo5ufkFH7pnoH0BOkxoSUDw=="/>
         </item>
-        <item>
-            <title>1.0.11</title>
-            <pubDate>Tue, 29 Sep 2026 13:51:35 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>13</sparkle:version>
-            <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.11
-
-- Redesigned setup with a persistent Liquid Glass surface and clearer sign-in status.
-- Remember access and sandbox choices together across projects and accounts.
-- Distinguish messages sent by other agents from your own messages.
-- Improve model and permission changes, including pending sends, cancellation and reconnect handling.
-- Steer supported ACP turns and restart harnesses in the background after mode changes.
-- Improve remote thread synchronization and tool-call progress animation.
-
-Requires Apple silicon and macOS 27 or later. Coding tools are installed separately.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.11/Controller-1.0.11-arm64.zip" length="43501204" type="application/octet-stream" sparkle:edSignature="grPKM38A0Dc/UiEpHoU6GhXYEy0r/ziezhrMLNsRD38RtPb2DI/QYxD0A/s9wLXKLntI+UfJkiFbPQQie/ymDg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: ln8uVV7AM5ViI28VWP/oZ2KtUEi/Ugl+qCbjo6kEkby4N/X7Zni3WnHPG+966pCO3MdUuFayQ9Ak81DzIX4lBw==
-length: 6399
+edSignature: 9gzpFJ1SE9H+spqvPu/X2ddkSJDosq8zlrlOEDcNTa6Bf4AmuoqU1TooHwo4lIrTXpJqNymdqPRU9PoPP8ZlBQ==
+length: 6977
 -->
