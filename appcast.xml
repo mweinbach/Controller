@@ -6,6 +6,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.19</title>
+            <pubDate>Wed, 30 Sep 2026 19:56:02 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>1.0.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- **Google Antigravity:** Add an Antigravity account in Settings → Providers. Controller downloads Google's Antigravity agent, checks that Google signed it, and shares it between all your Antigravity accounts. **Sign in with Google** opens Google's page in your browser; each account keeps its sign-in in its own private profile, and Controller never sees your tokens. Gemini Enterprise, Gemini API keys and Agent Platform (Vertex AI) also work. Approval modes, the agent's questions and its tool output all appear as they do for the other agents.
+- **Models before the first chat:** Antigravity and Factory Droid now list their models as soon as the account connects, instead of only after the first chat started. Any account that you sign in to after connecting also loads its models straight away.
+- **Your whole usage history:** The Usage window now includes the history Codex, Claude Code, OpenCode, Grok and Factory Droid keep on your Mac, including work you did in them directly and work from before Controller was tracking. A conversation Controller also tracked counts once. The first read takes a few seconds; after that only new work is read.
+- **Usage from all your Macs:** Each Mac shares its usage with your other Macs over Connect, and also through your private iCloud database, so every Mac's Usage window shows everything. A **Devices** card breaks it down once another Mac contributes. Turn off **Sync usage** in Connect settings to keep iCloud out of it.
+- **Dictation cleanup stays in place:** While Apple Intelligence tidies a dictated message, the corrected text now wraps exactly where the message box does instead of jumping at the end, and on iPhone the microphone, spinner and waveform stay put.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.19/Controller-1.0.19-arm64.zip" length="25824434" type="application/octet-stream" sparkle:edSignature="+udNZsF1hwmHvnlAuCRrs1t7FdTNV6E17vWe5Zm6gYq9onkkl9Q9GVE7Zxlz8+K0T0kZmayHg3gL1LuDsTNVCg=="/>
+        </item>
+        <item>
             <title>1.0.18</title>
             <pubDate>Wed, 30 Sep 2026 18:04:04 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -40,31 +55,9 @@ Email sign-in is not enabled. Conversations, files and agent credentials stay on
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.17/Controller-1.0.17-arm64.zip" length="25188799" type="application/octet-stream" sparkle:edSignature="GS6hqRshy3S01OdFXtkPLNtqQuRzztaQzKWQUi8r7a9Hbgbh35I+I5jGyW5xpRpc7bOzGqQlYxJQbOnTACeCCw=="/>
         </item>
-        <item>
-            <title>1.0.16</title>
-            <pubDate>Wed, 30 Sep 2026 11:55:23 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>18</sparkle:version>
-            <sparkle:shortVersionString>1.0.16</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Release notes
-
-## Mac and connected devices
-
-- **Updates on their own:** Controller looks for a new version every 15 minutes and downloads it in the background. When one is ready, choose **Install Controller *version* and Restart** from the Controller menu, or it installs the next time you quit.
-- **Update a Mac from your iPhone or another Mac:** A Mac's details on iPhone and iPad, and **Settings → Connect → Your Macs** on another Mac, show its version and an **Update and Restart** button when an update is ready. Chats that are working stop before the update installs and pick up where they left off once Controller restarts, and your devices reconnect on their own. This works from the next update onwards, once each Mac runs this version.
-- **Faster start on a slow connection:** Your iPhone opens straight to the chats, projects and models it saved last time and connects to the Mac in the background, instead of waiting for the account check and the connection first.
-- **Keep working while it reconnects:** While your iPhone is still connecting or verifying the Mac, you can send messages, start a chat, change the model or its settings, and pin or settle chats; each goes to the Mac as soon as it's reached.
-- **Quicker to connect:** Connecting to a Mac takes fewer round trips, which is most noticeable on a slow or distant connection. Both the Mac and the device need this version.
-- **Steadier on changing networks:** When your iPhone switches between Wi-Fi and cellular or gets its signal back, it reconnects right away instead of waiting up to a minute. A message sent just as the connection dropped goes through once it's back, without being sent twice. Returning to Controller within 20 seconds of switching apps finds the Mac still connected.
-- **Large chats load on slow connections:** Opening a long chat, loading older messages or viewing pictures no longer times out on a slow link, and background loading of recent chats pauses in Low Data Mode and while you open a chat.
-- **Pictures in replies hold their place:** An inline picture keeps the same space while it loads, fails or is retried, so the chat no longer jumps.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.16/Controller-1.0.16-arm64.zip" length="24890552" type="application/octet-stream" sparkle:edSignature="t2xv2NvwcmOv5kR9vauI9d/osZzroeRLC7AHkER4k4CRYYlQ9//5hGFrCwlUfB4AY1a8/hpNsUzCwY+DqLAsAA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: cNp1fpYlQbDtc+lp0UDum48KLCtCxZgPPlLXa1o1AYa07J36SjBlTerhYsMLH8bEkCjYdhltVqXDmz42FNLSCg==
-length: 6552
+edSignature: URnQ14BTxPz0Y66nDu9UhqD2axjkznMdW+HnGH4MpI5JcWD4oOzkDBKTpWnSO+L/DomqTGtiq6J/JHK9crlVAA==
+length: 6124
 -->
