@@ -6,6 +6,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.18</title>
+            <pubDate>Wed, 30 Sep 2026 18:04:04 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>1.0.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Controller Connect now supports Apple, Google and passkeys through the Controller account portal.
+
+- Existing Apple users can keep their current account, Macs and devices: choose **Continue with Apple** first, then add Google or a passkey from the account page.
+- Manage sign-in methods and passkeys from Settings → Connect.
+- Account deletion is available from settings, with a recent sign-in and explicit confirmation.
+
+Email sign-in is not enabled. Conversations, files and agent credentials stay on your Mac.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.18/Controller-1.0.18-arm64.zip" length="25216518" type="application/octet-stream" sparkle:edSignature="L1Qt6DdvYkrlrv7MhMPMVhpB9HGamxdjBaywTRl5M6z7fzwoOVQ6fqtG2NRSeuYre3kV8gbnEnuf9sf/MjZfAw=="/>
+        </item>
+        <item>
             <title>1.0.17</title>
             <pubDate>Wed, 30 Sep 2026 13:11:59 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -45,28 +62,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.16/Controller-1.0.16-arm64.zip" length="24890552" type="application/octet-stream" sparkle:edSignature="t2xv2NvwcmOv5kR9vauI9d/osZzroeRLC7AHkER4k4CRYYlQ9//5hGFrCwlUfB4AY1a8/hpNsUzCwY+DqLAsAA=="/>
         </item>
-        <item>
-            <title>1.0.15</title>
-            <pubDate>Wed, 30 Sep 2026 09:20:03 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>17</sparkle:version>
-            <sparkle:shortVersionString>1.0.15</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Release notes
-
-## Mac and connected devices
-
-- **New connection service for remote access:** Making this Mac reachable from your other devices now uses OpenTunnel instead of a Cloudflare tunnel. There is no helper to download, and the Mac handles the secure connection itself, so the relay only carries encrypted traffic. The first time you turn it on, the Mac requests a certificate, which takes about a minute. Update each Mac you host from; until it updates, your other devices won't see it.
-- **Smoother streaming replies:** Replies appear a whole word at a time and new text fades in, instead of showing half-finished words and raw formatting marks while an agent writes.
-- **Answer tool requests from anywhere:** When a tool asks for permission, Decline and Cancel now work from your iPhone as well as the Mac.
-- **Screenshots in replies open reliably:** Images an agent links to by a screenshot's file name now open even when the name was typed with an ordinary space before AM or PM.
-- **Faster remote chats:** When viewing another Mac, the chat list and pictures in replies are saved on this device, so they appear at once when you reconnect or revisit a conversation.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.15/Controller-1.0.15-arm64.zip" length="24799972" type="application/octet-stream" sparkle:edSignature="jO7e1T1gMG9S78kRc1txYg3ODH6nRJ00ByYUft3OwTjCpHYECNmf5RjDrv0Cq7avHXwY3QP2gV3OVBbv36P8DQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: TE1z1n97kJ4VJE8sZ+XrGma6IXLECPjUUAzHHXGeidUXNVJRRhuJNoznWYcd0kIZammsu009R/YVIXQkK7dEAg==
-length: 7217
+edSignature: cNp1fpYlQbDtc+lp0UDum48KLCtCxZgPPlLXa1o1AYa07J36SjBlTerhYsMLH8bEkCjYdhltVqXDmz42FNLSCg==
+length: 6552
 -->
