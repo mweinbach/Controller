@@ -6,6 +6,32 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.12</title>
+            <pubDate>Tue, 29 Sep 2026 21:36:05 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Release notes
+
+## Mac and connected devices
+
+- **Related threads stay together:** Threads started by an agent now appear beneath their parent conversation. Expand or collapse the group to follow delegated work without filling the sidebar or chat list.
+- **Less repeated agent context:** Agents can discover tools on demand, and unchanged browser and session instructions are no longer repeated on every prompt. Thread-management tools also return more concise results.
+- **More reliable image attachments:** Imported images now appear in the composer when loading finishes.
+- **Smoother interface:** Sidebar gestures, activity indicators, pending requests and composer controls transition more smoothly, with improved support for Reduce Motion.
+
+## ControllerMobile for iPhone and iPad
+
+- **Activity at a glance:** The conversation's activity orb brings together agents, background work, sources and repository status. Open its card or keep it pinned while you follow a chat. Files and Git are now in the conversation menu.
+- **Faster recent chats:** Recent conversation history is cached and preloaded, so reopening a chat can show its messages while the host refreshes agent state.
+- **Images from your Mac, inline:** Images and screenshots saved by agents on the host now appear directly in the conversation.
+- **Steadier streaming and scrolling:** Running work appears step by step, with a smoother transition to the finished reply. Loading earlier messages and following long replies better preserve your reading position.
+- **More comfortable composing:** Slash-command search keeps the keyboard open. Dictation and attachment loading keep the controls steady, with larger touch targets and clearer haptic feedback.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.12/Controller-1.0.12-arm64.zip" length="43632989" type="application/octet-stream" sparkle:edSignature="QcIcRECQ1rDlXTyiyqoJoq3EQ3bHVk8iEKuNaDz9gbI2+8EVC8eDLuazaloQnVMKo5ufkFH7pnoH0BOkxoSUDw=="/>
+        </item>
+        <item>
             <title>1.0.11</title>
             <pubDate>Tue, 29 Sep 2026 13:51:35 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -43,27 +69,9 @@ Requires Apple silicon and macOS 27 or later. Coding tools are installed separat
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.10/Controller-1.0.10-arm64.zip" length="43399977" type="application/octet-stream" sparkle:edSignature="+3SyrtajPTgNMo7YLrrsiUAlTZlv9oemsxiJ8DuZ2D9p3jzyKdUeST9E151/z6Mb4WXruI+KfQvUDngZjRYGCg=="/>
         </item>
-        <item>
-            <title>1.0.9</title>
-            <pubDate>Mon, 28 Sep 2026 23:11:08 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.9
-
-- Improved transcript scrolling, streaming follow behavior, and conversation transitions.
-- Refined workspace, browser, Files, and inspector navigation and lifecycle handling.
-- Improved provider session handling and live context usage reporting.
-- Strengthened background persistence and process cleanup.
-
-Requires Apple silicon and macOS 27 or later.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.9/Controller-1.0.9-arm64.zip" length="43657973" type="application/octet-stream" sparkle:edSignature="jCln6N49jnV1LsZOwKzRDKzyx9QN0Jkxn5pkHNII3YvY7Sfig3cDnkBU25nss38mjgu5LM4Kmi7ASId6M5gHCg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: ps6hrxtAQXltaTqeJs8hHLidUZa6k/NI/1f7pfPpvspr0i9LgMAlHkgfVDSxdJhy3CG8a8PFqpNHAzci47kmCQ==
-length: 4545
+edSignature: baQstr/7lDIqiSsY8zifqmo+p0CwvNNxxBIJHogLozHvd04M8xcpxk19B5lsmg/6Fmh+6zi1ey+YI4mqyfNLBA==
+length: 5899
 -->
