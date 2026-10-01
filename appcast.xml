@@ -6,6 +6,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.20</title>
+            <pubDate>Wed, 30 Sep 2026 21:44:19 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>1.0.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Mac and connected devices
+
+- **Chats without a project:** Start a thread with **No Project** from the New Thread palette, **File → New Thread Without a Project** (Option-Command-N), or **Start Without a Project** in an empty window. Each one works in a new folder of its own under `~/Controller`, named after its first message, so whatever the agent makes is easy to find. Deleting the thread keeps its folder. On iPhone, **New Chat** lists **No Project** for each Mac that offers it.
+- **Factory Droid threads stay separate:** Two Droid threads in the same project no longer show each other's conversation. Each thread now runs in its own Droid process, so starting a second one no longer ends the first one's turn.
+- **No more "Plan is up-to-date.":** Droid's internal reply to its own to-do reminder no longer appears as the end of a turn, on the Mac, on iPhone or in thread previews. Transcripts saved before this update still show it.
+- **Clearer Claude Code history:** Commands Claude Code ran in saved transcripts now show as the reads, searches and edits they were, the same way Codex commands do, with the full command still available.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.20/Controller-1.0.20-arm64.zip" length="25844179" type="application/octet-stream" sparkle:edSignature="FOHSyaCmKu2y8GXWstgYJRmFYb8WAvK85JJWe5cTCvbaKTkTCRAWM34BkjcrjwqESLTVA00Ez2egMUNQwGRDCw=="/>
+        </item>
+        <item>
             <title>1.0.19</title>
             <pubDate>Wed, 30 Sep 2026 19:56:02 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -37,27 +53,9 @@ Email sign-in is not enabled. Conversations, files and agent credentials stay on
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.18/Controller-1.0.18-arm64.zip" length="25216518" type="application/octet-stream" sparkle:edSignature="L1Qt6DdvYkrlrv7MhMPMVhpB9HGamxdjBaywTRl5M6z7fzwoOVQ6fqtG2NRSeuYre3kV8gbnEnuf9sf/MjZfAw=="/>
         </item>
-        <item>
-            <title>1.0.17</title>
-            <pubDate>Wed, 30 Sep 2026 13:11:59 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>19</sparkle:version>
-            <sparkle:shortVersionString>1.0.17</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Release notes
-
-## Mac and connected devices
-
-- **Replies keep arriving after Reconnect:** Choosing **Retry** or **Reconnect** could leave every new message on "Thinking…" until Controller was quit. The agent kept working, but its replies, its requests to Controller and its progress never reached the chat, on the Mac or on your iPhone. Reconnecting now keeps them coming.
-- **Dictation cleanup you can watch:** When Apple Intelligence tidies a dictated message, the words it removes or changes dissolve into smoke and the corrected words form out of it, while the words it kept glide to their new places. This works on the Mac and on iPhone. With Reduce Motion on, it's a short crossfade.
-- **Steadier dictation waveform:** The waveform scrolls at an even pace instead of pausing and jumping ahead when the app is busy.
-- **Smoother animations on iPhone:** On ProMotion iPhones, Controller's own animations now run at up to 120 Hz, including the model and effort cards, the activity card, the dictation waveform and the jump-to-latest button. Before, they were held to 60 Hz. Opening the effort, context and activity cards no longer rebuilds them on every frame.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.17/Controller-1.0.17-arm64.zip" length="25188799" type="application/octet-stream" sparkle:edSignature="GS6hqRshy3S01OdFXtkPLNtqQuRzztaQzKWQUi8r7a9Hbgbh35I+I5jGyW5xpRpc7bOzGqQlYxJQbOnTACeCCw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: URnQ14BTxPz0Y66nDu9UhqD2axjkznMdW+HnGH4MpI5JcWD4oOzkDBKTpWnSO+L/DomqTGtiq6J/JHK9crlVAA==
-length: 6124
+edSignature: qHpu5T0vJaA62QWtK7L/eknSF883RTbLvUfxXmDe2CxSeswIb6gFD2iEw2D6Lek57+6DnGH88jDC21+R49VODQ==
+length: 6106
 -->
