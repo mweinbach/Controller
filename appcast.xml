@@ -6,6 +6,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.22</title>
+            <pubDate>Thu, 01 Oct 2026 10:24:32 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>1.0.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.22
+
+- Group copies of the same project across Macs, edit their shared settings together, and choose how checkouts are grouped. Filter and start chats across your Macs from one project.
+- Add native Pi support, including streaming, model and thinking controls, extension dialogs, and subagent activity.
+- Restore Droid token usage and model-specific reasoning controls, including Auto and Off settings.
+- Support newer OpenCode session and permission events, and show Antigravity subagent details.
+- Keep Codex questions with options answerable after another message is sent, and preserve completion badges after chats are read.
+- Preserve spaces and paragraph breaks in streamed reasoning, improve reconnection when a Mac changes address, and suppress foreground push alerts.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.22/Controller-1.0.22-arm64.zip" length="25987256" type="application/octet-stream" sparkle:edSignature="Zkn1bMzObQhtZ+JUc+pl6VDDFy4LaImN9WSuyvy6gEOFw9XHtDxg0hEPS2q/nWYbL0N5BxPA0wcKJ+Ihw2fPCA=="/>
+        </item>
+        <item>
             <title>1.0.21</title>
             <pubDate>Wed, 30 Sep 2026 23:45:28 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -42,24 +60,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.20/Controller-1.0.20-arm64.zip" length="25844179" type="application/octet-stream" sparkle:edSignature="FOHSyaCmKu2y8GXWstgYJRmFYb8WAvK85JJWe5cTCvbaKTkTCRAWM34BkjcrjwqESLTVA00Ez2egMUNQwGRDCw=="/>
         </item>
-        <item>
-            <title>1.0.19</title>
-            <pubDate>Wed, 30 Sep 2026 19:56:02 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>21</sparkle:version>
-            <sparkle:shortVersionString>1.0.19</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- **Google Antigravity:** Add an Antigravity account in Settings → Providers. Controller downloads Google's Antigravity agent, checks that Google signed it, and shares it between all your Antigravity accounts. **Sign in with Google** opens Google's page in your browser; each account keeps its sign-in in its own private profile, and Controller never sees your tokens. Gemini Enterprise, Gemini API keys and Agent Platform (Vertex AI) also work. Approval modes, the agent's questions and its tool output all appear as they do for the other agents.
-- **Models before the first chat:** Antigravity and Factory Droid now list their models as soon as the account connects, instead of only after the first chat started. Any account that you sign in to after connecting also loads its models straight away.
-- **Your whole usage history:** The Usage window now includes the history Codex, Claude Code, OpenCode, Grok and Factory Droid keep on your Mac, including work you did in them directly and work from before Controller was tracking. A conversation Controller also tracked counts once. The first read takes a few seconds; after that only new work is read.
-- **Usage from all your Macs:** Each Mac shares its usage with your other Macs over Connect, and also through your private iCloud database, so every Mac's Usage window shows everything. A **Devices** card breaks it down once another Mac contributes. Turn off **Sync usage** in Connect settings to keep iCloud out of it.
-- **Dictation cleanup stays in place:** While Apple Intelligence tidies a dictated message, the corrected text now wraps exactly where the message box does instead of jumping at the end, and on iPhone the microphone, spinner and waveform stay put.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.19/Controller-1.0.19-arm64.zip" length="25824434" type="application/octet-stream" sparkle:edSignature="+udNZsF1hwmHvnlAuCRrs1t7FdTNV6E17vWe5Zm6gYq9onkkl9Q9GVE7Zxlz8+K0T0kZmayHg3gL1LuDsTNVCg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: ngr+q6K60O0aefGE7fXCeAb5sCzOqscHLv8rM86IL9FSQu5XfJg/cdXyHAgheg0Z6PZIY9E9nFOVf65G3qdpDQ==
-length: 7896
+edSignature: BEUz+NZhlNoOfh1rcF0v7vVLgsHXwpxEGw/lulMvK7pfoD8emUxhBHMVhqG0tiHqufCNH0W1mjJitxHAsWXFAw==
+length: 6965
 -->
