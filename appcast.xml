@@ -6,6 +6,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.24</title>
+            <pubDate>Thu, 01 Oct 2026 17:30:59 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>26</sparkle:version>
+            <sparkle:shortVersionString>1.0.24</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.24
+
+- Controller now speaks British English, Spanish, German, French, Japanese, Brazilian Portuguese and Simplified Chinese.
+- Dictation learns each project's names, files and terms, so words like ThreadStore, AGENTS.md and your models' names come out spelled right.
+- Dictation cleanup weighs the words the recognizer was unsure of and common developer mix-ups such as cache for cash, and learns from the words you correct before sending.
+- Each project gets a short on-device summary that dictation cleanup and chat titles use, without spending any account's tokens.
+- A long model name stacks above its effort in the composer, and the composer controls stay on one row.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.24/Controller-1.0.24-arm64.zip" length="170704118" type="application/octet-stream" sparkle:edSignature="6Q7GAllUVwDfUnmN0ltYi4KkD/t50oE6xrwnFhwB8RUDD5FDRusdo//NS6Qp9ZkCFy+nkiw5+sAFVoMyNF6GBQ=="/>
+        </item>
+        <item>
             <title>1.0.23</title>
             <pubDate>Thu, 01 Oct 2026 13:20:08 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -40,30 +57,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.22/Controller-1.0.22-arm64.zip" length="25987256" type="application/octet-stream" sparkle:edSignature="Zkn1bMzObQhtZ+JUc+pl6VDDFy4LaImN9WSuyvy6gEOFw9XHtDxg0hEPS2q/nWYbL0N5BxPA0wcKJ+Ihw2fPCA=="/>
         </item>
-        <item>
-            <title>1.0.21</title>
-            <pubDate>Wed, 30 Sep 2026 23:45:28 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>23</sparkle:version>
-            <sparkle:shortVersionString>1.0.21</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Release notes
-
-## Mac and connected devices
-
-- **All your Macs in one sidebar:** When your Controller account has more than one Mac, the Mac now opens in **All Environments**, as the iPhone can: every Mac's chats appear in one sidebar, each row naming its Mac, and choosing a chat opens it on the Mac it lives on. Pick **This Mac** or a single Mac from the environment menu at the bottom of the sidebar to go back to one; Controller remembers your choice.
-- **Start a project on whichever Mac:** With every Mac showing, **New Thread** lists the projects on all of them and searches their names too. Copies of the same Git repository on different Macs sit together and say which other Macs have it, so you can start the same project on either one. An empty chat's headline names its Mac; choose the project on another Mac and the draft moves there with its text.
-- **Agents across your Macs:** Agents can now see your other Macs with `list_projects` and `orchestration_capabilities`, and start, read, message, wait on, stop and close threads on another Mac by naming it. They reach only that Mac's copy of the same repository and never get more access than they have themselves. Reports when a thread on another Mac finishes come in a later update; for now agents check on it themselves.
-- **iPhone opens on all your Macs:** With more than one Mac in your account, the iPhone opens in **All Environments** until you pick a single Mac. New Chat also says which other Macs have a copy of each project.
-- **Usage adds up every Mac:** The Usage window now combines an account used on several Macs into one line, such as one Claude Code row instead of one per Mac, and its title stays **Usage** when it covers all of them. The **Devices** card still shows each Mac's share.
-- **Antigravity reasoning:** Antigravity's models now offer a reasoning-effort choice instead of separate high and low copies of each model, and its tool calls show richer details. Thinking from Antigravity and other agents connected over ACP streams into the conversation like other agents' reasoning, with summaries where the agent sends them.
-- **Clearer OpenCode and Claude Code activity:** OpenCode accepts reasoning variants by their usual names, and Claude Code commands are classified as reads, searches and edits as they run.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.21/Controller-1.0.21-arm64.zip" length="26061028" type="application/octet-stream" sparkle:edSignature="Kv/Wi4iUFawIXZAKnNxFV/PpD7PHmKu5spnnEA/Pu3tvjvaeip+X3S1HdKeSq0sE7zUDFPNnQGzvioiTuoV8CA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: x2l07ze4QL2OuqeuP/XpWmPLHMM2aTt9VxJtbFXfZaxcUY8raNGRFB9rbaEWVm5QaqKkhudyZe6F0o7L3l1bCg==
-length: 6183
+edSignature: mb5m/JQxJrRKjWDdItt+wG/dRgkvGG5G2VitI/H5gXG6O++zBinIw9GCH0oO/MImPSGc1QmjAzm5N6kWM2LcDw==
+length: 4569
 -->
