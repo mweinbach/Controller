@@ -6,6 +6,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.23</title>
+            <pubDate>Thu, 01 Oct 2026 13:20:08 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>1.0.23</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Controller 1.0.23
+
+- Embedded Chromium browsing keeps pages and popups inside Controller.
+- Login cookies and browser sessions persist across restarts.
+- Website passkey requests can offer a phone QR code or security key.
+- Improved browser navigation, restored tab history and embedded-page compatibility.
+- Updated OpenCode 2 integration and native agent handling.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.23/Controller-1.0.23-arm64.zip" length="169744099" type="application/octet-stream" sparkle:edSignature="8gzBGy6QnRZm6VkbV0b6y96uz53aoTg522tv/lN/Q/dI9cCrn3yQY8rGXKASvI12CyUklAZj/kNpdN63pMJ6BA=="/>
+        </item>
+        <item>
             <title>1.0.22</title>
             <pubDate>Thu, 01 Oct 2026 10:24:32 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -44,25 +61,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.21/Controller-1.0.21-arm64.zip" length="26061028" type="application/octet-stream" sparkle:edSignature="Kv/Wi4iUFawIXZAKnNxFV/PpD7PHmKu5spnnEA/Pu3tvjvaeip+X3S1HdKeSq0sE7zUDFPNnQGzvioiTuoV8CA=="/>
         </item>
-        <item>
-            <title>1.0.20</title>
-            <pubDate>Wed, 30 Sep 2026 21:44:19 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>22</sparkle:version>
-            <sparkle:shortVersionString>1.0.20</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Mac and connected devices
-
-- **Chats without a project:** Start a thread with **No Project** from the New Thread palette, **File → New Thread Without a Project** (Option-Command-N), or **Start Without a Project** in an empty window. Each one works in a new folder of its own under `~/Controller`, named after its first message, so whatever the agent makes is easy to find. Deleting the thread keeps its folder. On iPhone, **New Chat** lists **No Project** for each Mac that offers it.
-- **Factory Droid threads stay separate:** Two Droid threads in the same project no longer show each other's conversation. Each thread now runs in its own Droid process, so starting a second one no longer ends the first one's turn.
-- **No more "Plan is up-to-date.":** Droid's internal reply to its own to-do reminder no longer appears as the end of a turn, on the Mac, on iPhone or in thread previews. Transcripts saved before this update still show it.
-- **Clearer Claude Code history:** Commands Claude Code ran in saved transcripts now show as the reads, searches and edits they were, the same way Codex commands do, with the full command still available.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.20/Controller-1.0.20-arm64.zip" length="25844179" type="application/octet-stream" sparkle:edSignature="FOHSyaCmKu2y8GXWstgYJRmFYb8WAvK85JJWe5cTCvbaKTkTCRAWM34BkjcrjwqESLTVA00Ez2egMUNQwGRDCw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: BEUz+NZhlNoOfh1rcF0v7vVLgsHXwpxEGw/lulMvK7pfoD8emUxhBHMVhqG0tiHqufCNH0W1mjJitxHAsWXFAw==
-length: 6965
+edSignature: x2l07ze4QL2OuqeuP/XpWmPLHMM2aTt9VxJtbFXfZaxcUY8raNGRFB9rbaEWVm5QaqKkhudyZe6F0o7L3l1bCg==
+length: 6183
 -->
