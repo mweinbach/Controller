@@ -6,6 +6,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.30</title>
+            <pubDate>Fri, 02 Oct 2026 18:35:43 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>32</sparkle:version>
+            <sparkle:shortVersionString>1.0.30</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- **Attachments open in Quick Look:** Clicking an attachment in the composer now opens it straight in Quick Look, zooming out of its tile. Right-click a tile for Quick Look, Markup and Remove; Markup grows the tile straight into the drawing tools, and Done or Cancel sends it back.
+- **A cleaner card on iPhone and iPad:** Tapping an attachment grows it in one smooth move into the middle of the screen, with its name, kind, size and upload status above it and Quick Look, Markup and Remove as glass buttons below.
+- **Images side by side in the conversation:** Pictures you send and images an agent shows now sit in a row that scrolls sideways, matching the composer's attachment tiles, and the conversation keeps its place as they load.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.30/Controller-1.0.30-arm64.zip" length="171545773" type="application/octet-stream" sparkle:edSignature="eqNZR8HzlUTKGsIcB1N3Zp7mGXzMH8w9aSHiFckO6nd3T0neE9TKNIL4dMoVpdbgDj+tTIxxtVdlpP8AjNBBAg=="/>
+        </item>
+        <item>
             <title>1.0.29</title>
             <pubDate>Fri, 02 Oct 2026 17:35:26 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -38,22 +51,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.28/Controller-1.0.28-arm64.zip" length="171441392" type="application/octet-stream" sparkle:edSignature="5OxHmrH+Hq+AK+w9UuI6RcaaMheyvaCGkwZ1hrdqDj98tlhYmF/oBHHvo7kaDsdZsGcjlCMz5HGcPY2tIW9IDQ=="/>
         </item>
-        <item>
-            <title>1.0.27</title>
-            <pubDate>Fri, 02 Oct 2026 13:34:21 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>29</sparkle:version>
-            <sparkle:shortVersionString>1.0.27</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Improved streamed reply rendering, reducing repeated fade work as replies grow while preserving the existing reveal timing and text appearance.
-
-Improved provider usage-limit error handling.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.27/Controller-1.0.27-arm64.zip" length="170342965" type="application/octet-stream" sparkle:edSignature="2ookY3Ekjnq4vvMWRPo9KQwtn5SMq9O36BMXsD9J153LKoGrkaDt3jt5X1i2sOVPVTIDKUPm3ABjnmtyxb9eAQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: U8GCsKBoNbeMtmvv3LsItiDuP18P4o76yvBxeMoOoWH3pfval7h7GTDJhPZA+LvnwFJ8T1T63tncidh1MMr6Dg==
-length: 5828
+edSignature: wDa/pAUKNq1ktl7he1NAKNRHOb4LlbQCCKFem/xDueZIzABrW2oLVCsAVaNaVAMk50pT9KPpy37VMaxOeljWCQ==
+length: 6376
 -->
