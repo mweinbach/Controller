@@ -6,6 +6,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.26</title>
+            <pubDate>Fri, 02 Oct 2026 09:44:55 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>28</sparkle:version>
+            <sparkle:shortVersionString>1.0.26</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Controller 1.0.26 improves browser tools and agent reliability.
+
+- Browser actions can return a snapshot in the same call, with clearer controls and smaller responses.
+- Agents can use the browser console and upload files without opening a file dialog.
+- Shared native tool connections reduce per-thread overhead and improve retry guidance.
+- Pi records accepted prompts in the durable transcript, and stopped Antigravity turns settle more reliably.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.26/Controller-1.0.26-arm64.zip" length="170341980" type="application/octet-stream" sparkle:edSignature="HM9O6TNky2gFGMz84AIgEZw7iRWLF8v4XBysLb8EEeyPjJTJaM6mPUjY8H8hfmQqZXl0dECMN9ZR9ExPHqSmCw=="/>
+        </item>
+        <item>
             <title>1.0.25</title>
             <pubDate>Thu, 01 Oct 2026 22:07:59 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -41,26 +57,9 @@ ControllerMobile 1.0.14 also adds a preference for dismissing the composer keybo
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.24/Controller-1.0.24-arm64.zip" length="170704118" type="application/octet-stream" sparkle:edSignature="6Q7GAllUVwDfUnmN0ltYi4KkD/t50oE6xrwnFhwB8RUDD5FDRusdo//NS6Qp9ZkCFy+nkiw5+sAFVoMyNF6GBQ=="/>
         </item>
-        <item>
-            <title>1.0.23</title>
-            <pubDate>Thu, 01 Oct 2026 13:20:08 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>25</sparkle:version>
-            <sparkle:shortVersionString>1.0.23</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Controller 1.0.23
-
-- Embedded Chromium browsing keeps pages and popups inside Controller.
-- Login cookies and browser sessions persist across restarts.
-- Website passkey requests can offer a phone QR code or security key.
-- Improved browser navigation, restored tab history and embedded-page compatibility.
-- Updated OpenCode 2 integration and native agent handling.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.23/Controller-1.0.23-arm64.zip" length="169744099" type="application/octet-stream" sparkle:edSignature="8gzBGy6QnRZm6VkbV0b6y96uz53aoTg522tv/lN/Q/dI9cCrn3yQY8rGXKASvI12CyUklAZj/kNpdN63pMJ6BA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: XsSU1cLKTOIDko/oqo8wK5ZK8+coe9UHf6cKAk9ydic0zmWRCV1CCfg2q4VMWt7QGWF72lA099sUwD0ZBeJ+DQ==
-length: 4300
+edSignature: cH0Hk/FoyqRK3iIefmkUrBM+TttIFuSXC8KcCoVOW9K/01ofvVt18v0cOYVBVg2rzFJvanGZxeZh431SWFgjDw==
+length: 4383
 -->
