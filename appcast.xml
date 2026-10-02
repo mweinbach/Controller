@@ -6,6 +6,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.27</title>
+            <pubDate>Fri, 02 Oct 2026 13:34:21 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>29</sparkle:version>
+            <sparkle:shortVersionString>1.0.27</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Improved streamed reply rendering, reducing repeated fade work as replies grow while preserving the existing reveal timing and text appearance.
+
+Improved provider usage-limit error handling.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.27/Controller-1.0.27-arm64.zip" length="170342965" type="application/octet-stream" sparkle:edSignature="2ookY3Ekjnq4vvMWRPo9KQwtn5SMq9O36BMXsD9J153LKoGrkaDt3jt5X1i2sOVPVTIDKUPm3ABjnmtyxb9eAQ=="/>
+        </item>
+        <item>
             <title>1.0.26</title>
             <pubDate>Fri, 02 Oct 2026 09:44:55 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -40,26 +53,9 @@ ControllerMobile 1.0.14 also adds a preference for dismissing the composer keybo
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.25/Controller-1.0.25-arm64.zip" length="170271645" type="application/octet-stream" sparkle:edSignature="SkKZWivJ4GsA8x4biP0lAn9I/F4EYyFaRPlIAEvTGi2rOrsoWqM29j/W3hTOeQ/f1vPisnQmMrZyTe1cEwctAg=="/>
         </item>
-        <item>
-            <title>1.0.24</title>
-            <pubDate>Thu, 01 Oct 2026 17:30:59 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>26</sparkle:version>
-            <sparkle:shortVersionString>1.0.24</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.24
-
-- Controller now speaks British English, Spanish, German, French, Japanese, Brazilian Portuguese and Simplified Chinese.
-- Dictation learns each project's names, files and terms, so words like ThreadStore, AGENTS.md and your models' names come out spelled right.
-- Dictation cleanup weighs the words the recognizer was unsure of and common developer mix-ups such as cache for cash, and learns from the words you correct before sending.
-- Each project gets a short on-device summary that dictation cleanup and chat titles use, without spending any account's tokens.
-- A long model name stacks above its effort in the composer, and the composer controls stay on one row.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.24/Controller-1.0.24-arm64.zip" length="170704118" type="application/octet-stream" sparkle:edSignature="6Q7GAllUVwDfUnmN0ltYi4KkD/t50oE6xrwnFhwB8RUDD5FDRusdo//NS6Qp9ZkCFy+nkiw5+sAFVoMyNF6GBQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: cH0Hk/FoyqRK3iIefmkUrBM+TttIFuSXC8KcCoVOW9K/01ofvVt18v0cOYVBVg2rzFJvanGZxeZh431SWFgjDw==
-length: 4383
+edSignature: 0HepNyfROHpvP8bSoq9oR5F90msrtoGgeMQkhyRntrkaTLscYE57v1aEWTQFYjmk039cKHohBwYvFiDdOBWmBg==
+length: 3884
 -->
