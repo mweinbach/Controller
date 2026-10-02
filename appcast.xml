@@ -6,6 +6,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.28</title>
+            <pubDate>Fri, 02 Oct 2026 15:57:46 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>30</sparkle:version>
+            <sparkle:shortVersionString>1.0.28</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- **Attachment shelf:** Images, videos, PDFs and documents in the composer now sit side by side as small tiles shaped like what they hold: a picture at its own aspect, a video's first frame, a document's first page. Click one and it grows into a larger preview with its name, type, size and actions. Choose **Markup** to draw on an image or a PDF with Apple's markup tools, and the marked-up copy takes the original's place. **Quick Look** opens any attachment the system can preview, including spreadsheets, documents and videos. The same shelf, card and markup come to the iPhone app.
+- **Files on this Mac's threads:** Videos and other files can now be attached to chats on this Mac as well as on other Macs, and they can be dropped anywhere on the composer, including over the text.
+- **Projects from any Mac's home folder:** Devices on your account can add a project from a Mac's home folder and make changes to files there. A Mac shares its home folder with your devices by default; turn it off in **Settings › Connect › Hosting**. The Files panel now also works on another Mac's chat.
+- **Context pressure:** Claude chats warn before an automatic compaction, and the context meter estimates when the prompt cache goes cold.
+- **Background work stays visible:** A chat whose agent has paused while background agents or processes are still running keeps its latest work expanded until they finish.
+- **Agent connections:** Antigravity has its own connector, and Controller's tools for Cursor and Droid now share one local server instead of starting one per chat.
+- Fixes to model chip alignment and the slash-command menu on iPhone.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.28/Controller-1.0.28-arm64.zip" length="171441392" type="application/octet-stream" sparkle:edSignature="5OxHmrH+Hq+AK+w9UuI6RcaaMheyvaCGkwZ1hrdqDj98tlhYmF/oBHHvo7kaDsdZsGcjlCMz5HGcPY2tIW9IDQ=="/>
+        </item>
+        <item>
             <title>1.0.27</title>
             <pubDate>Fri, 02 Oct 2026 13:34:21 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -34,28 +51,9 @@ Improved provider usage-limit error handling.
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.26/Controller-1.0.26-arm64.zip" length="170341980" type="application/octet-stream" sparkle:edSignature="HM9O6TNky2gFGMz84AIgEZw7iRWLF8v4XBysLb8EEeyPjJTJaM6mPUjY8H8hfmQqZXl0dECMN9ZR9ExPHqSmCw=="/>
         </item>
-        <item>
-            <title>1.0.25</title>
-            <pubDate>Thu, 01 Oct 2026 22:07:59 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>27</sparkle:version>
-            <sparkle:shortVersionString>1.0.25</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Controller 1.0.25 improves thread handling, model controls, and file previews.
-
-- Settled threads return to the inbox when you send a message or new work starts.
-- Cursor plan approval can continue implementation with your chosen model.
-- Thread titles can use attached images.
-- Pi work stays in feed order, with improved shell activity classification.
-- Refined context and model controls, transcript loading, and Quick Look previews.
-
-ControllerMobile 1.0.14 also adds a preference for dismissing the composer keyboard.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.25/Controller-1.0.25-arm64.zip" length="170271645" type="application/octet-stream" sparkle:edSignature="SkKZWivJ4GsA8x4biP0lAn9I/F4EYyFaRPlIAEvTGi2rOrsoWqM29j/W3hTOeQ/f1vPisnQmMrZyTe1cEwctAg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 0HepNyfROHpvP8bSoq9oR5F90msrtoGgeMQkhyRntrkaTLscYE57v1aEWTQFYjmk039cKHohBwYvFiDdOBWmBg==
-length: 3884
+edSignature: 5wn/QY88oOZ2X2W2LHpEjjGqOa4XamtMJBZ9kdYDMTJ2um2UI0luFFM6WEiOrp20HLP3ZaQjqi0IV6biQpBjAw==
+length: 5003
 -->
