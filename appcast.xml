@@ -6,6 +6,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.29</title>
+            <pubDate>Fri, 02 Oct 2026 17:35:26 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>31</sparkle:version>
+            <sparkle:shortVersionString>1.0.29</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- **Attachment cards come out of the shelf:** Clicking or tapping an attachment now lifts its picture straight up out of the composer, curves it toward the middle and grows it into shape as it rises, with its details joining it near the top. Closing sends it back the way it came. The conversation behind stays lightly blurred instead of frosted, and on iPhone a soft tap marks the card settling into place.
+- **Sharper attachments:** Wide screenshots and other pictures no longer look blurry in the composer's attachment tiles, and the card opens at full resolution from the start.
+- **Smoother markup:** Opening Markup no longer flickers as the drawing tools take over, the Done button stays steady while it saves, and iPhone plays a success tap when your markup is saved.
+- **Reduce Motion:** With Reduce Motion on, attachment cards and markup fade in place instead of moving.
+- **Resume after usage limits:** A chat paused by a provider's usage limit continues on its own after the limit resets, and **Cancel Auto-Continue** stops only that. The Usage page shows saved Pi and OpenCode subscriptions' quotas.
+- **Agent tools:** Claude Code takes changes to a chat's tool access without restarting its session, and Controller's tool server speaks the current MCP revision.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.29/Controller-1.0.29-arm64.zip" length="171563250" type="application/octet-stream" sparkle:edSignature="iB7ZztdtqzhBMDQm27TH0/pxAk+GMbwHfKbJRNJHtgQxlEW08zbFz7blpiDpP2ZTx84RuPfpZlOYxEWszZ0VBw=="/>
+        </item>
+        <item>
             <title>1.0.28</title>
             <pubDate>Fri, 02 Oct 2026 15:57:46 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -35,25 +51,9 @@ Improved provider usage-limit error handling.
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.27/Controller-1.0.27-arm64.zip" length="170342965" type="application/octet-stream" sparkle:edSignature="2ookY3Ekjnq4vvMWRPo9KQwtn5SMq9O36BMXsD9J153LKoGrkaDt3jt5X1i2sOVPVTIDKUPm3ABjnmtyxb9eAQ=="/>
         </item>
-        <item>
-            <title>1.0.26</title>
-            <pubDate>Fri, 02 Oct 2026 09:44:55 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>28</sparkle:version>
-            <sparkle:shortVersionString>1.0.26</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Controller 1.0.26 improves browser tools and agent reliability.
-
-- Browser actions can return a snapshot in the same call, with clearer controls and smaller responses.
-- Agents can use the browser console and upload files without opening a file dialog.
-- Shared native tool connections reduce per-thread overhead and improve retry guidance.
-- Pi records accepted prompts in the durable transcript, and stopped Antigravity turns settle more reliably.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.26/Controller-1.0.26-arm64.zip" length="170341980" type="application/octet-stream" sparkle:edSignature="HM9O6TNky2gFGMz84AIgEZw7iRWLF8v4XBysLb8EEeyPjJTJaM6mPUjY8H8hfmQqZXl0dECMN9ZR9ExPHqSmCw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 5wn/QY88oOZ2X2W2LHpEjjGqOa4XamtMJBZ9kdYDMTJ2um2UI0luFFM6WEiOrp20HLP3ZaQjqi0IV6biQpBjAw==
-length: 5003
+edSignature: U8GCsKBoNbeMtmvv3LsItiDuP18P4o76yvBxeMoOoWH3pfval7h7GTDJhPZA+LvnwFJ8T1T63tncidh1MMr6Dg==
+length: 5828
 -->
