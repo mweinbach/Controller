@@ -6,6 +6,36 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.34</title>
+            <pubDate>Sat, 03 Oct 2026 16:01:40 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>36</sparkle:version>
+            <sparkle:shortVersionString>1.0.34</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Sleep and wake
+
+- **Your Mac can sleep while you're away:** Hosting Connect no longer keeps the Mac awake on its own. Controller still keeps it awake while agents are working, and for a few minutes while a connected device is using it.
+- **Sleeping, not offline:** Before your Mac sleeps, it tells your connected iPhone and other Macs, which show **Mac is sleeping** instead of trying to reconnect. Chats you've already opened stay readable while it sleeps.
+- **Wake Mac:** Choose **Wake** on a sleeping Mac to wake it over your local network. With **Wake Mac automatically when needed** on, sending a message, answering an approval or starting a chat wakes it for you.
+- **Choose who can wake this Mac:** Connect settings has an **Allow remote wake** option, which you can limit to times the Mac is on power. It also tells you if **Wake for network access** is off in System Settings → Battery, since remote wake needs it.
+
+## Agents
+
+- **OpenCode retries provider failures:** When the model provider fails partway through a turn, OpenCode now retries and picks up where it left off. Errors that end a turn and retry notices now stay visible in the conversation even with background notices hidden.
+- **Steering Antigravity and Droid:** Sending a new message while Antigravity or Factory Droid is working now redirects it reliably, including when you send several in a row. Tools stopped by steering show as interrupted or cancelled instead of failed.
+
+## Faster conversations
+
+- Scrolling while an agent works is smoother, especially during long runs of tool calls and messages between them.
+- Expanded reasoning shows the agent's full trace paragraphs, fades in as one continuous sweep, and no longer jumps or overlaps text when you open it.
+
+## Fixed
+
+- Opening the browser panel could crash Controller 1.0.33. This release fixes it.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.34/Controller-1.0.34-arm64.zip" length="173677922" type="application/octet-stream" sparkle:edSignature="eOkxDnvgzRz+hthsdQKXZE6ZlXFMIfLvjBf5ZOvfkYUnEuPDscMCKrDTf/XP3GZC0lN0/s5gAlb4I3YfaMW2Cw=="/>
+        </item>
+        <item>
             <title>1.0.33</title>
             <pubDate>Sat, 03 Oct 2026 12:55:12 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -68,22 +98,9 @@ Controller now includes the Sentry SDK and uploads debug symbols for crash diagn
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.31/Controller-1.0.31-arm64.zip" length="172737130" type="application/octet-stream" sparkle:edSignature="Nq4XSqH6oJE3nIKgQRB5F9mdkpiQFvYOBarM5Vu3O3g/5hPYZYg6tujemPvZxGQMoOPbz8UzZqI5HhYB1XefCQ=="/>
         </item>
-        <item>
-            <title>1.0.30</title>
-            <pubDate>Fri, 02 Oct 2026 18:35:43 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>32</sparkle:version>
-            <sparkle:shortVersionString>1.0.30</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- **Attachments open in Quick Look:** Clicking an attachment in the composer now opens it straight in Quick Look, zooming out of its tile. Right-click a tile for Quick Look, Markup and Remove; Markup grows the tile straight into the drawing tools, and Done or Cancel sends it back.
-- **A cleaner card on iPhone and iPad:** Tapping an attachment grows it in one smooth move into the middle of the screen, with its name, kind, size and upload status above it and Quick Look, Markup and Remove as glass buttons below.
-- **Images side by side in the conversation:** Pictures you send and images an agent shows now sit in a row that scrolls sideways, matching the composer's attachment tiles, and the conversation keeps its place as they load.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.30/Controller-1.0.30-arm64.zip" length="171545773" type="application/octet-stream" sparkle:edSignature="eqNZR8HzlUTKGsIcB1N3Zp7mGXzMH8w9aSHiFckO6nd3T0neE9TKNIL4dMoVpdbgDj+tTIxxtVdlpP8AjNBBAg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 7rX8HxUMugu+PvP1y21c5Jqx580AvULLM0cvMpTCC0v0gnxAx1329LTKwkm8gISxpEVPVrcDzp5u9IHV9w0rAg==
-length: 5957
+edSignature: JbRT7a+KihNHa9q3t29D1PGKLOt3BvFS9LTPtRjlcsJbJ69XFLiLmUvfGpoqkcJOTcLNE0VX7lkN2kpT7YVWAQ==
+length: 7061
 -->
