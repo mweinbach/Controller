@@ -6,6 +6,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.35</title>
+            <pubDate>Sat, 03 Oct 2026 19:50:04 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>37</sparkle:version>
+            <sparkle:shortVersionString>1.0.35</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Images and attachments
+
+- **Image galleries:** Images in a reply now sit in wide rows of up to three, and clicking one opens it in its own full-size viewer with zoom and arrow-key paging through that row. On iPhone and iPad, tapping an image opens a full-screen gallery you can swipe through.
+- **Drag and paste:** Drag images out of the conversation into other apps on Mac, iPhone and iPad, or use **Copy Image** from the context menu. Paste images, files and links straight into the composer; on iPhone, **Paste** is also in the Attach menu.
+- **Previews:** The attachment card pages through mixed images and files together, and PDF markup applies only to the file you're editing.
+
+## Agents
+
+- **Pi:** Long turns with image attachments no longer fail on oversized messages, sent images no longer show twice, and Pi's code-mode tool runs show as code with their nested tool calls.
+- **Antigravity:** Turns that start a background command, such as a dev server, now finish instead of hanging, and a stuck cancellation recovers the session instead of locking the chat.
+- **Factory Droid:** Turns where several tools return images or documents no longer break the session, and errors show the underlying cause.
+- **Plans:** Each agent's plan now comes from its own checklist tool. OpenCode and Pi, which have none, no longer show a plan.
+
+## Fixed
+
+- A crash when moving the cursor in the composer after its text changed.
+- Hangs while Usage history imported on the main thread.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.35/Controller-1.0.35-arm64.zip" length="173758547" type="application/octet-stream" sparkle:edSignature="EP2HBFpT1E2coTdkOQJwLzWJPyrbqrO838PbnPakaHtsElNbTLO9qnvxbCw0LaGzV0hQBNu/8vQprui4YpkwAQ=="/>
+        </item>
+        <item>
             <title>1.0.34</title>
             <pubDate>Sat, 03 Oct 2026 16:01:40 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -62,45 +89,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.33/Controller-1.0.33-arm64.zip" length="173515261" type="application/octet-stream" sparkle:edSignature="WZPH00gdKeiz40RGXCVdeK+Qg7u1ivG2O1cAvB057WOZNH7qaac1/6uG2geSqiLjqLgnGA7YCyedZEIwPcT4CQ=="/>
         </item>
-        <item>
-            <title>1.0.31</title>
-            <pubDate>Sat, 03 Oct 2026 10:18:54 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>33</sparkle:version>
-            <sparkle:shortVersionString>1.0.31</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Claude runs on the Claude Agent SDK
-
-- Claude conversations now run through Controller's built-in Swift port of the Claude Agent SDK instead of `claude -p`. Sessions, approvals, questions, plans and Controller's tools work as before.
-- Changing the model, effort or access mode and then stopping the turn while Claude applies it no longer leaves the session on the wrong setting; the next turn restores it.
-
-## Cursor
-
-- Cursor runs through its official SDK: steer a turn between steps, follow its subagents live, and see a live context meter, imports and usage history from Cursor's local store.
-
-## Conversations
-
-- Subagents appear as live rows with their conversations inline, on Mac and iPhone. Pi and Grok subagent spawns show in the transcript.
-- The transcript stays attached at the bottom while following, honors every jump, and stays still under a send.
-- The plan chip updates in place, now on iPhone and iPad too.
-- Reduce Motion applies the same way everywhere.
-
-## iPhone and iPad
-
-- Every Mac you follow combines into one Live Activity.
-- Crop images and use an expanded markup toolbar before sending.
-
-## Usage
-
-- Usage combines every Mac's plan limits and keeps each harness's limits current.
-
-Controller now includes the Sentry SDK and uploads debug symbols for crash diagnostics; crash reporting is not turned on yet.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.31/Controller-1.0.31-arm64.zip" length="172737130" type="application/octet-stream" sparkle:edSignature="Nq4XSqH6oJE3nIKgQRB5F9mdkpiQFvYOBarM5Vu3O3g/5hPYZYg6tujemPvZxGQMoOPbz8UzZqI5HhYB1XefCQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: JbRT7a+KihNHa9q3t29D1PGKLOt3BvFS9LTPtRjlcsJbJ69XFLiLmUvfGpoqkcJOTcLNE0VX7lkN2kpT7YVWAQ==
-length: 7061
+edSignature: THeLiYjuJSCLTx4XFoLMjjBtNzcD8zlaGO6Wpi9sCIIwLeCXuQJBQj4/9HmWBlaFyNB9qqgNn5aC1AJ3qX4fCg==
+length: 7202
 -->
