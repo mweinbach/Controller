@@ -6,6 +6,42 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.31</title>
+            <pubDate>Sat, 03 Oct 2026 10:18:54 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>33</sparkle:version>
+            <sparkle:shortVersionString>1.0.31</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Claude runs on the Claude Agent SDK
+
+- Claude conversations now run through Controller's built-in Swift port of the Claude Agent SDK instead of `claude -p`. Sessions, approvals, questions, plans and Controller's tools work as before.
+- Changing the model, effort or access mode and then stopping the turn while Claude applies it no longer leaves the session on the wrong setting; the next turn restores it.
+
+## Cursor
+
+- Cursor runs through its official SDK: steer a turn between steps, follow its subagents live, and see a live context meter, imports and usage history from Cursor's local store.
+
+## Conversations
+
+- Subagents appear as live rows with their conversations inline, on Mac and iPhone. Pi and Grok subagent spawns show in the transcript.
+- The transcript stays attached at the bottom while following, honors every jump, and stays still under a send.
+- The plan chip updates in place, now on iPhone and iPad too.
+- Reduce Motion applies the same way everywhere.
+
+## iPhone and iPad
+
+- Every Mac you follow combines into one Live Activity.
+- Crop images and use an expanded markup toolbar before sending.
+
+## Usage
+
+- Usage combines every Mac's plan limits and keeps each harness's limits current.
+
+Controller now includes the Sentry SDK and uploads debug symbols for crash diagnostics; crash reporting is not turned on yet.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.31/Controller-1.0.31-arm64.zip" length="172737130" type="application/octet-stream" sparkle:edSignature="Nq4XSqH6oJE3nIKgQRB5F9mdkpiQFvYOBarM5Vu3O3g/5hPYZYg6tujemPvZxGQMoOPbz8UzZqI5HhYB1XefCQ=="/>
+        </item>
+        <item>
             <title>1.0.30</title>
             <pubDate>Fri, 02 Oct 2026 18:35:43 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -34,26 +70,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.29/Controller-1.0.29-arm64.zip" length="171563250" type="application/octet-stream" sparkle:edSignature="iB7ZztdtqzhBMDQm27TH0/pxAk+GMbwHfKbJRNJHtgQxlEW08zbFz7blpiDpP2ZTx84RuPfpZlOYxEWszZ0VBw=="/>
         </item>
-        <item>
-            <title>1.0.28</title>
-            <pubDate>Fri, 02 Oct 2026 15:57:46 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>30</sparkle:version>
-            <sparkle:shortVersionString>1.0.28</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- **Attachment shelf:** Images, videos, PDFs and documents in the composer now sit side by side as small tiles shaped like what they hold: a picture at its own aspect, a video's first frame, a document's first page. Click one and it grows into a larger preview with its name, type, size and actions. Choose **Markup** to draw on an image or a PDF with Apple's markup tools, and the marked-up copy takes the original's place. **Quick Look** opens any attachment the system can preview, including spreadsheets, documents and videos. The same shelf, card and markup come to the iPhone app.
-- **Files on this Mac's threads:** Videos and other files can now be attached to chats on this Mac as well as on other Macs, and they can be dropped anywhere on the composer, including over the text.
-- **Projects from any Mac's home folder:** Devices on your account can add a project from a Mac's home folder and make changes to files there. A Mac shares its home folder with your devices by default; turn it off in **Settings › Connect › Hosting**. The Files panel now also works on another Mac's chat.
-- **Context pressure:** Claude chats warn before an automatic compaction, and the context meter estimates when the prompt cache goes cold.
-- **Background work stays visible:** A chat whose agent has paused while background agents or processes are still running keeps its latest work expanded until they finish.
-- **Agent connections:** Antigravity has its own connector, and Controller's tools for Cursor and Droid now share one local server instead of starting one per chat.
-- Fixes to model chip alignment and the slash-command menu on iPhone.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.28/Controller-1.0.28-arm64.zip" length="171441392" type="application/octet-stream" sparkle:edSignature="5OxHmrH+Hq+AK+w9UuI6RcaaMheyvaCGkwZ1hrdqDj98tlhYmF/oBHHvo7kaDsdZsGcjlCMz5HGcPY2tIW9IDQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: wDa/pAUKNq1ktl7he1NAKNRHOb4LlbQCCKFem/xDueZIzABrW2oLVCsAVaNaVAMk50pT9KPpy37VMaxOeljWCQ==
-length: 6376
+edSignature: bk4gHxC92+SME5NO6IIDBfzf6rYKKwLUMT2/YghtlWIEy0jEUemf1IXPg0vr76iXB7mKYr5sVMT4entCBFuOBg==
+length: 6074
 -->
