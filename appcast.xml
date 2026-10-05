@@ -6,6 +6,44 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.37</title>
+            <pubDate>Sun, 04 Oct 2026 22:33:00 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>39</sparkle:version>
+            <sparkle:shortVersionString>1.0.37</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Git and pull requests
+
+- **A new activity card:** The activity card now gathers a chat's workspace in one place: switch between the current checkout, a new worktree or an existing one; open the checkout in Cursor, Zed, Antigravity, VS Code, Xcode or Finder; run project scripts in the Terminal panel; search and switch branches; and commit, push, pull or open a pull request from one button. Its changes row shows the working tree's added and removed lines and opens the diff.
+- **Generated commit messages and pull requests:** Leave the commit message empty and Controller writes it from the diff, on the Mac and on iPhone and iPad. Choose the account, model and writing style, and how pull request templates are handled, in **Settings → General → Commit & PR Generation**.
+- **Pull request browser:** The browser has a new look. Under **All**, your own pull requests lead, matched to the account you use on each GitHub host. **Newest** and **Oldest** order pull requests from every project by when they were opened, and dates in comments show in your local time.
+- **Agents and pull requests:** Agents can search a repository's pull requests, inspect worktrees, and move a chat into an existing worktree or a pull request's checkout.
+
+## Your other Macs
+
+- **Inspector and terminals on another Mac:** Working on a chat from another Mac now opens the inspector with its files and diffs, and terminals run on that Mac.
+- **Add a project from this Mac first:** The folder card starts on this Mac, and moving between folders is smoother.
+- **Following a Mac that moved:** A Mac that changes its address is found again even when the directory was being read at the moment it moved.
+
+## Faster and steadier
+
+- Controller does much less work on the main thread: launch, dictation, Keychain access, agent connections, the thread list, transcripts, diffs and pictures all keep the interface responsive while they run.
+- Pictures in a transcript are decoded once however many places show them, and only a few at a time.
+- While a reply streams, scrolling up to read no longer pulls you back down, and a reply finishing while the agent keeps working no longer makes the conversation jump.
+
+## Fixed
+
+- A crash when VoiceOver or another accessibility tool read a command approval.
+- A message continuing after a usage limit, and project details being saved, are kept if you quit at that moment.
+- An agent connection that could not send a large reply now ends with an error instead of waiting forever.
+- **⌘F** in the browser reliably puts the cursor in the find field.
+- The plan chip appears at its full width when you open a chat, and on iPhone it no longer covers the jump-to-latest button, which now works with the keyboard open.
+- In the narrowest conversation, the model's name shortens instead of pushing the composer past the edge.
+- On iPhone, the New Chat button is easier to tap.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.37/Controller-1.0.37-arm64.zip" length="175067203" type="application/octet-stream" sparkle:edSignature="3Sna8QIEXDV6IgYBd5WPKRx9FaFqLonALf+7TvlxN2CZxgKFAmYGjw9hinlAmOC8eLpoARN2Lrred2G/I9L5DQ=="/>
+        </item>
+        <item>
             <title>1.0.36</title>
             <pubDate>Sat, 03 Oct 2026 23:05:35 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -65,39 +103,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.35/Controller-1.0.35-arm64.zip" length="173758547" type="application/octet-stream" sparkle:edSignature="EP2HBFpT1E2coTdkOQJwLzWJPyrbqrO838PbnPakaHtsElNbTLO9qnvxbCw0LaGzV0hQBNu/8vQprui4YpkwAQ=="/>
         </item>
-        <item>
-            <title>1.0.34</title>
-            <pubDate>Sat, 03 Oct 2026 16:01:40 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>36</sparkle:version>
-            <sparkle:shortVersionString>1.0.34</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Sleep and wake
-
-- **Your Mac can sleep while you're away:** Hosting Connect no longer keeps the Mac awake on its own. Controller still keeps it awake while agents are working, and for a few minutes while a connected device is using it.
-- **Sleeping, not offline:** Before your Mac sleeps, it tells your connected iPhone and other Macs, which show **Mac is sleeping** instead of trying to reconnect. Chats you've already opened stay readable while it sleeps.
-- **Wake Mac:** Choose **Wake** on a sleeping Mac to wake it over your local network. With **Wake Mac automatically when needed** on, sending a message, answering an approval or starting a chat wakes it for you.
-- **Choose who can wake this Mac:** Connect settings has an **Allow remote wake** option, which you can limit to times the Mac is on power. It also tells you if **Wake for network access** is off in System Settings → Battery, since remote wake needs it.
-
-## Agents
-
-- **OpenCode retries provider failures:** When the model provider fails partway through a turn, OpenCode now retries and picks up where it left off. Errors that end a turn and retry notices now stay visible in the conversation even with background notices hidden.
-- **Steering Antigravity and Droid:** Sending a new message while Antigravity or Factory Droid is working now redirects it reliably, including when you send several in a row. Tools stopped by steering show as interrupted or cancelled instead of failed.
-
-## Faster conversations
-
-- Scrolling while an agent works is smoother, especially during long runs of tool calls and messages between them.
-- Expanded reasoning shows the agent's full trace paragraphs, fades in as one continuous sweep, and no longer jumps or overlaps text when you open it.
-
-## Fixed
-
-- Opening the browser panel could crash Controller 1.0.33. This release fixes it.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.34/Controller-1.0.34-arm64.zip" length="173677922" type="application/octet-stream" sparkle:edSignature="eOkxDnvgzRz+hthsdQKXZE6ZlXFMIfLvjBf5ZOvfkYUnEuPDscMCKrDTf/XP3GZC0lN0/s5gAlb4I3YfaMW2Cw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: /otoIlfD5jBsPt/OX8ixMZkhhv0gXmRSL03gdn5oO38GpbD+6nezmsCWUiGOC1vmYqvjjtCe4rtzV3xOoWA3Dw==
-length: 7850
+edSignature: 21bmyFkjiBjtWe5c5VJ7FyVw9hhES5RHLRORaQsAPTqkfniXJy8s1INSdFRoWYPZ8xMNvTtXgcgLAyk20jV0DA==
+length: 8898
 -->
