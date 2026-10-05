@@ -6,6 +6,41 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.38</title>
+            <pubDate>Mon, 05 Oct 2026 16:00:55 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>40</sparkle:version>
+            <sparkle:shortVersionString>1.0.38</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Agents and models
+
+- **Custom models for Claude Code:** A Claude Code account can now add its own models from any Anthropic Messages-compatible endpoint, such as LiteLLM, OpenRouter or a Gemini proxy. Give each one a slug, display name, endpoint, API key (kept in the Keychain), custom headers, context window, output limit, auto-compact threshold and reasoning support, and choose which model subagents use. Add, edit and delete them on the Mac or from iPhone and iPad, and pick them in the model picker like any other model.
+- **Visualizations in the transcript:** When an agent replies with a `<json-render>` block, Controller draws it in place on the Mac and iPhone: cards, tables, lists, bar charts, sparklines, progress bars, metrics, callouts, timelines and more, with a placeholder while the block is still streaming.
+- **Antigravity subagents stay in their lane:** Tool calls from an Antigravity subagent no longer end or interrupt the parent chat's message or reasoning, and starting a subagent is no longer mistaken for its final reply.
+
+## Terminals and files on your other Macs
+
+- **Terminals look like the Mac's:** A terminal on another Mac now shows its real colors, cursor and font size instead of plain text, on the Mac and on iPhone and iPad.
+- **A new iPhone terminal:** Type straight into the terminal in a full sheet, switch tabs with larger touch targets, and use a shortcut strip above the keyboard. Scrollback you are reading stays put while new output arrives.
+- **Documents from another Mac:** PDF, RTF, Office and iWork files in a remote checkout open with Quick Look on the Mac and on iPhone and iPad.
+- **Text files open again:** Code, Markdown, JSON and plain-text files from another Mac load again. On iPhone, Markdown has the Mac's formatted and source views, links between documents open inside the checkout, and long code lines scroll sideways instead of being cut off.
+
+## Faster and steadier
+
+- Conversations load and save with less work, and the sidebar and pull request list update faster in large workspaces.
+- Opening sign-in pages and links, reading your Controller account at launch, and starting up no longer pause the interface.
+- Typing in the iPhone composer no longer searches commands and files on every keystroke.
+
+## Fixed
+
+- Markdown tables that arrived on a single line show as tables again on the Mac and iPhone.
+- A crash in an agent's command-line tool or a shell is no longer reported as a Controller crash.
+- A crash on iPhone when background refresh started or ran out of time.
+- Spurious protocol warnings from Grok and Claude Code housekeeping messages.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.38/Controller-1.0.38-arm64.zip" length="176708738" type="application/octet-stream" sparkle:edSignature="19bGvHTaD/f+1rNbcNdwjtnUdAXVTF9c0fmjecTxRPkOAVFzK2Ku2Q3HU2QvYIeFAIS6fNV5uTHYKMLPayjuDQ=="/>
+        </item>
+        <item>
             <title>1.0.37</title>
             <pubDate>Sun, 04 Oct 2026 22:33:00 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -76,36 +111,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.36/Controller-1.0.36-arm64.zip" length="174511769" type="application/octet-stream" sparkle:edSignature="5qh4dwQCNgpoKWuGblS+eNAGVxg+t0/COzH5rjggxhrdn9WGz3mwPWdgRT5JnPQ9IRswj1otHnFxJ0OoJmIEAA=="/>
         </item>
-        <item>
-            <title>1.0.35</title>
-            <pubDate>Sat, 03 Oct 2026 19:50:04 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>37</sparkle:version>
-            <sparkle:shortVersionString>1.0.35</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Images and attachments
-
-- **Image galleries:** Images in a reply now sit in wide rows of up to three, and clicking one opens it in its own full-size viewer with zoom and arrow-key paging through that row. On iPhone and iPad, tapping an image opens a full-screen gallery you can swipe through.
-- **Drag and paste:** Drag images out of the conversation into other apps on Mac, iPhone and iPad, or use **Copy Image** from the context menu. Paste images, files and links straight into the composer; on iPhone, **Paste** is also in the Attach menu.
-- **Previews:** The attachment card pages through mixed images and files together, and PDF markup applies only to the file you're editing.
-
-## Agents
-
-- **Pi:** Long turns with image attachments no longer fail on oversized messages, sent images no longer show twice, and Pi's code-mode tool runs show as code with their nested tool calls.
-- **Antigravity:** Turns that start a background command, such as a dev server, now finish instead of hanging, and a stuck cancellation recovers the session instead of locking the chat.
-- **Factory Droid:** Turns where several tools return images or documents no longer break the session, and errors show the underlying cause.
-- **Plans:** Each agent's plan now comes from its own checklist tool. OpenCode and Pi, which have none, no longer show a plan.
-
-## Fixed
-
-- A crash when moving the cursor in the composer after its text changed.
-- Hangs while Usage history imported on the main thread.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.35/Controller-1.0.35-arm64.zip" length="173758547" type="application/octet-stream" sparkle:edSignature="EP2HBFpT1E2coTdkOQJwLzWJPyrbqrO838PbnPakaHtsElNbTLO9qnvxbCw0LaGzV0hQBNu/8vQprui4YpkwAQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 21bmyFkjiBjtWe5c5VJ7FyVw9hhES5RHLRORaQsAPTqkfniXJy8s1INSdFRoWYPZ8xMNvTtXgcgLAyk20jV0DA==
-length: 8898
+edSignature: MnnBn3ObwI8s89NGWULFQF33AFdYEVHiy7cxDc935ES+Ddd7jbrGPU9dZSAxvPQB1lJU5/28D1fKeJjkbd2+Cw==
+length: 10034
 -->
