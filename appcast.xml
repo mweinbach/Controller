@@ -6,6 +6,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.39</title>
+            <pubDate>Mon, 05 Oct 2026 21:02:24 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>41</sparkle:version>
+            <sparkle:shortVersionString>1.0.39</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Custom models for Claude Code
+
+- **Code Mode per model:** Each custom model has a Code Mode (programmatic tool calling) switch. When it is on, Claude Code runs tools from code on its own, and those calls show cleanly in the transcript. When it is off, the code tools stay unavailable to that model.
+- **Parallel tool calls per model:** Turn off parallel tool calls for an endpoint that can't handle them, and Claude Code runs one tool at a time. The model list marks these models "Serial tools".
+- Both switches are on the Mac and on iPhone and iPad. Switching between models with different settings restarts Claude Code and resumes the same conversation.
+
+## Fixed
+
+- A Claude Code account that uses custom models no longer signs in with claude.ai, pulls in claude.ai connectors, plugins or skills, or lists the built-in Claude models. Its model picker shows only your custom models.
+- Custom models compact the conversation at their own configured context window instead of a remote setting.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.39/Controller-1.0.39-arm64.zip" length="176719135" type="application/octet-stream" sparkle:edSignature="ZBjh0QuhHJ696eY9TZViz6RpsZI2r8gWZbklWv3ul/hFd6X5MtMA6vJ6N7Ys+8XAHKGFZ8/4GFFYbnHTaboqBQ=="/>
+        </item>
+        <item>
             <title>1.0.38</title>
             <pubDate>Mon, 05 Oct 2026 16:00:55 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -78,42 +98,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.37/Controller-1.0.37-arm64.zip" length="175067203" type="application/octet-stream" sparkle:edSignature="3Sna8QIEXDV6IgYBd5WPKRx9FaFqLonALf+7TvlxN2CZxgKFAmYGjw9hinlAmOC8eLpoARN2Lrred2G/I9L5DQ=="/>
         </item>
-        <item>
-            <title>1.0.36</title>
-            <pubDate>Sat, 03 Oct 2026 23:05:35 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>38</sparkle:version>
-            <sparkle:shortVersionString>1.0.36</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Pull requests
-
-- **Work on a pull request:** Attach or check out a GitHub pull request from the sidebar. Open it in a new worktree, in the project folder, or just link it to the chat. Linked pull requests show as badges on their chats, with their state, and the inspector shows their details.
-- **Agents and pull requests:** Agents can link and unlink pull requests with `link_pull_request` and `unlink_pull_request`, list a chat's pull requests with `list_thread_pull_requests`, and read live details such as the description, mergeability and CI checks with `read_pull_request`. A review can be handed off to another chat.
-
-## Composer
-
-- **@ mentions:** Type **@** in the composer to tag a file in the checkout, another chat, or an open browser tab. `@file:`, `@thread:` and `@tab:` narrow the search. Tags appear as chips you can inspect or remove, show as badges in the sent message, and point the agent at the file path, chat or tab. This works on Mac, iPhone and iPad.
-
-## Usage
-
-- **Antigravity usage:** The Usage window now counts Antigravity's token use.
-- **Models & Pricing:** Set your own token prices for any model, and link a model's names from different providers into one standardized model so they share a row. Models without a price are listed, with a shortcut to set one.
-
-## iPhone and iPad
-
-- **Larger photos and videos:** Photos and videos up to 100 MB from your Mac's files now preview on iPhone and iPad. Viewed ones are cached on the device until the file changes.
-- **Diffs:** File diffs use a new viewer, and Antigravity's edits now show diffs per file.
-- **File links:** Tapping a file citation in a reply opens that file at the cited line.
-
-## Fixed
-
-- File links and citations pointing into worktrees, whose paths contain spaces, now show as links instead of raw Markdown.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.36/Controller-1.0.36-arm64.zip" length="174511769" type="application/octet-stream" sparkle:edSignature="5qh4dwQCNgpoKWuGblS+eNAGVxg+t0/COzH5rjggxhrdn9WGz3mwPWdgRT5JnPQ9IRswj1otHnFxJ0OoJmIEAA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: MnnBn3ObwI8s89NGWULFQF33AFdYEVHiy7cxDc935ES+Ddd7jbrGPU9dZSAxvPQB1lJU5/28D1fKeJjkbd2+Cw==
-length: 10034
+edSignature: sD9JSZNZN8VFwL76SQvUdpD10GKyPyk75hTOkK7XgL+Mm5TkUEniSOfzr4ei3Cyv88ms6ciW2A2RUREpd0f8Dw==
+length: 9225
 -->
