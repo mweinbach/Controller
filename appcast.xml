@@ -6,6 +6,20 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.43</title>
+            <pubDate>Tue, 06 Oct 2026 13:57:25 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>45</sparkle:version>
+            <sparkle:shortVersionString>1.0.43</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Transcript scrolling and ProMotion animations
+
+- **Smooth scroll bar and page-length during streaming:** Stabilizes the transcript's vertical scroll bar thumb size and document height across lazy row realizations and live streaming updates, eliminating scroll bar jitter and page-length jumps while reading or scrolling.
+- **120 Hz ProMotion across custom glass and lens morphs:** Drives custom `@Animatable` glass lenses, composer cards, attachment flights, command panels and task plan chips at 80–120 Hz on ProMotion displays using public SwiftUI and Core Animation frame-rate APIs.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.43/Controller-1.0.43-arm64.zip" length="177257040" type="application/octet-stream" sparkle:edSignature="rXRKPaNX8AI3UrnVuPkkqK7Ep0n95j7i1BpwHEQOjXMto7wMfBNmvLyB0eGab4sYGzwrT7SljeH0sGO9VHZfCA=="/>
+        </item>
+        <item>
             <title>1.0.42</title>
             <pubDate>Tue, 06 Oct 2026 10:20:08 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -50,38 +64,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.41/Controller-1.0.41-arm64.zip" length="176818463" type="application/octet-stream" sparkle:edSignature="LRsPd7VvYoOBiMj5DXKv/FSwi4OG2IT9abLPuMRWU4nogzGGOVtsvYGGAqSyhRz/nL4+Q1aAcCXcLaa9DUSiBg=="/>
         </item>
-        <item>
-            <title>1.0.40</title>
-            <pubDate>Tue, 06 Oct 2026 00:22:19 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>42</sparkle:version>
-            <sparkle:shortVersionString>1.0.40</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Custom models for Claude Code
-
-- **Memory:** Custom models now save and recall local memory, both during a turn and in the background after it. Background and helper work runs on your custom model too.
-- **claude.ai connectors, plugins and skills:** If you're signed in to claude.ai, custom models can use your connectors, plugins and skills. Inference still goes to your own endpoint with its own credentials.
-- **Resume:** Conversations on third-party models (custom endpoints, Bedrock, Vertex and Foundry) resume reliably instead of failing a session check.
-
-## Tool search
-
-- **Per account:** Each provider account has a switch for deferred tool loading. With it on, Controller's tools load only when the agent searches for them, which saves context. This works with Claude Code, Codex, Pi, OpenCode and Grok.
-- **Per custom model:** Turn off tool search for an endpoint that doesn't support it, and that model gets the tools loaded directly. Set this on the Mac or on iPhone and iPad.
-
-## Fixed
-
-- Steering a running turn uses the thread's current permissions, keeps your draft attachments, and no longer drops queued prompts if the turn ends at the same moment.
-- Connect hosts no longer stall at startup while a still-valid certificate is near renewal.
-- Remote devices can create threads and terminals only in folders they're allowed to browse, or in existing projects and worktrees.
-- Browser uploads refuse protected credential folders whatever the letter case.
-- Opening a pull request's checkout from the sidebar moves the thread correctly, and commit message previews no longer touch the Git index.
-- Fixes for Claude Code tool calls from code and server tools showing up in the transcript, Pi sessions losing Controller tools when another Pi thread closes, Mermaid diagram crash recovery, iPhone approval cards after a submission, and several memory leaks in the browser.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.40/Controller-1.0.40-arm64.zip" length="176755803" type="application/octet-stream" sparkle:edSignature="jfbd7N8ebx0gETyum5OvnnfU+AYLrcacjPHy6pewdMJUDJL6Gf9MQ1R2yexUmdIgt8yimceq1R5UbvMZFjD7Dg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: ELxTPKhv8U3kBlYxaU2Krs1zAsERHjF7va1NhQAYkyOmhCU5pZ0DWZ6cOxS7Q7bCAQ2dWR4s26bhxB65dEg7DA==
-length: 7736
+edSignature: AwD9nnuJh/1ymipyq5S7/1AR95rwvGOfap4kOttp0prGJgnx6uVhwq3QN7HoDLz2C87SQOl9XPUADFj2kWW7DQ==
+length: 6438
 -->
