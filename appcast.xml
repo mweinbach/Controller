@@ -6,6 +6,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.40</title>
+            <pubDate>Tue, 06 Oct 2026 00:22:19 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>42</sparkle:version>
+            <sparkle:shortVersionString>1.0.40</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Custom models for Claude Code
+
+- **Memory:** Custom models now save and recall local memory, both during a turn and in the background after it. Background and helper work runs on your custom model too.
+- **claude.ai connectors, plugins and skills:** If you're signed in to claude.ai, custom models can use your connectors, plugins and skills. Inference still goes to your own endpoint with its own credentials.
+- **Resume:** Conversations on third-party models (custom endpoints, Bedrock, Vertex and Foundry) resume reliably instead of failing a session check.
+
+## Tool search
+
+- **Per account:** Each provider account has a switch for deferred tool loading. With it on, Controller's tools load only when the agent searches for them, which saves context. This works with Claude Code, Codex, Pi, OpenCode and Grok.
+- **Per custom model:** Turn off tool search for an endpoint that doesn't support it, and that model gets the tools loaded directly. Set this on the Mac or on iPhone and iPad.
+
+## Fixed
+
+- Steering a running turn uses the thread's current permissions, keeps your draft attachments, and no longer drops queued prompts if the turn ends at the same moment.
+- Connect hosts no longer stall at startup while a still-valid certificate is near renewal.
+- Remote devices can create threads and terminals only in folders they're allowed to browse, or in existing projects and worktrees.
+- Browser uploads refuse protected credential folders whatever the letter case.
+- Opening a pull request's checkout from the sidebar moves the thread correctly, and commit message previews no longer touch the Git index.
+- Fixes for Claude Code tool calls from code and server tools showing up in the transcript, Pi sessions losing Controller tools when another Pi thread closes, Mermaid diagram crash recovery, iPhone approval cards after a submission, and several memory leaks in the browser.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.40/Controller-1.0.40-arm64.zip" length="176755803" type="application/octet-stream" sparkle:edSignature="jfbd7N8ebx0gETyum5OvnnfU+AYLrcacjPHy6pewdMJUDJL6Gf9MQ1R2yexUmdIgt8yimceq1R5UbvMZFjD7Dg=="/>
+        </item>
+        <item>
             <title>1.0.39</title>
             <pubDate>Mon, 05 Oct 2026 21:02:24 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -60,47 +89,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.38/Controller-1.0.38-arm64.zip" length="176708738" type="application/octet-stream" sparkle:edSignature="19bGvHTaD/f+1rNbcNdwjtnUdAXVTF9c0fmjecTxRPkOAVFzK2Ku2Q3HU2QvYIeFAIS6fNV5uTHYKMLPayjuDQ=="/>
         </item>
-        <item>
-            <title>1.0.37</title>
-            <pubDate>Sun, 04 Oct 2026 22:33:00 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>39</sparkle:version>
-            <sparkle:shortVersionString>1.0.37</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Git and pull requests
-
-- **A new activity card:** The activity card now gathers a chat's workspace in one place: switch between the current checkout, a new worktree or an existing one; open the checkout in Cursor, Zed, Antigravity, VS Code, Xcode or Finder; run project scripts in the Terminal panel; search and switch branches; and commit, push, pull or open a pull request from one button. Its changes row shows the working tree's added and removed lines and opens the diff.
-- **Generated commit messages and pull requests:** Leave the commit message empty and Controller writes it from the diff, on the Mac and on iPhone and iPad. Choose the account, model and writing style, and how pull request templates are handled, in **Settings → General → Commit & PR Generation**.
-- **Pull request browser:** The browser has a new look. Under **All**, your own pull requests lead, matched to the account you use on each GitHub host. **Newest** and **Oldest** order pull requests from every project by when they were opened, and dates in comments show in your local time.
-- **Agents and pull requests:** Agents can search a repository's pull requests, inspect worktrees, and move a chat into an existing worktree or a pull request's checkout.
-
-## Your other Macs
-
-- **Inspector and terminals on another Mac:** Working on a chat from another Mac now opens the inspector with its files and diffs, and terminals run on that Mac.
-- **Add a project from this Mac first:** The folder card starts on this Mac, and moving between folders is smoother.
-- **Following a Mac that moved:** A Mac that changes its address is found again even when the directory was being read at the moment it moved.
-
-## Faster and steadier
-
-- Controller does much less work on the main thread: launch, dictation, Keychain access, agent connections, the thread list, transcripts, diffs and pictures all keep the interface responsive while they run.
-- Pictures in a transcript are decoded once however many places show them, and only a few at a time.
-- While a reply streams, scrolling up to read no longer pulls you back down, and a reply finishing while the agent keeps working no longer makes the conversation jump.
-
-## Fixed
-
-- A crash when VoiceOver or another accessibility tool read a command approval.
-- A message continuing after a usage limit, and project details being saved, are kept if you quit at that moment.
-- An agent connection that could not send a large reply now ends with an error instead of waiting forever.
-- **⌘F** in the browser reliably puts the cursor in the find field.
-- The plan chip appears at its full width when you open a chat, and on iPhone it no longer covers the jump-to-latest button, which now works with the keyboard open.
-- In the narrowest conversation, the model's name shortens instead of pushing the composer past the edge.
-- On iPhone, the New Chat button is easier to tap.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.37/Controller-1.0.37-arm64.zip" length="175067203" type="application/octet-stream" sparkle:edSignature="3Sna8QIEXDV6IgYBd5WPKRx9FaFqLonALf+7TvlxN2CZxgKFAmYGjw9hinlAmOC8eLpoARN2Lrred2G/I9L5DQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: sD9JSZNZN8VFwL76SQvUdpD10GKyPyk75hTOkK7XgL+Mm5TkUEniSOfzr4ei3Cyv88ms6ciW2A2RUREpd0f8Dw==
-length: 9225
+edSignature: utVx7CZ4N1IDlm6L6SZU1Ck1/OrqRWSzWrbLGNbTnxEYhoEGk0Lx6CRZ5vj/XA6NuHZmuT1s9sY5MNTFP1RMBg==
+length: 8223
 -->
