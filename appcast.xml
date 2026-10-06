@@ -6,6 +6,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.44</title>
+            <pubDate>Tue, 06 Oct 2026 19:14:37 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>46</sparkle:version>
+            <sparkle:shortVersionString>1.0.44</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Transcript scrolling and mobile navigation
+
+- **Smooth scrolling across collapsed work bars:** Replaces lazy row height churn in `ControllerMobile` with anchored `TranscriptRowSlotView` height slots, defers background work-detail prefetches while actively scrolling, and stops pre-rendering hidden reasoning blocks into the markdown cache so scrolling across collapsed *Worked for* disclosures no longer causes scroll bar or viewport jumps.
+- **Cleaner mobile conversation title bar and back swipe:** Clamps the inline conversation title slot before the trailing activity orb, hands off cleanly to the compact navigation bar title when scrolled, and keeps the conversation header mounted during interactive back-swipe gestures.
+- **Inline LaTeX math and resilient file links:** Renders `$...$` and `$$...$$` LaTeX math inline in markdown replies and recovers file links when paths contain spaces or mismatched angle brackets.
+
+## Multi-Mac Git and subagent workflows
+
+- **Cross-Mac `git_session` and worktree orchestration:** Agents can inspect and coordinate Git status, branches, commits, rebases, stashes and worktrees across connected Macs with `git_session`, `list_worktrees`, `read_worktree` and `move_to_worktree`.
+- **Refined workflow and subagent inspector:** Adds phase progress strips, grouped phase cards, live tool-call counts and inline status badges across the workflow roster and subagent inspector on Mac and iPhone.
+- **Descriptive orange Liquid Glass error banners:** Workspace and conversation issue banners now explain which Mac and action failed, why it happened and how to recover, with Retry and Dismiss actions.
+- **Cleaner Antigravity retry handling and titlebar glass polish:** Suppresses retried provider errors from marking still-running tools as failed, and sharpens titlebar and inspector glass controls on macOS.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.44/Controller-1.0.44-arm64.zip" length="177480066" type="application/octet-stream" sparkle:edSignature="v06cVKJgK+ArM86PwfNL7xOo43/11mUPwc3i31qkTuqyscJXxmfKXRRlhhWwoWv8tc3q/cv2olb4GdVzY5RBAA=="/>
+        </item>
+        <item>
             <title>1.0.43</title>
             <pubDate>Tue, 06 Oct 2026 13:57:25 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -45,28 +67,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.42/Controller-1.0.42-arm64.zip" length="177203569" type="application/octet-stream" sparkle:edSignature="sHgXUIUaqRyTXSq0BHpcQ0QDrgBpv+SdZcUvhWnWhR/hS4g9KDIl3v831Ac+sU8lo5a1snjokTFKGGUEKcuwAA=="/>
         </item>
-        <item>
-            <title>1.0.41</title>
-            <pubDate>Tue, 06 Oct 2026 08:00:46 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>43</sparkle:version>
-            <sparkle:shortVersionString>1.0.41</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Motion and streaming
-
-- **120 Hz ProMotion animations:** Custom glass morphs, the reasoning-effort card and slider, the context meter, the activity orb and its typing-to-check mark, the plan chip, the command menu, the jump-to-latest chip, dictation cleanup smoke, attachment flights, and conversation header transitions now run at 120 Hz on ProMotion displays across iPhone, iPad and Mac.
-- **Smoother live streaming:** Replies stream with lower per-token work and no layout pop-in as headings, lists, links, emphasis and tables form. Character fades continue smoothly when a reply finishes.
-
-## Custom models for Claude Code
-
-- **Custom system prompts and templates:** Each custom Claude model can now use the default prompt bundle (Opus 5, Opus 5.5, Fable 5.1, Slim or Full), the simple system prompt, or your own editable system prompt. Load any built-in template into the editor as a starting point and save reusable prompt bundles across Mac, iPhone and iPad.
-- **System-reminder compatibility:** Custom model endpoints and proxies now receive mid-conversation reminders and tool updates inside standard user turns instead of system-role turns that third-party endpoints drop.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.41/Controller-1.0.41-arm64.zip" length="176818463" type="application/octet-stream" sparkle:edSignature="LRsPd7VvYoOBiMj5DXKv/FSwi4OG2IT9abLPuMRWU4nogzGGOVtsvYGGAqSyhRz/nL4+Q1aAcCXcLaa9DUSiBg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: AwD9nnuJh/1ymipyq5S7/1AR95rwvGOfap4kOttp0prGJgnx6uVhwq3QN7HoDLz2C87SQOl9XPUADFj2kWW7DQ==
-length: 6438
+edSignature: BFdqFfmVfOoqxy1ANckb34lw41YHsclyM8FaueV0VwABJ++CtRG5EIwqhtHtg/QF5aJ4eKZy0Rq0vAjH62s9AQ==
+length: 7100
 -->
