@@ -6,6 +6,32 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.42</title>
+            <pubDate>Tue, 06 Oct 2026 10:20:08 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>44</sparkle:version>
+            <sparkle:shortVersionString>1.0.42</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Per-thread workspace and shared worktrees
+
+- **Thread-scoped browser, terminals and inspector:** Each thread now keeps its own browser tabs, terminal sessions and inspector tabs. Switching threads shows that thread's active panels and agent browser view while background tabs and shells keep running.
+- **Shared worktrees:** Multiple agents can now work in the same Git worktree at the same time. New, forked or handed-off threads can join an existing checkout or reuse the worktree for a branch that is already checked out.
+
+## Agent tools and browser automation
+
+- **Expanded orchestration, worktree and desktop tools:** Agents can now create, fork, hand off, title, archive and wait on threads; create, archive and restore worktrees; attach task artifacts; and open files, inspector pages, browser tabs, terminals and reviews directly in Controller.
+- **Persistent browser JS REPL (`cua_repl`):** Agents have a per-thread JavaScript REPL with persistent top-level state, Playwright-style locators, incremental accessibility tree diffs and isolated clipboard access.
+- **Third-party models in Claude Code:** Sessions running non-Anthropic or custom endpoints now bypass Claude Code's built-in safety classifiers so the underlying model handles requests directly.
+
+## Transcript scrolling and responsiveness
+
+- **No jump when work collapses:** Completing a reply and collapsing live work steps into the summary row now settles cleanly without throwing the finished message off the bottom of the window or shifting a detached reading position.
+- **Reliable follow and bottom-inset unpinning:** Follow glides stay pinned across every frame, and scrolling into the composer band unpins consistently and shows the Jump to Latest chip.
+- **Faster startup and sidebar switching:** Preloads on-device title model availability, Connect credentials and Live Activity state off the main thread, and trims redundant sidebar and markdown link work.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.42/Controller-1.0.42-arm64.zip" length="177203569" type="application/octet-stream" sparkle:edSignature="sHgXUIUaqRyTXSq0BHpcQ0QDrgBpv+SdZcUvhWnWhR/hS4g9KDIl3v831Ac+sU8lo5a1snjokTFKGGUEKcuwAA=="/>
+        </item>
+        <item>
             <title>1.0.41</title>
             <pubDate>Tue, 06 Oct 2026 08:00:46 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -53,29 +79,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.40/Controller-1.0.40-arm64.zip" length="176755803" type="application/octet-stream" sparkle:edSignature="jfbd7N8ebx0gETyum5OvnnfU+AYLrcacjPHy6pewdMJUDJL6Gf9MQ1R2yexUmdIgt8yimceq1R5UbvMZFjD7Dg=="/>
         </item>
-        <item>
-            <title>1.0.39</title>
-            <pubDate>Mon, 05 Oct 2026 21:02:24 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>41</sparkle:version>
-            <sparkle:shortVersionString>1.0.39</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Custom models for Claude Code
-
-- **Code Mode per model:** Each custom model has a Code Mode (programmatic tool calling) switch. When it is on, Claude Code runs tools from code on its own, and those calls show cleanly in the transcript. When it is off, the code tools stay unavailable to that model.
-- **Parallel tool calls per model:** Turn off parallel tool calls for an endpoint that can't handle them, and Claude Code runs one tool at a time. The model list marks these models "Serial tools".
-- Both switches are on the Mac and on iPhone and iPad. Switching between models with different settings restarts Claude Code and resumes the same conversation.
-
-## Fixed
-
-- A Claude Code account that uses custom models no longer signs in with claude.ai, pulls in claude.ai connectors, plugins or skills, or lists the built-in Claude models. Its model picker shows only your custom models.
-- Custom models compact the conversation at their own configured context window instead of a remote setting.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.39/Controller-1.0.39-arm64.zip" length="176719135" type="application/octet-stream" sparkle:edSignature="ZBjh0QuhHJ696eY9TZViz6RpsZI2r8gWZbklWv3ul/hFd6X5MtMA6vJ6N7Ys+8XAHKGFZ8/4GFFYbnHTaboqBQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: wK3JZSedTfIap2HpkTwtJQJwBDHAHuPLExIiYbkAiuomgPt5hl5EyEnVsAWFGbJnf1Wsghuvq2HnjqYdQoADAw==
-length: 6792
+edSignature: ELxTPKhv8U3kBlYxaU2Krs1zAsERHjF7va1NhQAYkyOmhCU5pZ0DWZ6cOxS7Q7bCAQ2dWR4s26bhxB65dEg7DA==
+length: 7736
 -->
