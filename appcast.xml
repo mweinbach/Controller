@@ -6,6 +6,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.41</title>
+            <pubDate>Tue, 06 Oct 2026 08:00:46 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>43</sparkle:version>
+            <sparkle:shortVersionString>1.0.41</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Motion and streaming
+
+- **120 Hz ProMotion animations:** Custom glass morphs, the reasoning-effort card and slider, the context meter, the activity orb and its typing-to-check mark, the plan chip, the command menu, the jump-to-latest chip, dictation cleanup smoke, attachment flights, and conversation header transitions now run at 120 Hz on ProMotion displays across iPhone, iPad and Mac.
+- **Smoother live streaming:** Replies stream with lower per-token work and no layout pop-in as headings, lists, links, emphasis and tables form. Character fades continue smoothly when a reply finishes.
+
+## Custom models for Claude Code
+
+- **Custom system prompts and templates:** Each custom Claude model can now use the default prompt bundle (Opus 5, Opus 5.5, Fable 5.1, Slim or Full), the simple system prompt, or your own editable system prompt. Load any built-in template into the editor as a starting point and save reusable prompt bundles across Mac, iPhone and iPad.
+- **System-reminder compatibility:** Custom model endpoints and proxies now receive mid-conversation reminders and tool updates inside standard user turns instead of system-role turns that third-party endpoints drop.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.41/Controller-1.0.41-arm64.zip" length="176818463" type="application/octet-stream" sparkle:edSignature="LRsPd7VvYoOBiMj5DXKv/FSwi4OG2IT9abLPuMRWU4nogzGGOVtsvYGGAqSyhRz/nL4+Q1aAcCXcLaa9DUSiBg=="/>
+        </item>
+        <item>
             <title>1.0.40</title>
             <pubDate>Tue, 06 Oct 2026 00:22:19 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -54,44 +73,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.39/Controller-1.0.39-arm64.zip" length="176719135" type="application/octet-stream" sparkle:edSignature="ZBjh0QuhHJ696eY9TZViz6RpsZI2r8gWZbklWv3ul/hFd6X5MtMA6vJ6N7Ys+8XAHKGFZ8/4GFFYbnHTaboqBQ=="/>
         </item>
-        <item>
-            <title>1.0.38</title>
-            <pubDate>Mon, 05 Oct 2026 16:00:55 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>40</sparkle:version>
-            <sparkle:shortVersionString>1.0.38</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Agents and models
-
-- **Custom models for Claude Code:** A Claude Code account can now add its own models from any Anthropic Messages-compatible endpoint, such as LiteLLM, OpenRouter or a Gemini proxy. Give each one a slug, display name, endpoint, API key (kept in the Keychain), custom headers, context window, output limit, auto-compact threshold and reasoning support, and choose which model subagents use. Add, edit and delete them on the Mac or from iPhone and iPad, and pick them in the model picker like any other model.
-- **Visualizations in the transcript:** When an agent replies with a `<json-render>` block, Controller draws it in place on the Mac and iPhone: cards, tables, lists, bar charts, sparklines, progress bars, metrics, callouts, timelines and more, with a placeholder while the block is still streaming.
-- **Antigravity subagents stay in their lane:** Tool calls from an Antigravity subagent no longer end or interrupt the parent chat's message or reasoning, and starting a subagent is no longer mistaken for its final reply.
-
-## Terminals and files on your other Macs
-
-- **Terminals look like the Mac's:** A terminal on another Mac now shows its real colors, cursor and font size instead of plain text, on the Mac and on iPhone and iPad.
-- **A new iPhone terminal:** Type straight into the terminal in a full sheet, switch tabs with larger touch targets, and use a shortcut strip above the keyboard. Scrollback you are reading stays put while new output arrives.
-- **Documents from another Mac:** PDF, RTF, Office and iWork files in a remote checkout open with Quick Look on the Mac and on iPhone and iPad.
-- **Text files open again:** Code, Markdown, JSON and plain-text files from another Mac load again. On iPhone, Markdown has the Mac's formatted and source views, links between documents open inside the checkout, and long code lines scroll sideways instead of being cut off.
-
-## Faster and steadier
-
-- Conversations load and save with less work, and the sidebar and pull request list update faster in large workspaces.
-- Opening sign-in pages and links, reading your Controller account at launch, and starting up no longer pause the interface.
-- Typing in the iPhone composer no longer searches commands and files on every keystroke.
-
-## Fixed
-
-- Markdown tables that arrived on a single line show as tables again on the Mac and iPhone.
-- A crash in an agent's command-line tool or a shell is no longer reported as a Controller crash.
-- A crash on iPhone when background refresh started or ran out of time.
-- Spurious protocol warnings from Grok and Claude Code housekeeping messages.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.38/Controller-1.0.38-arm64.zip" length="176708738" type="application/octet-stream" sparkle:edSignature="19bGvHTaD/f+1rNbcNdwjtnUdAXVTF9c0fmjecTxRPkOAVFzK2Ku2Q3HU2QvYIeFAIS6fNV5uTHYKMLPayjuDQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: utVx7CZ4N1IDlm6L6SZU1Ck1/OrqRWSzWrbLGNbTnxEYhoEGk0Lx6CRZ5vj/XA6NuHZmuT1s9sY5MNTFP1RMBg==
-length: 8223
+edSignature: wK3JZSedTfIap2HpkTwtJQJwBDHAHuPLExIiYbkAiuomgPt5hl5EyEnVsAWFGbJnf1Wsghuvq2HnjqYdQoADAw==
+length: 6792
 -->
