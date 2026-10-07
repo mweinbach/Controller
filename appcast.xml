@@ -7,6 +7,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.45</title>
+            <pubDate>Wed, 07 Oct 2026 12:53:36 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>48</sparkle:version>
+            <sparkle:shortVersionString>1.0.45</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- Adds an optional Factory Droid SDK connection with a required Factory API key, alongside the existing Droid Exec connection.
+- Verifies Controller tools when starting or resuming SDK conversations, reports native hook activity and MCP failures, and supports configured custom models.
+- Improves remote reconnection, thread syncing, and transcript scrolling reliability.
+- Adds smaller delta updates for supported previous builds.
+
+Droid SDK connections require an installed Droid CLI and Node.js 18 or later. This release keeps version 1.0.45 and advances the build to 48.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.45+48/Controller-1.0.45+48-arm64.zip" length="166257542" type="application/octet-stream" sparkle:edSignature="zkGrZyCcRk7LLkyDUgmofdeXUcV3LfTAHNGDrteYfaLQaoEDElZ0StzjsCJRQhODgWO8RPe0zRQ2WcwmsPV0DA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.45+48/Controller48-47.delta" sparkle:deltaFrom="47" length="2756490" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lzjAaYBToialzcIQlOH0JBsAkVGrdn1NhZ3Hd1vUmDBH3WomzQUaiN1hH1Iz95yCNHLhTb5v3nrCP6WqOvPaDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.45</title>
             <pubDate>Wed, 07 Oct 2026 00:35:06 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>47</sparkle:version>
@@ -46,23 +65,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.44/Controller-1.0.44-arm64.zip" length="177480066" type="application/octet-stream" sparkle:edSignature="v06cVKJgK+ArM86PwfNL7xOo43/11mUPwc3i31qkTuqyscJXxmfKXRRlhhWwoWv8tc3q/cv2olb4GdVzY5RBAA=="/>
         </item>
-        <item>
-            <title>1.0.43</title>
-            <pubDate>Tue, 06 Oct 2026 13:57:25 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>45</sparkle:version>
-            <sparkle:shortVersionString>1.0.43</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Transcript scrolling and ProMotion animations
-
-- **Smooth scroll bar and page-length during streaming:** Stabilizes the transcript's vertical scroll bar thumb size and document height across lazy row realizations and live streaming updates, eliminating scroll bar jitter and page-length jumps while reading or scrolling.
-- **120 Hz ProMotion across custom glass and lens morphs:** Drives custom `@Animatable` glass lenses, composer cards, attachment flights, command panels and task plan chips at 80–120 Hz on ProMotion displays using public SwiftUI and Core Animation frame-rate APIs.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.43/Controller-1.0.43-arm64.zip" length="177257040" type="application/octet-stream" sparkle:edSignature="rXRKPaNX8AI3UrnVuPkkqK7Ep0n95j7i1BpwHEQOjXMto7wMfBNmvLyB0eGab4sYGzwrT7SljeH0sGO9VHZfCA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: TdTvANVDhRyPoTbefroJMT6fbwGBxRWpedrz7aNdt7ByLIkWyOm89Ab+A5DFopxmAsgBYMfjAKQlADo97ehJCA==
-length: 5685
+edSignature: 5yP2eF+AO9dxWk1OobyrPhq8f9KZIoRAqVwUvftS7+y/3lLCYrZEzXGS9ZIs9Les9Y/AxPL3hDB9isBVWAN1Aw==
+length: 6146
 -->
