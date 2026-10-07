@@ -6,6 +6,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.45</title>
+            <pubDate>Wed, 07 Oct 2026 00:35:06 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>47</sparkle:version>
+            <sparkle:shortVersionString>1.0.45</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Composer and queued messages
+
+- Command suggestions and queued prompts now appear in stacked trays above the composer, with actions to steer a prompt, restore it to the draft, or remove it.
+- Steering waits for an active tool call to finish, then delivers waiting prompts in order.
+- Fixes the Send/Steer secondary menu and adds a Liquid Glass transition when opening it with a right-click.
+
+## Sidebar controls
+
+- Fixes the sidebar titlebar glass controls getting stuck and improves their opening and closing transitions.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.45/Controller-1.0.45-arm64.zip" length="176933362" type="application/octet-stream" sparkle:edSignature="Mx01fyGkLTiDxLo3zQ/UB7MpSPQ2mWV7PpOxUwI/qw2YSPYoi2S7GFWRxfppLS0x2cJv+yMwOrvMOhVJkJcFCA=="/>
+        </item>
+        <item>
             <title>1.0.44</title>
             <pubDate>Tue, 06 Oct 2026 19:14:37 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -41,35 +60,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.43/Controller-1.0.43-arm64.zip" length="177257040" type="application/octet-stream" sparkle:edSignature="rXRKPaNX8AI3UrnVuPkkqK7Ep0n95j7i1BpwHEQOjXMto7wMfBNmvLyB0eGab4sYGzwrT7SljeH0sGO9VHZfCA=="/>
         </item>
-        <item>
-            <title>1.0.42</title>
-            <pubDate>Tue, 06 Oct 2026 10:20:08 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>44</sparkle:version>
-            <sparkle:shortVersionString>1.0.42</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Per-thread workspace and shared worktrees
-
-- **Thread-scoped browser, terminals and inspector:** Each thread now keeps its own browser tabs, terminal sessions and inspector tabs. Switching threads shows that thread's active panels and agent browser view while background tabs and shells keep running.
-- **Shared worktrees:** Multiple agents can now work in the same Git worktree at the same time. New, forked or handed-off threads can join an existing checkout or reuse the worktree for a branch that is already checked out.
-
-## Agent tools and browser automation
-
-- **Expanded orchestration, worktree and desktop tools:** Agents can now create, fork, hand off, title, archive and wait on threads; create, archive and restore worktrees; attach task artifacts; and open files, inspector pages, browser tabs, terminals and reviews directly in Controller.
-- **Persistent browser JS REPL (`cua_repl`):** Agents have a per-thread JavaScript REPL with persistent top-level state, Playwright-style locators, incremental accessibility tree diffs and isolated clipboard access.
-- **Third-party models in Claude Code:** Sessions running non-Anthropic or custom endpoints now bypass Claude Code's built-in safety classifiers so the underlying model handles requests directly.
-
-## Transcript scrolling and responsiveness
-
-- **No jump when work collapses:** Completing a reply and collapsing live work steps into the summary row now settles cleanly without throwing the finished message off the bottom of the window or shifting a detached reading position.
-- **Reliable follow and bottom-inset unpinning:** Follow glides stay pinned across every frame, and scrolling into the composer band unpins consistently and shows the Jump to Latest chip.
-- **Faster startup and sidebar switching:** Preloads on-device title model availability, Connect credentials and Live Activity state off the main thread, and trims redundant sidebar and markdown link work.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.42/Controller-1.0.42-arm64.zip" length="177203569" type="application/octet-stream" sparkle:edSignature="sHgXUIUaqRyTXSq0BHpcQ0QDrgBpv+SdZcUvhWnWhR/hS4g9KDIl3v831Ac+sU8lo5a1snjokTFKGGUEKcuwAA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: BFdqFfmVfOoqxy1ANckb34lw41YHsclyM8FaueV0VwABJ++CtRG5EIwqhtHtg/QF5aJ4eKZy0Rq0vAjH62s9AQ==
-length: 7100
+edSignature: TdTvANVDhRyPoTbefroJMT6fbwGBxRWpedrz7aNdt7ByLIkWyOm89Ab+A5DFopxmAsgBYMfjAKQlADo97ehJCA==
+length: 5685
 -->
