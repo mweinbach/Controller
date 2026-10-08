@@ -7,6 +7,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.46</title>
+            <pubDate>Thu, 08 Oct 2026 18:51:37 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>53</sparkle:version>
+            <sparkle:shortVersionString>1.0.46</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.46 (53)
+
+- **Native composer plan chip morph:** The composer's task plan chip now shows a compact `Step N/M` pill (`Plan complete` when finished) that morphs smoothly into a `Plan · Step N/M` card over all steps using Liquid Glass matched-geometry transitions across macOS and iOS while preserving keyboard focus (`Space` and `Return`).
+- **ControllerMobile sidebar & foldable polish:** Placed the sidebar search trigger beside `Settled` and `New Chat` and kept the split view clear of the iPhone Duo fold.
+- **Connect & host hardening:** Hardened per-host model catalogs, Windows host/tunnel resilience, and remote RPC dispatch for mobile companions.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.46+53/Controller-1.0.46+53-arm64.zip" length="167313039" type="application/octet-stream" sparkle:edSignature="siGpHJyvjP3nK9PNf/HkXAtowNE9DaWmC1mX3i7GfmeaAH0O1+7SNbE9PhzuKivn20XPtKuc6loVCLHLhB3vBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.46+53/Controller53-52.delta" sparkle:deltaFrom="52" length="2077926" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZfgwH6hM3nj6v9zHWxklhvpysSoQVdSAThx/n+WfzPvSDUiF11WhOpPZiADlFIdliegniQmYiF6QaookoeWBDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.46</title>
             <pubDate>Thu, 08 Oct 2026 13:05:34 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>52</sparkle:version>
@@ -44,31 +62,9 @@ On your Mac, sign in under Settings → Connect and enable “Make this Mac reac
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.46+51/Controller51-50.delta" sparkle:deltaFrom="50" length="2283930" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jBcxFpGd1G0cMV/+ODTqpfgmaHTuSzdBATS6kSCdMKIlYcZ21/V74zTCizhw4Bpqit0wfcyl/i1+i7JOnFN2DA=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.46</title>
-            <pubDate>Thu, 08 Oct 2026 00:55:38 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>50</sparkle:version>
-            <sparkle:shortVersionString>1.0.46</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- Settings, Usage and Pull Requests now open as pages of the main window instead of separate windows, with Back and Forward beside the traffic lights and a swipe anywhere in the window to go back.
-- Settings is reorganized into clear panes, including a new Harnesses pane that shows every account with its settings inline.
-- Usage takes the whole window, folding the sidebar away and restoring it when you leave.
-- The pull request review page has a cleaner header, a Check Out split button, Ready for Review for drafts, and an Overview laid out in cards.
-- Adds Consolidate Memory Now and Memory Settings… to the Controller menu.
-- Fixes Factory Droid SDK sessions timing out while loading Controller's tools.
-- Fixes several main-thread hangs while typing, scrolling tool and reasoning output, and switching threads.
-- Keeps scroll bars out of the model picker when a mouse is connected.
-- On iPhone and iPad, Settings is reworked and paste and transcript scrolling are more responsive.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.46+50/Controller-1.0.46+50-arm64.zip" length="167306802" type="application/octet-stream" sparkle:edSignature="uF/Aryp1uMoxtH7gYh+lPWv69aGIOqn3GRejR4ejZJnRKonsZXBRNAjjEjpKXZLXm/rebrv9bz4ykOPZCZGGCg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.46+50/Controller50-49.delta" sparkle:deltaFrom="49" length="2827174" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tmkQWzdmP5yu9xDnZrUNllImZEzmFxznPTPnBz1x6qKJE+PnCywIeh4GhmFQol1hLtPrbZClE2qU0gFiLZWJBQ=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: DvlQOmmBvKaxBQHSWwCcwYjB4fV92WeKtRPkT98EXrXVY73n0tfa6+zIYx8620Nth3Us082G6mSZPa4Bfav0Bg==
-length: 6350
+edSignature: ezrJSYqBLW9V2UkqxrhTBLl0fGVuaTawv3dhjJzW3qRoTh5Se0EIG0Wp2HFURqG9baDz2K++JSJ4MSOjxfgNBw==
+length: 6030
 -->
