@@ -7,6 +7,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.46</title>
+            <pubDate>Thu, 08 Oct 2026 13:05:34 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>52</sparkle:version>
+            <sparkle:shortVersionString>1.0.46</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.46 (52)
+
+- Allow Android clients to authenticate with Controller Connect hosts. Install this update before connecting from the new Android app.
+- Prepare Connect authentication for Windows clients.
+- Give Claude SDK startup and control requests up to ten minutes on slower connections.
+
+On your Mac, sign in under Settings → Connect and enable “Make this Mac reachable from your other devices.” Sign in to the same Controller account on Android.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.46+52/Controller-1.0.46+52-arm64.zip" length="167337595" type="application/octet-stream" sparkle:edSignature="Se4ZMsreP6wDjT5D/0uQg3JHeAs/abZ9vmSHi3xkwreAcZiMX+2qB2XgM7AiA3KcL53pKPWm0PGgfZ49sLSPCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.46+52/Controller52-51.delta" sparkle:deltaFrom="51" length="931826" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iHv4YrWWVnff9YEb4VKiDRCZ1hfwifysC3yVHP0Lo0Wm8CaVkPP6A0GLV6VGRcGUf9o2KkFg8g65cvSLxYIiAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.46</title>
             <pubDate>Thu, 08 Oct 2026 04:51:03 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>51</sparkle:version>
@@ -46,31 +66,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.46+50/Controller50-49.delta" sparkle:deltaFrom="49" length="2827174" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tmkQWzdmP5yu9xDnZrUNllImZEzmFxznPTPnBz1x6qKJE+PnCywIeh4GhmFQol1hLtPrbZClE2qU0gFiLZWJBQ=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.45</title>
-            <pubDate>Wed, 07 Oct 2026 15:19:57 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>49</sparkle:version>
-            <sparkle:shortVersionString>1.0.45</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Unified Agent Memory Repo
-
-- **Shared cross-harness agent memory:** Adds a versioned, Git-backed Agent Memory Repo (`MEMORY.md`, `## Index`, and `[[path]]` topic files) shared across Claude Code, Codex, Cursor, Droid, Grok, Antigravity, OpenCode, and Pi, with automatic one-time import from existing Claude Code, Codex, and Grok memories.
-- **Native `memory_*` tools and secret protection:** Exposes `memory_read`, `memory_write`, `memory_search`, `memory_log`, and `memory_reset` across harnesses, injects standing memory snapshots into sessions, and blocks Keychain credentials and secret patterns before writes or commits.
-- **Sandboxed background Dreaming:** Consolidates settled transcripts into durable personal and project memories during idle periods using any configured harness, with an on-demand **Consolidate Now** action and an **Auto-consolidate (Dream)** toggle in Settings.
-- **Controller Connect and end-to-end encrypted relay sync:** Synchronizes personal and project memory repositories peer-to-peer across connected Macs and through an end-to-end encrypted (`AES-GCM-256` + `X25519`/`HKDF-SHA256`) Cloudflare Worker relay so iPhone and iPad can inspect memories even when a host Mac is offline.
-- **Mac and iPhone memory controls and configuration browser:** Adds per-thread and app-wide memory toggles, inline diff and commit previews for `memory_*` tool calls, a structured Reset Memories confirmation, and personal/project memory browsing in the configuration viewer on macOS and iOS.
-
-This release keeps version 1.0.45 and advances the build to 49.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.45+49/Controller-1.0.45+49-arm64.zip" length="167190405" type="application/octet-stream" sparkle:edSignature="brUDmMQYcGUKjf8xsJ9+RxiHR5jl8bfTW4ZnYYG1DOiHTVIB7J1ZN6Um+S0GOw90O7fC025/tWAoE94+a/YoAQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.45+49/Controller49-48.delta" sparkle:deltaFrom="48" length="3156162" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aM/MMAQAT9KzzZd/L1l0lMU7nHmRx0vDb1g9vmB6o6karyjxYB7P+JXD3QfdG+3Ej7D+j6UhqAlkK1vR1+53BA=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: DL6Tr4NFmScNaKv2XRy07LCo+IpdB50gGaDUsjeAydN+GCukHpUamHvJ0MbSf1nPJCNcbtj5G2FYRIJ2/iDRCA==
-length: 7457
+edSignature: DvlQOmmBvKaxBQHSWwCcwYjB4fV92WeKtRPkT98EXrXVY73n0tfa6+zIYx8620Nth3Us082G6mSZPa4Bfav0Bg==
+length: 6350
 -->
