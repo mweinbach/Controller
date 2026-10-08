@@ -7,6 +7,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.46</title>
+            <pubDate>Thu, 08 Oct 2026 04:51:03 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>51</sparkle:version>
+            <sparkle:shortVersionString>1.0.46</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- Adds a standalone Home button next to Back and Forward in the titlebar when viewing Settings, Usage, or Pull Requests.
+- Automatically connects all configured and newly discovered harnesses at launch so their live model lists and status are ready immediately.
+- Expires the trackpad Forward page-swipe gesture 30 seconds after the last Back or Forward step so later leftward swipes on a conversation do not reopen an earlier page.
+- Fixes Pull Requests flickering and reloading repeatedly on first launch.
+- Fixes unsettled threads occasionally appearing as blank rows in the sidebar after being settled via a swipe gesture.
+- Hides transcript and composer scroll bars until scrolled when a mouse or legacy scroll bar setting is active.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.46+51/Controller-1.0.46+51-arm64.zip" length="167338457" type="application/octet-stream" sparkle:edSignature="+5Kd+Z141xZPrhT2HuAbyQmf+vT5jieqE24UNeeErEr5v21epLjgLCqAcPBTF9fb1n8MRL6pMzqkavtlcHrOBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.46+51/Controller51-50.delta" sparkle:deltaFrom="50" length="2283930" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jBcxFpGd1G0cMV/+ODTqpfgmaHTuSzdBATS6kSCdMKIlYcZ21/V74zTCizhw4Bpqit0wfcyl/i1+i7JOnFN2DA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.46</title>
             <pubDate>Thu, 08 Oct 2026 00:55:38 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>50</sparkle:version>
@@ -49,28 +68,9 @@ This release keeps version 1.0.45 and advances the build to 49.
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.45+49/Controller49-48.delta" sparkle:deltaFrom="48" length="3156162" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aM/MMAQAT9KzzZd/L1l0lMU7nHmRx0vDb1g9vmB6o6karyjxYB7P+JXD3QfdG+3Ej7D+j6UhqAlkK1vR1+53BA=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.45</title>
-            <pubDate>Wed, 07 Oct 2026 12:53:36 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>48</sparkle:version>
-            <sparkle:shortVersionString>1.0.45</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- Adds an optional Factory Droid SDK connection with a required Factory API key, alongside the existing Droid Exec connection.
-- Verifies Controller tools when starting or resuming SDK conversations, reports native hook activity and MCP failures, and supports configured custom models.
-- Improves remote reconnection, thread syncing, and transcript scrolling reliability.
-- Adds smaller delta updates for supported previous builds.
-
-Droid SDK connections require an installed Droid CLI and Node.js 18 or later. This release keeps version 1.0.45 and advances the build to 48.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.45+48/Controller-1.0.45+48-arm64.zip" length="166257542" type="application/octet-stream" sparkle:edSignature="zkGrZyCcRk7LLkyDUgmofdeXUcV3LfTAHNGDrteYfaLQaoEDElZ0StzjsCJRQhODgWO8RPe0zRQ2WcwmsPV0DA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.45+48/Controller48-47.delta" sparkle:deltaFrom="47" length="2756490" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lzjAaYBToialzcIQlOH0JBsAkVGrdn1NhZ3Hd1vUmDBH3WomzQUaiN1hH1Iz95yCNHLhTb5v3nrCP6WqOvPaDA=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: lI9EPba4UhvT+nRFNAawUfAfDS3nF3bUy6dM5PVOFXwKaGUYcJemonZi+m8nqZBO6ZrDQ7Mos7MrbfjnZ89ZAQ==
-length: 7293
+edSignature: DL6Tr4NFmScNaKv2XRy07LCo+IpdB50gGaDUsjeAydN+GCukHpUamHvJ0MbSf1nPJCNcbtj5G2FYRIJ2/iDRCA==
+length: 7457
 -->
