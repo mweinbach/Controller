@@ -6,6 +6,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.46</title>
+            <pubDate>Thu, 08 Oct 2026 00:55:38 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>50</sparkle:version>
+            <sparkle:shortVersionString>1.0.46</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- Settings, Usage and Pull Requests now open as pages of the main window instead of separate windows, with Back and Forward beside the traffic lights and a swipe anywhere in the window to go back.
+- Settings is reorganized into clear panes, including a new Harnesses pane that shows every account with its settings inline.
+- Usage takes the whole window, folding the sidebar away and restoring it when you leave.
+- The pull request review page has a cleaner header, a Check Out split button, Ready for Review for drafts, and an Overview laid out in cards.
+- Adds Consolidate Memory Now and Memory Settings… to the Controller menu.
+- Fixes Factory Droid SDK sessions timing out while loading Controller's tools.
+- Fixes several main-thread hangs while typing, scrolling tool and reasoning output, and switching threads.
+- Keeps scroll bars out of the model picker when a mouse is connected.
+- On iPhone and iPad, Settings is reworked and paste and transcript scrolling are more responsive.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.46+50/Controller-1.0.46+50-arm64.zip" length="167306802" type="application/octet-stream" sparkle:edSignature="uF/Aryp1uMoxtH7gYh+lPWv69aGIOqn3GRejR4ejZJnRKonsZXBRNAjjEjpKXZLXm/rebrv9bz4ykOPZCZGGCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.46+50/Controller50-49.delta" sparkle:deltaFrom="49" length="2827174" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tmkQWzdmP5yu9xDnZrUNllImZEzmFxznPTPnBz1x6qKJE+PnCywIeh4GhmFQol1hLtPrbZClE2qU0gFiLZWJBQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.45</title>
             <pubDate>Wed, 07 Oct 2026 15:19:57 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -46,28 +68,9 @@ Droid SDK connections require an installed Droid CLI and Node.js 18 or later. Th
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.45+48/Controller48-47.delta" sparkle:deltaFrom="47" length="2756490" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lzjAaYBToialzcIQlOH0JBsAkVGrdn1NhZ3Hd1vUmDBH3WomzQUaiN1hH1Iz95yCNHLhTb5v3nrCP6WqOvPaDA=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.45</title>
-            <pubDate>Wed, 07 Oct 2026 00:35:06 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>47</sparkle:version>
-            <sparkle:shortVersionString>1.0.45</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Composer and queued messages
-
-- Command suggestions and queued prompts now appear in stacked trays above the composer, with actions to steer a prompt, restore it to the draft, or remove it.
-- Steering waits for an active tool call to finish, then delivers waiting prompts in order.
-- Fixes the Send/Steer secondary menu and adds a Liquid Glass transition when opening it with a right-click.
-
-## Sidebar controls
-
-- Fixes the sidebar titlebar glass controls getting stuck and improves their opening and closing transitions.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.45/Controller-1.0.45-arm64.zip" length="176933362" type="application/octet-stream" sparkle:edSignature="Mx01fyGkLTiDxLo3zQ/UB7MpSPQ2mWV7PpOxUwI/qw2YSPYoi2S7GFWRxfppLS0x2cJv+yMwOrvMOhVJkJcFCA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: RqpqL466Amp8l3Du06jOkfPnJGwfu+FTTUNSKF1C/yUZNqTzSlPZem7vFjB7HYlhMxwHtYZDT0RD851eDMJNCg==
-length: 6351
+edSignature: lI9EPba4UhvT+nRFNAawUfAfDS3nF3bUy6dM5PVOFXwKaGUYcJemonZi+m8nqZBO6ZrDQ7Mos7MrbfjnZ89ZAQ==
+length: 7293
 -->
