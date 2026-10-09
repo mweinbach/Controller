@@ -6,6 +6,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.47</title>
+            <pubDate>Fri, 09 Oct 2026 16:57:25 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>56</sparkle:version>
+            <sparkle:shortVersionString>1.0.47</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Controller 1.0.47 (56) unifies the macOS, iOS, Apple Watch, and Android version and build numbers.
+
+- One release now includes the Mac installer DMG, full Sparkle update, delta from build 53, and signed Android APK.
+- Fix initial Mac workspace rendering and reduce sidebar refresh, preference synchronization, and mobile hangs.
+- Improve Android inbox, conversation chrome, activity, host wake/reconnect, model settings, Git tools, attachments, links, approvals, and queued prompts.
+- Android updates now support the shared release tag while preserving signed-feed, APK identity, and checksum verification.
+
+Android builds 55 and earlier require a one-time manual installation of this APK to adopt the shared release URLs. Existing installation data is preserved when upgrading with the same signing key. Android Connect behavior remains subject to live-device validation; this release's checks do not establish new live-host integration coverage.
+
+iOS and Apple Watch use the same 1.0.47 (56) build uploaded to App Store Connect. Availability through TestFlight or the App Store depends on Apple's processing and review.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.47+56/Controller-1.0.47+56-arm64.zip" length="167332804" type="application/octet-stream" sparkle:edSignature="JUxYuYuTX9VZ7t8dlHq2XWesB7VoKtVeQspidm6wAq5RLF6iNYcl/EcfYZ+0bRALDbwf2UxsRIxIzs/zWHQaCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.47+56/Controller56-53.delta" sparkle:deltaFrom="53" length="2331678" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yuJdNVjIgC5goQi+AOpq4k9UgZh+LUTrpU096P1eCESQVNHZJ1T/eR5mi9GodLHcA6M4/DS4VjSRs7hKJZ7gCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.46</title>
             <pubDate>Thu, 08 Oct 2026 18:51:37 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -43,28 +66,9 @@ On your Mac, sign in under Settings → Connect and enable “Make this Mac reac
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.46+52/Controller52-51.delta" sparkle:deltaFrom="51" length="931826" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iHv4YrWWVnff9YEb4VKiDRCZ1hfwifysC3yVHP0Lo0Wm8CaVkPP6A0GLV6VGRcGUf9o2KkFg8g65cvSLxYIiAw=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.46</title>
-            <pubDate>Thu, 08 Oct 2026 04:51:03 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>51</sparkle:version>
-            <sparkle:shortVersionString>1.0.46</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- Adds a standalone Home button next to Back and Forward in the titlebar when viewing Settings, Usage, or Pull Requests.
-- Automatically connects all configured and newly discovered harnesses at launch so their live model lists and status are ready immediately.
-- Expires the trackpad Forward page-swipe gesture 30 seconds after the last Back or Forward step so later leftward swipes on a conversation do not reopen an earlier page.
-- Fixes Pull Requests flickering and reloading repeatedly on first launch.
-- Fixes unsettled threads occasionally appearing as blank rows in the sidebar after being settled via a swipe gesture.
-- Hides transcript and composer scroll bars until scrolled when a mouse or legacy scroll bar setting is active.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.46+51/Controller-1.0.46+51-arm64.zip" length="167338457" type="application/octet-stream" sparkle:edSignature="+5Kd+Z141xZPrhT2HuAbyQmf+vT5jieqE24UNeeErEr5v21epLjgLCqAcPBTF9fb1n8MRL6pMzqkavtlcHrOBg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.46+51/Controller51-50.delta" sparkle:deltaFrom="50" length="2283930" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jBcxFpGd1G0cMV/+ODTqpfgmaHTuSzdBATS6kSCdMKIlYcZ21/V74zTCizhw4Bpqit0wfcyl/i1+i7JOnFN2DA=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: ezrJSYqBLW9V2UkqxrhTBLl0fGVuaTawv3dhjJzW3qRoTh5Se0EIG0Wp2HFURqG9baDz2K++JSJ4MSOjxfgNBw==
-length: 6030
+edSignature: pazdHwuUgbbe5iwFmfX7BH5RkfHc0O5cIWbdsdzclx2CaTl5FMAqX1qW6qXfo6fX1ea+F2R55SGozktTSbAzAA==
+length: 6413
 -->
