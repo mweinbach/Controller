@@ -6,6 +6,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.49</title>
+            <pubDate>Sat, 10 Oct 2026 12:44:25 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>58</sparkle:version>
+            <sparkle:shortVersionString>1.0.49</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Controller 1.0.49 (58) ships unified macOS, iOS, Apple Watch, and Android updates.
+
+- Convert the iOS model selector to an embedded Mac-style Liquid Glass custom view, carry model titles smoothly across card morphs, and refine adaptive height and composer handoff across Mac and iOS.
+- Reduce periodic Connect directory refreshes and cache transcript row height estimates for smoother scrolling and lower idle work.
+- Refine Android typography, visual density, and element sizing across the inbox, conversation transcript, and composer, and replace the separate 3-dot activity button with a tappable thread title pill that opens the activity card.
+- Render Android file edits in bordered diff cards with a native Compose unified diff view featuring 3dp status bars, line numbers, `+`/`−` gutter markers, full-width row highlights, and horizontal scrolling.
+- Remove double system-bar padding and redundant composer gradients on Android, add a native Material 3 menu and expressive icon morph to the composer send button, and speed up chat opening and live streaming with `afterSequence` delta opens, batched in-place deltas, and two-generation Markdown caching.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.49+58/Controller-1.0.49+58-arm64.zip" length="167472315" type="application/octet-stream" sparkle:edSignature="HjVHONIsvtqUobA/7fgOnVbhNhcQAQ6m0Ff3K84I1PaSF4vnXYyCJzbehbkv03zzMz2mNg4kLjR/BlzfJIQaDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.49+58/Controller58-57.delta" sparkle:deltaFrom="57" length="2313810" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="InnhYNXdjaRWmnAO5WIbtqXGT1pdJ5XwZ8x1YqPFRjAwYN8OPeGJKLtcKGpP2aebhZFswixcDa04a2vkX3FQDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.48</title>
             <pubDate>Fri, 09 Oct 2026 21:43:45 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -49,27 +69,9 @@ iOS and Apple Watch use the same 1.0.47 (56) build uploaded to App Store Connect
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.47+56/Controller56-53.delta" sparkle:deltaFrom="53" length="2331678" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yuJdNVjIgC5goQi+AOpq4k9UgZh+LUTrpU096P1eCESQVNHZJ1T/eR5mi9GodLHcA6M4/DS4VjSRs7hKJZ7gCw=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.46</title>
-            <pubDate>Thu, 08 Oct 2026 18:51:37 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>53</sparkle:version>
-            <sparkle:shortVersionString>1.0.46</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.46 (53)
-
-- **Native composer plan chip morph:** The composer's task plan chip now shows a compact `Step N/M` pill (`Plan complete` when finished) that morphs smoothly into a `Plan · Step N/M` card over all steps using Liquid Glass matched-geometry transitions across macOS and iOS while preserving keyboard focus (`Space` and `Return`).
-- **ControllerMobile sidebar & foldable polish:** Placed the sidebar search trigger beside `Settled` and `New Chat` and kept the split view clear of the iPhone Duo fold.
-- **Connect & host hardening:** Hardened per-host model catalogs, Windows host/tunnel resilience, and remote RPC dispatch for mobile companions.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.46+53/Controller-1.0.46+53-arm64.zip" length="167313039" type="application/octet-stream" sparkle:edSignature="siGpHJyvjP3nK9PNf/HkXAtowNE9DaWmC1mX3i7GfmeaAH0O1+7SNbE9PhzuKivn20XPtKuc6loVCLHLhB3vBw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.46+53/Controller53-52.delta" sparkle:deltaFrom="52" length="2077926" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZfgwH6hM3nj6v9zHWxklhvpysSoQVdSAThx/n+WfzPvSDUiF11WhOpPZiADlFIdliegniQmYiF6QaookoeWBDQ=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: L8QePM28RrLUbww9WD87h2OA2xrAikTWdTA18yyGZnb13qnj4cjgIem9v2d3Hc12mlDwST23RZvO40JT84OpAA==
-length: 6930
+edSignature: 172zERdgvhEeCLgl0CEkzXUi18FJGubXQSAyumPSWE6eVYrEO7s0TXVbWGhiK3+wjsIBQ7eaUmp5dpWgGZlsAw==
+length: 7423
 -->
