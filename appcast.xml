@@ -6,6 +6,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.48</title>
+            <pubDate>Fri, 09 Oct 2026 21:43:45 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>57</sparkle:version>
+            <sparkle:shortVersionString>1.0.48</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Controller 1.0.48 (57) ships unified macOS, iOS, Apple Watch, and Android updates.
+
+- Add in-app and remote harness controls to check for updates, install updates, and restart harnesses across Codex, Claude Code, OpenCode 2 (including restarting the OpenCode background service), Factory Droid, Grok, Pi, Cursor, and Antigravity.
+- Expose harness version, update checks, updates, and restarts in Settings → Harnesses, the sidebar connection popover, the Mac/iOS/Android configuration sheet, Mac Connect settings, mobile environment details, and the `manage_harnesses` orchestration tool.
+- Strip OpenCode plugin `<system-reminder>` blocks from visible user message text.
+- Restore Android notification isolation and live transcript virtualization, and limit Android glass input to overlapping transcript rows.
+
+iOS and Apple Watch use the same 1.0.48 (57) build uploaded to App Store Connect. Availability through TestFlight or the App Store depends on Apple's processing and review.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.48+57/Controller-1.0.48+57-arm64.zip" length="167451494" type="application/octet-stream" sparkle:edSignature="ts8zuBuLi5WxjnZmcQFvXlZwdlfcQRpUaeNWxFKqU/QbZFaVSXdF51g9WNLvRRBJI0/C4m2VgCm/KyNMNke+Cw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.48+57/Controller57-56.delta" sparkle:deltaFrom="56" length="2563586" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JJLq+Vb99yMY8KpcLwGtx6uK0aFQtlywpEDzZTq8CbLiJO4SX9crbqpxUGTSlykerBrXJAHY5ru6RzCAQ/aGCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.47</title>
             <pubDate>Fri, 09 Oct 2026 16:57:25 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -46,29 +67,9 @@ iOS and Apple Watch use the same 1.0.47 (56) build uploaded to App Store Connect
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.46+53/Controller53-52.delta" sparkle:deltaFrom="52" length="2077926" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZfgwH6hM3nj6v9zHWxklhvpysSoQVdSAThx/n+WfzPvSDUiF11WhOpPZiADlFIdliegniQmYiF6QaookoeWBDQ=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.46</title>
-            <pubDate>Thu, 08 Oct 2026 13:05:34 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>52</sparkle:version>
-            <sparkle:shortVersionString>1.0.46</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.46 (52)
-
-- Allow Android clients to authenticate with Controller Connect hosts. Install this update before connecting from the new Android app.
-- Prepare Connect authentication for Windows clients.
-- Give Claude SDK startup and control requests up to ten minutes on slower connections.
-
-On your Mac, sign in under Settings → Connect and enable “Make this Mac reachable from your other devices.” Sign in to the same Controller account on Android.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.46+52/Controller-1.0.46+52-arm64.zip" length="167337595" type="application/octet-stream" sparkle:edSignature="Se4ZMsreP6wDjT5D/0uQg3JHeAs/abZ9vmSHi3xkwreAcZiMX+2qB2XgM7AiA3KcL53pKPWm0PGgfZ49sLSPCA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.46+52/Controller52-51.delta" sparkle:deltaFrom="51" length="931826" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iHv4YrWWVnff9YEb4VKiDRCZ1hfwifysC3yVHP0Lo0Wm8CaVkPP6A0GLV6VGRcGUf9o2KkFg8g65cvSLxYIiAw=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: pazdHwuUgbbe5iwFmfX7BH5RkfHc0O5cIWbdsdzclx2CaTl5FMAqX1qW6qXfo6fX1ea+F2R55SGozktTSbAzAA==
-length: 6413
+edSignature: L8QePM28RrLUbww9WD87h2OA2xrAikTWdTA18yyGZnb13qnj4cjgIem9v2d3Hc12mlDwST23RZvO40JT84OpAA==
+length: 6930
 -->
