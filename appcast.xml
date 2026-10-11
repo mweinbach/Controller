@@ -7,6 +7,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Sun, 11 Oct 2026 17:40:31 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>62</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51
+
+### Android
+- **Expanded Sea Glass.** Floating concentric chat-actions sheet with quick actions (`Pin`, `Settle`, `Rename`, `Snooze`, `Archive`) and in-sheet `Git` and `Snooze` sub-pages; inbox long-press context menu with lifted thread preview platter, quick-action pill, and in-place `Snooze` submenu morphing; concentric SeaGlass model & effort card with temporal de-aging; and SeaGlass floating inbox dock, activity card, task plan chip, jump-to-latest button, segmented controls, and switches.
+- Preview images from viewed and read tool calls directly in the conversation transcript.
+- Drafts are created only when you type or attach content, keeping empty chats out of Drafts.
+
+### Mac and iPhone
+- **WebMCP in the in-app browser.** Discover and run structured page tools exposed by websites in the built-in browser, with proactive agent steering on navigation.
+- Preview images from viewed and read tool calls on iPhone and iPad.
+- Fixes a clipped iPhone search button in the inbox toolbar, scopes iOS hang reporting to active foreground scenes, and avoids creating empty drafts before typing.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+62/Controller-1.0.51+62-arm64.zip" length="167810073" type="application/octet-stream" sparkle:edSignature="dnHbYct1KrBj2q6ELe+pz7sEoN7DFLkzPuraUWNVUBb8RUHtKbQkSbhLMjB/Gm4NNaEPZbdwtikR5naZnZ7DCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+62/Controller62-61.delta" sparkle:deltaFrom="61" length="2363510" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="slZx29syEMFfVgOYnA7CxErMgwyOkZfKQzRXMESQtFyblArAB1wF6+lSPFhNFcxpMD7KlWrunAOBl1Z7KQcZBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Sun, 11 Oct 2026 13:53:36 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>61</sparkle:version>
@@ -50,29 +74,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.50+60/Controller60-59.delta" sparkle:deltaFrom="59" length="2554670" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XmHqZz66lqZWPDesCvEzV508tTZI2g6qA7ekVTKR5MjhV0+oI5f//wvDzpYXkY9V/ZWXbR4o90nA6Y6yuvQ+Cw=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.50</title>
-            <pubDate>Sat, 10 Oct 2026 15:42:01 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>59</sparkle:version>
-            <sparkle:shortVersionString>1.0.50</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Controller 1.0.50 (59) ships unified macOS, iOS, Apple Watch, and Android updates.
-
-- Add `create_project` and cross-project / cross-Mac thread allocation so agents can create or clone project folders and start, follow, and message threads in other projects across connected Macs.
-- Add the optional experimental `terminal_passthrough` tool (`Settings → General` and `Settings → Connect`) to open, connect to, and control persistent pass-through terminal sessions and terminal tabs across connected Macs.
-- Add the `heartbeat` tool, `/heartbeat` slash command, and a live background scheduler for repeating and RFC 5545 `RRULE` automations that wake and refresh threads on schedule.
-- Add `watch_pull_request` (`watch_pr`) to monitor linked GitHub pull requests in the background and automatically wake the thread when new reviewer comments, review decisions, merge conflicts, or CI failures arrive.
-- Add Keychain-backed GitHub Personal Access Token management and browser OAuth sign-in in `Settings → Git`, expand `read_pull_request` comment excerpts, and fix model title overlap in the Mac picker search header and older-host OpenCode task report filtering.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.50+59/Controller-1.0.50+59-arm64.zip" length="167699901" type="application/octet-stream" sparkle:edSignature="Y2GHohONDm1HPnPRy3zkCXf5z+kM4x56Jv+c1chVgtcC93TyD3gysXmAkN99RPWhSELWhmXSBf43C1AA6bUCCA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.50+59/Controller59-58.delta" sparkle:deltaFrom="58" length="2820650" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZMAXBb1J7UG3vuANvFeZ6b4oscdQvPouy4jyVa6sun5IfTAzTMfwneRxtwA5ikGKPW1lSFI/30bWpirw+baSBg=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: QsLCGrJQwmSRObx/N7AFw7rE9tc7YQAGs4zNqQiu47dUjvb41r94g9kFd6po39EgK0WaO3yWzPxMgrs30XIYCg==
-length: 7463
+edSignature: LyNQyHb2SJcnaiDtxTEFv3JEP7tSni0oyCnWOg58NnQJkyfkVzxN9OBXIP93GQBYpz3QBx4XwsLCQFsHJo6fBw==
+length: 7419
 -->
