@@ -6,6 +6,32 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Controller</title>
         <item>
+            <title>1.0.51</title>
+            <pubDate>Sun, 11 Oct 2026 13:53:36 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>61</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51
+
+### Android
+- **Sea Glass.** A new seafoam palette, and frosted glass that softens and bends the conversation behind the header, composer and approval cards. It's on by default; switch it off in Settings → Appearance to return to Controller blue.
+- Replies and code blocks are readable again in dark mode.
+- With the keyboard open, an approval card stays below the conversation header and scrolls inside itself.
+
+### Mac and iPhone
+- The activity orb grows straight into its card and shrinks back into the orb in one smooth motion.
+- The context card opens and closes with the same water-drop motion as the model picker.
+- Codex 0.163: next-prompt suggestions, MCP sign-in results, network and permission details on command approvals, and model and effort on sub-agent rows.
+- OpenCode: send images, audio, video and PDFs to models that accept them.
+- Fixes a Mac hang while syncing preferences with iCloud, and cuts redundant sidebar, menu and titlebar redraws during background activity.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+61/Controller-1.0.51+61-arm64.zip" length="167775233" type="application/octet-stream" sparkle:edSignature="z5JRBV9vlC4oWPLLqYqm2GZ67PLCanERyYz4CWke4gPcITJO3mrfy7N77qyqiuMKZ2UWylSWlq/FK89Q/d5NBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+61/Controller61-60.delta" sparkle:deltaFrom="60" length="2699398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jlz5h+0NZm3gk0HWsmoTPNHDiGZOz6M6BrRoBz9eHubPUUoN7CoD9fOIz5DRwh556KByvrcnjg+jv7KlK8kYAg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.50</title>
             <pubDate>Sat, 10 Oct 2026 21:19:18 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
@@ -44,29 +70,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.50+59/Controller59-58.delta" sparkle:deltaFrom="58" length="2820650" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZMAXBb1J7UG3vuANvFeZ6b4oscdQvPouy4jyVa6sun5IfTAzTMfwneRxtwA5ikGKPW1lSFI/30bWpirw+baSBg=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.49</title>
-            <pubDate>Sat, 10 Oct 2026 12:44:25 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>58</sparkle:version>
-            <sparkle:shortVersionString>1.0.49</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Controller 1.0.49 (58) ships unified macOS, iOS, Apple Watch, and Android updates.
-
-- Convert the iOS model selector to an embedded Mac-style Liquid Glass custom view, carry model titles smoothly across card morphs, and refine adaptive height and composer handoff across Mac and iOS.
-- Reduce periodic Connect directory refreshes and cache transcript row height estimates for smoother scrolling and lower idle work.
-- Refine Android typography, visual density, and element sizing across the inbox, conversation transcript, and composer, and replace the separate 3-dot activity button with a tappable thread title pill that opens the activity card.
-- Render Android file edits in bordered diff cards with a native Compose unified diff view featuring 3dp status bars, line numbers, `+`/`−` gutter markers, full-width row highlights, and horizontal scrolling.
-- Remove double system-bar padding and redundant composer gradients on Android, add a native Material 3 menu and expressive icon morph to the composer send button, and speed up chat opening and live streaming with `afterSequence` delta opens, batched in-place deltas, and two-generation Markdown caching.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.49+58/Controller-1.0.49+58-arm64.zip" length="167472315" type="application/octet-stream" sparkle:edSignature="HjVHONIsvtqUobA/7fgOnVbhNhcQAQ6m0Ff3K84I1PaSF4vnXYyCJzbehbkv03zzMz2mNg4kLjR/BlzfJIQaDw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.49+58/Controller58-57.delta" sparkle:deltaFrom="57" length="2313810" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="InnhYNXdjaRWmnAO5WIbtqXGT1pdJ5XwZ8x1YqPFRjAwYN8OPeGJKLtcKGpP2aebhZFswixcDa04a2vkX3FQDQ=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: DFhMNjhyhheM25Nj5dy3pcHQSa4JugV32BPY5CIa7cd9xdGQp/cUhHk8oCquQZkRB75J0p4okLXWqP20GIHzBg==
-length: 7613
+edSignature: QsLCGrJQwmSRObx/N7AFw7rE9tc7YQAGs4zNqQiu47dUjvb41r94g9kFd6po39EgK0WaO3yWzPxMgrs30XIYCg==
+length: 7463
 -->
