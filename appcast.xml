@@ -7,6 +7,32 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Mon, 12 Oct 2026 08:40:10 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>63</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51
+
+### Android
+- **Trigger-to-card Sea Glass lens morphs.** Tapping the composer `+` Attach button, Send long-press, Context Window ring, Model chip, conversation header pill, or chat actions button morphs a liquid Sea Glass lens directly out of the control's screen coordinates into the expanded card or sheet and retracts smoothly back on close.
+- **120 Hz motion & spring tuning.** Locks high-refresh-rate rendering across animations, eliminates per-frame backdrop blur thrashing, and tunes open/close spring stiffness to match iPhone transition timing.
+- **Swipe-to-full-page action sheets.** Swipe up anywhere on a floating Sea Glass sheet to expand from the compact detent to full page with a full-bleed Sea Glass tint wash, and swipe down to step back or dismiss.
+- **Context Window card & morphing Inbox search.** Aligns the 18 dp composer Context Window ring and floating multi-segment Context Usage card with iPhone, and separates the Inbox Search button into a circular Sea Glass control that morphs horizontally into the full-width search bar.
+- **In-card model menus & Sea Glass composer overlays.** Replaces popup menus in the Model Card with an in-card choice face for Speed tiers and model options, and renders composer `+` Attach and Send long-press menus as blurred Sea Glass overlays.
+- **Refined touch states & ripples.** Removes 3D perspective tilt and drag tint shifts across Sea Glass controls, clips button ripples cleanly to oval pills and cards, and fixes a radial gradient color-space crash on touch.
+
+### Mac and iPhone
+- **Faster workspace switching & lower idle CPU.** Eliminates background 1 Hz relative-time layout passes on hidden Settings, Usage, and Pull Request pages, scopes workspace environment updates so switching threads or Settings panes no longer invalidates the sidebar, and coarsens Connect device and provider status updates.
+- **Cleaner OpenCode shutdown.** Suppresses expected socket disconnects during OpenCode daemon shutdown and restart.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+63/Controller-1.0.51+63-arm64.zip" length="167827394" type="application/octet-stream" sparkle:edSignature="/Y2h+4oaK2o0MEHnykaM+mnQ2s0vssupRiLTQ2b4bkX7HVpqTaUYWE6yCRbtu85WUzAoTLUzMqRG8ZS4LXpADw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+63/Controller63-62.delta" sparkle:deltaFrom="62" length="2412206" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gvHo9VDUfr+nzNvcGTTp/iZDpzUhUL4TDu5GzcOBaw88ahlQyUcD2f1eQctLrarGhlkReEwM/QdIex9c3vu/AA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Sun, 11 Oct 2026 17:40:31 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>62</sparkle:version>
@@ -55,28 +81,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+61/Controller61-60.delta" sparkle:deltaFrom="60" length="2699398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jlz5h+0NZm3gk0HWsmoTPNHDiGZOz6M6BrRoBz9eHubPUUoN7CoD9fOIz5DRwh556KByvrcnjg+jv7KlK8kYAg=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.50</title>
-            <pubDate>Sat, 10 Oct 2026 21:19:18 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>60</sparkle:version>
-            <sparkle:shortVersionString>1.0.50</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Controller 1.0.50 (60) ships unified macOS, iOS, Apple Watch, and Android updates.
-
-- Morph the Mac New Thread palette and folder card out of the titlebar's New Thread and Add Project buttons with water-drop lens physics, and add elastic droplet staging and waist-pinch transitions to the reasoning effort card and model picker across macOS and iOS.
-- Adopt concentric corner geometry (`ConcentricRectangle`) across composer surfaces, model and effort cards, context usage cards, submission menus, task plan chips, and activity orb cards on iOS and macOS.
-- Show clear provider explanations when a turn is blocked by content moderation, token limits, or usage caps, and automatically continue recoverable Codex responses once when interrupted mid-turn.
-- Rebuild the Android model and reasoning effort picker as an inline Material 3 Expressive layered card with a continuous effort slider, Speed and option menus, and account rail, float the Android composer and inbox toolbar above the navigation bar and keyboard, draw reply Markdown and turn rows natively in Compose for smoother scrolling, and fix concurrent thread streaming.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.50+60/Controller-1.0.50+60-arm64.zip" length="167735019" type="application/octet-stream" sparkle:edSignature="KX492fIi1NaBKL+qztYZqv4uod475tsYBhkSv8pRg+71ixv6yFuF4f4zfK5Z4QWJf4V7AbqlX+/P+NANOXRxCg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.50+60/Controller60-59.delta" sparkle:deltaFrom="59" length="2554670" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XmHqZz66lqZWPDesCvEzV508tTZI2g6qA7ekVTKR5MjhV0+oI5f//wvDzpYXkY9V/ZWXbR4o90nA6Y6yuvQ+Cw=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: LyNQyHb2SJcnaiDtxTEFv3JEP7tSni0oyCnWOg58NnQJkyfkVzxN9OBXIP93GQBYpz3QBx4XwsLCQFsHJo6fBw==
-length: 7419
+edSignature: eYn7rcm7SDbtm2IugMB4dad10LdAlgGT1DsSRc2fhNODnW1oHBuxYco/H74EXWZ67BkizOw1p5QE9mrjIX0RBw==
+length: 8297
 -->
