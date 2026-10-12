@@ -7,6 +7,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Mon, 12 Oct 2026 16:30:48 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>64</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51
+
+### Harnesses & Workspace
+- **Muse Code integration.** Adds full support for Muse Code through its native `muse serve` host, including model discovery, usage limits, context window tracking, native approval options, session lifecycle management, and Android parity.
+- **Worktrees settings pane.** View, inspect, and delete managed worktree checkouts directly from Settings → Worktrees.
+- **Antigravity & ACP compaction and media.** Supports Antigravity 1.3 native compaction steps and the ACP compaction lifecycle, sends file and supported video attachments through standard ACP prompt content, preserves events arriving with WebSocket relay upgrades, and fixes unsigned Claude thinking replay after native session rebuilds.
+
+### Mac & iPhone Transcript Performance
+- **Native streaming code fences & TextKit draw-time coloring.** Draws code syntax colors and streaming fade opacity directly during TextKit glyph drawing, retains laid-out code fence text views across row eviction, closing fence markers, and turn completion, and incrementally colors growing tokens.
+- **Faster long-thread scrolling & tool output.** Collapses contiguous runs of unrealized transcript rows into a single spacer, streams Mac tool output into an append-only native text view, and preserves open transcript disclosures across row eviction, regrouping, and mobile viewing sessions.
+
+### Android
+- **Physics-based Sea Glass morphs & sheet detents.** Adds S-curve ease-in/ease-out motion across Sea Glass morphs, refines live backdrop redraws and sheet detent handoffs, and stacks the Inbox header cleanly when one row does not fit.
+- **Connect questions & approvals.** Fixes inline prompt and question replies for OpenCode and Connect, hardens multi-question validation, and prunes resolved approvals cleanly.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+64/Controller-1.0.51+64-arm64.zip" length="168061161" type="application/octet-stream" sparkle:edSignature="DoCPAlJ9faxGSE5RtmqgYkGiBF1XabudxIKLG7k+gV5DvwCQ8vNDWAeXAs0XrSZpRioBXOhFmkTZ9f/J803TCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+64/Controller64-63.delta" sparkle:deltaFrom="63" length="3069434" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HtH3ON4FQSzSPESDW+GCOStMqN36fvzpghfAcbRxfdXh4LsgCHqG+L2l3+OUnjYk2F1rrCJc84MiwPDwur/DDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Mon, 12 Oct 2026 08:40:10 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>63</sparkle:version>
@@ -55,35 +82,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+62/Controller62-61.delta" sparkle:deltaFrom="61" length="2363510" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="slZx29syEMFfVgOYnA7CxErMgwyOkZfKQzRXMESQtFyblArAB1wF6+lSPFhNFcxpMD7KlWrunAOBl1Z7KQcZBw=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Sun, 11 Oct 2026 13:53:36 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>61</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51
-
-### Android
-- **Sea Glass.** A new seafoam palette, and frosted glass that softens and bends the conversation behind the header, composer and approval cards. It's on by default; switch it off in Settings → Appearance to return to Controller blue.
-- Replies and code blocks are readable again in dark mode.
-- With the keyboard open, an approval card stays below the conversation header and scrolls inside itself.
-
-### Mac and iPhone
-- The activity orb grows straight into its card and shrinks back into the orb in one smooth motion.
-- The context card opens and closes with the same water-drop motion as the model picker.
-- Codex 0.163: next-prompt suggestions, MCP sign-in results, network and permission details on command approvals, and model and effort on sub-agent rows.
-- OpenCode: send images, audio, video and PDFs to models that accept them.
-- Fixes a Mac hang while syncing preferences with iCloud, and cuts redundant sidebar, menu and titlebar redraws during background activity.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+61/Controller-1.0.51+61-arm64.zip" length="167775233" type="application/octet-stream" sparkle:edSignature="z5JRBV9vlC4oWPLLqYqm2GZ67PLCanERyYz4CWke4gPcITJO3mrfy7N77qyqiuMKZ2UWylSWlq/FK89Q/d5NBg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+61/Controller61-60.delta" sparkle:deltaFrom="60" length="2699398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jlz5h+0NZm3gk0HWsmoTPNHDiGZOz6M6BrRoBz9eHubPUUoN7CoD9fOIz5DRwh556KByvrcnjg+jv7KlK8kYAg=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: eYn7rcm7SDbtm2IugMB4dad10LdAlgGT1DsSRc2fhNODnW1oHBuxYco/H74EXWZ67BkizOw1p5QE9mrjIX0RBw==
-length: 8297
+edSignature: LPEiReN2pxH9aldh/ECvhzti3nILJSndUMT12dy6AQk8cTmIKyylhCavijMl24CAB760khrMhJdr/Wh1yOHTAw==
+length: 9095
 -->
