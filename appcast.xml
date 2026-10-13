@@ -7,6 +7,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Tue, 13 Oct 2026 19:49:11 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>67</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (67)
+
+- New: Connect Repositories. A checkout can now link to a repository stored in your Controller Connect account and sync with Push to Connect / Fetch from Connect in Git Actions, so work lands even while another Mac sleeps. GitHub remains mirrored and keeps pull request review.
+- Agents can do the same from inside a turn with the new `connect_repos`, `connect_repo_status`, `connect_repo_create`, `connect_repo_link`, `connect_repo_unlink`, `connect_repo_push` and `connect_repo_fetch` tools.
+- Sync is compare-and-swap: divergence is reported with the current Connect head instead of forced, fetches fast-forward only a clean checked-out branch, and a checkout's link lives in Git config (`connect.repoId`) rather than as a fake `git` remote.
+- Encrypted repositories can be created today; syncing them arrives with key management in a later release.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+67/Controller-1.0.51+67-arm64.zip" length="168378741" type="application/octet-stream" sparkle:edSignature="kLLzeTVTwd9IXDnxVWYBE/2h0hwqP5ZIT1sPiu8ctYPmt51lLctkZXN79OYvvx9onR0CL7jroyrlGacj5pHzBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+67/Controller67-66.delta" sparkle:deltaFrom="66" length="2326562" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ycYr30QNu9K0UyEqIdhKax+HgqBrmB/E0R2O5a1kUv/pVMsNuar8wZDliN9HJUF1MIp1CpQKAXa2S+HqTGxBCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Tue, 13 Oct 2026 15:27:33 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>66</sparkle:version>
@@ -54,36 +73,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+65/Controller65-64.delta" sparkle:deltaFrom="64" length="2834902" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TWfRfMpyhuWFAQ5SHfOZ3/0xg7cW0DHC5lO37wDJWsKp0nI+blvFzi1DgWseFu0HaWHWz86PLDs3Y+xBi1i+Cg=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Mon, 12 Oct 2026 16:30:48 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>64</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51
-
-### Harnesses & Workspace
-- **Muse Code integration.** Adds full support for Muse Code through its native `muse serve` host, including model discovery, usage limits, context window tracking, native approval options, session lifecycle management, and Android parity.
-- **Worktrees settings pane.** View, inspect, and delete managed worktree checkouts directly from Settings → Worktrees.
-- **Antigravity & ACP compaction and media.** Supports Antigravity 1.3 native compaction steps and the ACP compaction lifecycle, sends file and supported video attachments through standard ACP prompt content, preserves events arriving with WebSocket relay upgrades, and fixes unsigned Claude thinking replay after native session rebuilds.
-
-### Mac & iPhone Transcript Performance
-- **Native streaming code fences & TextKit draw-time coloring.** Draws code syntax colors and streaming fade opacity directly during TextKit glyph drawing, retains laid-out code fence text views across row eviction, closing fence markers, and turn completion, and incrementally colors growing tokens.
-- **Faster long-thread scrolling & tool output.** Collapses contiguous runs of unrealized transcript rows into a single spacer, streams Mac tool output into an append-only native text view, and preserves open transcript disclosures across row eviction, regrouping, and mobile viewing sessions.
-
-### Android
-- **Physics-based Sea Glass morphs & sheet detents.** Adds S-curve ease-in/ease-out motion across Sea Glass morphs, refines live backdrop redraws and sheet detent handoffs, and stacks the Inbox header cleanly when one row does not fit.
-- **Connect questions & approvals.** Fixes inline prompt and question replies for OpenCode and Connect, hardens multi-question validation, and prunes resolved approvals cleanly.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+64/Controller-1.0.51+64-arm64.zip" length="168061161" type="application/octet-stream" sparkle:edSignature="DoCPAlJ9faxGSE5RtmqgYkGiBF1XabudxIKLG7k+gV5DvwCQ8vNDWAeXAs0XrSZpRioBXOhFmkTZ9f/J803TCw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+64/Controller64-63.delta" sparkle:deltaFrom="63" length="3069434" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HtH3ON4FQSzSPESDW+GCOStMqN36fvzpghfAcbRxfdXh4LsgCHqG+L2l3+OUnjYk2F1rrCJc84MiwPDwur/DDQ=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 9CmFJxSN6NZAKWKqVVYjbco3XsJWBDg/6wRxuH/LHwlRm0VnXdg0K6DEbFmcU+Sz1y0r6ioe1G27G71i20d3AA==
-length: 8155
+edSignature: QqT7lCScfVrmoAX6oaudOhyKST5CCP36Dpdm9LoaHAJUVByNb0Jv7gsBxeWGay/hdaOLzw2vP86W1KgAtEdUDg==
+length: 7223
 -->
