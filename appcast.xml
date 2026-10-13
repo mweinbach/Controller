@@ -7,6 +7,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Mon, 12 Oct 2026 21:11:23 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>65</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51
+
+### Harnesses & Workspace
+- **Separate project and Mac pickers with a checkout tray.** The headline now has its own project and Mac pickers, and the composer gains a checkout and branch tray on Mac, iPhone, and Android.
+- **Instant remote new threads.** New threads on a paired Mac appear right away with an empty transcript while the Mac creates them in the background, and New Thread no longer fails when that Mac hasn't connected yet.
+- **More reliable Muse Code sessions.** Muse threads keep sending after a reconnect, harness restart, or host exit, and keep their Controller tools when a session is detached and reattached. Muse Code now shows the Meta logo.
+- **OpenCode workspace recovery.** OpenCode sessions that move out of their thread's workspace are moved back automatically instead of failing to attach.
+
+### Mac & iPhone
+- **Plan chip morph.** The composer's task plan chip now expands into its card with the same lens morph as the reasoning effort control, clipped cleanly inside the glass.
+
+### Android
+- **Quieter Sea Glass chrome.** Headers, docks, and buttons use calmer glass with crisp edges and a fine grain, and dark glass now etches light text and icons into the surface.
+- **Calmer sheets and switches.** Grouped sheet rows use a subtle tinted fill instead of a bright white card, switches rest on neutral glass when off, and Seafoam text has more contrast.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+65/Controller-1.0.51+65-arm64.zip" length="168239166" type="application/octet-stream" sparkle:edSignature="oehkiT+xVXtVg6Badqa8WJUtuwhZ/hNI8o7QyHGjMc3RTy9JgwZJPB2XdY4NrwJwrWol4HIKfXw/mBWh8kcmCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+65/Controller65-64.delta" sparkle:deltaFrom="64" length="2834902" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TWfRfMpyhuWFAQ5SHfOZ3/0xg7cW0DHC5lO37wDJWsKp0nI+blvFzi1DgWseFu0HaWHWz86PLDs3Y+xBi1i+Cg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Mon, 12 Oct 2026 16:30:48 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>64</sparkle:version>
@@ -58,33 +85,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+63/Controller63-62.delta" sparkle:deltaFrom="62" length="2412206" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gvHo9VDUfr+nzNvcGTTp/iZDpzUhUL4TDu5GzcOBaw88ahlQyUcD2f1eQctLrarGhlkReEwM/QdIex9c3vu/AA=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Sun, 11 Oct 2026 17:40:31 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>62</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51
-
-### Android
-- **Expanded Sea Glass.** Floating concentric chat-actions sheet with quick actions (`Pin`, `Settle`, `Rename`, `Snooze`, `Archive`) and in-sheet `Git` and `Snooze` sub-pages; inbox long-press context menu with lifted thread preview platter, quick-action pill, and in-place `Snooze` submenu morphing; concentric SeaGlass model & effort card with temporal de-aging; and SeaGlass floating inbox dock, activity card, task plan chip, jump-to-latest button, segmented controls, and switches.
-- Preview images from viewed and read tool calls directly in the conversation transcript.
-- Drafts are created only when you type or attach content, keeping empty chats out of Drafts.
-
-### Mac and iPhone
-- **WebMCP in the in-app browser.** Discover and run structured page tools exposed by websites in the built-in browser, with proactive agent steering on navigation.
-- Preview images from viewed and read tool calls on iPhone and iPad.
-- Fixes a clipped iPhone search button in the inbox toolbar, scopes iOS hang reporting to active foreground scenes, and avoids creating empty drafts before typing.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+62/Controller-1.0.51+62-arm64.zip" length="167810073" type="application/octet-stream" sparkle:edSignature="dnHbYct1KrBj2q6ELe+pz7sEoN7DFLkzPuraUWNVUBb8RUHtKbQkSbhLMjB/Gm4NNaEPZbdwtikR5naZnZ7DCw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+62/Controller62-61.delta" sparkle:deltaFrom="61" length="2363510" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="slZx29syEMFfVgOYnA7CxErMgwyOkZfKQzRXMESQtFyblArAB1wF6+lSPFhNFcxpMD7KlWrunAOBl1Z7KQcZBw=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: LPEiReN2pxH9aldh/ECvhzti3nILJSndUMT12dy6AQk8cTmIKyylhCavijMl24CAB760khrMhJdr/Wh1yOHTAw==
-length: 9095
+edSignature: MoNcehs2Czv68noP+YsCcvFMBvJi9TZ6tKtRrjLN8Q8bH6SUeXmwGQgD6i7rtAt4GZ07F8CzjFDYq6wQFIoXBA==
+length: 9378
 -->
