@@ -7,6 +7,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Wed, 14 Oct 2026 14:25:42 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>69</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (69)
+
+- Connect Repositories can be end-to-end encrypted. Each repository gets its own key, wrapped separately for each of your devices; Connect stores only sealed data, a Mac without the key can be provisioned by one that has it, and removing a device rotates the key so it can't read anything new.
+- Pull requests flow through Connect. When a pull request is merged on GitHub, the Mac lands the merge in Connect, and open pull requests' review branches are available to every Mac through Git Actions and the review tool.
+- Your iPhone and Android phone can browse Connect Repositories on their own, even while every Mac is asleep: branches, files, commits and comparisons, including encrypted repositories. Find it under Settings → Connect Repos (on Android, Settings → Controller Connect → Connect Repos).
+- New projects created with Git get a Connect Repository by default when you're signed in, with an optional GitHub Mirror. Existing projects are unchanged.
+- Connect Repositories have a 5 GB storage allowance per account, and old unused data is cleaned up automatically. A full allowance shows as a clear "storage full" message.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+69/Controller-1.0.51+69-arm64.zip" length="168639533" type="application/octet-stream" sparkle:edSignature="tSuDZL8iMrGoMpSQxuBcMIzGGl9RAUW8gZrKkqhYNhexSXgWEfd1gGI3pAbWuKZpqpdhZVYVIO66FqMFxP9/Aw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+69/Controller69-68.delta" sparkle:deltaFrom="68" length="2569270" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hv6luC9Eb5hxVlsCcdH8kaSO62RjOThbJkyOkxPicfWk2PP8zMOyCQaY9sI2E24WbgOfs1gFNU4h1vD4KnfZDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Wed, 14 Oct 2026 10:14:37 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>68</sparkle:version>
@@ -44,31 +64,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+67/Controller67-66.delta" sparkle:deltaFrom="66" length="2326562" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ycYr30QNu9K0UyEqIdhKax+HgqBrmB/E0R2O5a1kUv/pVMsNuar8wZDliN9HJUF1MIp1CpQKAXa2S+HqTGxBCQ=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Tue, 13 Oct 2026 15:27:33 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>66</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (66)
-
-- Smoother streaming and long-thread scrolling on Mac and iPhone, with less work as reasoning and tool output arrive.
-- Grok now keeps image attachments available for supported models and shows retry and automatic compaction notices.
-- Muse approvals now show each stage of a multi-stage request.
-- Worktrees recover from stale markers, stay available after archive and restore, and share one registry across development and production builds.
-- Memory consolidation works more reliably with ACP harnesses, and memory settings show readable tool summaries.
-- Connect recovers by replacing an address when its certificate order is stuck.
-- Android restores checkout controls for unsent drafts and fixes the Inbox dock staying hidden after glass customization.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+66/Controller-1.0.51+66-arm64.zip" length="168270243" type="application/octet-stream" sparkle:edSignature="sNnvUcbhxb5fxrGC2KXk1f8v+N2/Dt46nw1oUjr9pf/uUwS+hWR1WhFUZ0fGJNxwFNPVlQKMUb45TBMcUSAoBg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+66/Controller66-65.delta" sparkle:deltaFrom="65" length="2398574" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="x/hQYw2d0DAwtM/tDOHUhJdDTbkLXeHX22EI13GXYkXSHm0lBTN+mtml9djJallBKnnB6u6/Tx3fqkD1nMQKCA=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: O2T0+1jIByHwLNTUtMYyHpoZNuJQDOZffNfnFkZvLWWmATwHECCX/98GCYWZ78IKsFT5NJ/5jTz7uxiMk516AQ==
-length: 6812
+edSignature: CrA54dJe5mBv9JUC8R32FK85bM9dKywo0d2EuiNA7HTPK664IzVY8WJo6UTKXMOjLmtIVWajUm4KPZl5CFFGDQ==
+length: 7191
 -->
