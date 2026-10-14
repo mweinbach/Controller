@@ -7,6 +7,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Wed, 14 Oct 2026 10:14:37 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>68</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (68)
+
+- Connect hosting is more reliable. The OpenTunnel client now follows the latest reference client: a dropped or conflicting connection, a server restart, or a temporary Cloudflare error reconnects with backoff instead of failing with "The OpenTunnel connection closed", and the Mac keeps its address instead of replacing it under connected phones.
+- Certificates are now renewed by OpenTunnel itself. The Mac only picks up the renewed one, so renewal no longer pauses new connections, and a failed certificate is requested again on the same address.
+- OpenTunnel errors now say what actually happened, for example a Cloudflare 525 during a server restart.
+- Connect Repositories can mirror to GitHub: the Mac mirrors a linked repository after Push to Connect and on wake, shows divergence in Git Actions, and a GitHub link can now be removed as well as changed (also through `connect_repo_github_link` with `clear: true`).
+- Isolated checkouts find Git LFS correctly.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+68/Controller-1.0.51+68-arm64.zip" length="168499682" type="application/octet-stream" sparkle:edSignature="DKCt18PHRLY8QJleAjoMX+uLjz8V1SKDB5X4QkDNZzGgoLWJNQvBTQAkIhpg59OC1pOCIfFwBPHrAxxU9z8qBA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+68/Controller68-67.delta" sparkle:deltaFrom="67" length="2605958" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yyM4X5kPy4AL3rx37Mk9Wcz2LHlq8DgtxW5vpj5HKYghi0yIIucExIFHcQfXhv5mLCRnb77KlFYJvNNXKwwsCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Tue, 13 Oct 2026 19:49:11 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>67</sparkle:version>
@@ -46,36 +66,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+66/Controller66-65.delta" sparkle:deltaFrom="65" length="2398574" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="x/hQYw2d0DAwtM/tDOHUhJdDTbkLXeHX22EI13GXYkXSHm0lBTN+mtml9djJallBKnnB6u6/Tx3fqkD1nMQKCA=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Mon, 12 Oct 2026 21:11:23 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>65</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51
-
-### Harnesses & Workspace
-- **Separate project and Mac pickers with a checkout tray.** The headline now has its own project and Mac pickers, and the composer gains a checkout and branch tray on Mac, iPhone, and Android.
-- **Instant remote new threads.** New threads on a paired Mac appear right away with an empty transcript while the Mac creates them in the background, and New Thread no longer fails when that Mac hasn't connected yet.
-- **More reliable Muse Code sessions.** Muse threads keep sending after a reconnect, harness restart, or host exit, and keep their Controller tools when a session is detached and reattached. Muse Code now shows the Meta logo.
-- **OpenCode workspace recovery.** OpenCode sessions that move out of their thread's workspace are moved back automatically instead of failing to attach.
-
-### Mac & iPhone
-- **Plan chip morph.** The composer's task plan chip now expands into its card with the same lens morph as the reasoning effort control, clipped cleanly inside the glass.
-
-### Android
-- **Quieter Sea Glass chrome.** Headers, docks, and buttons use calmer glass with crisp edges and a fine grain, and dark glass now etches light text and icons into the surface.
-- **Calmer sheets and switches.** Grouped sheet rows use a subtle tinted fill instead of a bright white card, switches rest on neutral glass when off, and Seafoam text has more contrast.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+65/Controller-1.0.51+65-arm64.zip" length="168239166" type="application/octet-stream" sparkle:edSignature="oehkiT+xVXtVg6Badqa8WJUtuwhZ/hNI8o7QyHGjMc3RTy9JgwZJPB2XdY4NrwJwrWol4HIKfXw/mBWh8kcmCA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+65/Controller65-64.delta" sparkle:deltaFrom="64" length="2834902" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TWfRfMpyhuWFAQ5SHfOZ3/0xg7cW0DHC5lO37wDJWsKp0nI+blvFzi1DgWseFu0HaWHWz86PLDs3Y+xBi1i+Cg=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: QqT7lCScfVrmoAX6oaudOhyKST5CCP36Dpdm9LoaHAJUVByNb0Jv7gsBxeWGay/hdaOLzw2vP86W1KgAtEdUDg==
-length: 7223
+edSignature: O2T0+1jIByHwLNTUtMYyHpoZNuJQDOZffNfnFkZvLWWmATwHECCX/98GCYWZ78IKsFT5NJ/5jTz7uxiMk516AQ==
+length: 6812
 -->
