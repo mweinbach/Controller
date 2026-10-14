@@ -7,6 +7,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Wed, 14 Oct 2026 15:24:33 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>70</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (70)
+
+- Connect Repositories sync on their own. New commits on a linked repository's default branch reach Connect within about half a minute, and from there your GitHub mirror. Commits from your other Macs and from GitHub are fetched in the background, and a clean checkout fast-forwards. Turn it off per checkout with **Sync automatically** in Git Actions.
+- Encrypted repositories now open on your iPhone, Android phone and other Macs. A Mac that has a repository's key hands it over Connect's end-to-end encrypted connection when one of your devices connects to it.
+- **Replace History** in Git Actions deliberately rewrites a branch in Connect after an amend, rebase, squash or reset. The GitHub mirror follows with a protected force push, but only if GitHub has nothing that the replaced history didn't already have.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+70/Controller-1.0.51+70-arm64.zip" length="168688816" type="application/octet-stream" sparkle:edSignature="XIJP2xo0u8MQjO4bdGlcBqLktDNVX6GgqODAWPnmJMe0/uQd7I4hXnzOKtxa75ErdoHzvmv5tg55KQVwXmImDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+70/Controller70-69.delta" sparkle:deltaFrom="69" length="2405310" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dNOKikOcSI1HaHcEENc078Z6IRtEW4gMdSeKo5VQzkGUb2rgNcHSXmNJBnUBRCOXTF2Znds8o0hNiIarlbDjDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Wed, 14 Oct 2026 14:25:42 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>69</sparkle:version>
@@ -45,28 +63,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+68/Controller68-67.delta" sparkle:deltaFrom="67" length="2605958" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yyM4X5kPy4AL3rx37Mk9Wcz2LHlq8DgtxW5vpj5HKYghi0yIIucExIFHcQfXhv5mLCRnb77KlFYJvNNXKwwsCg=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Tue, 13 Oct 2026 19:49:11 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>67</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (67)
-
-- New: Connect Repositories. A checkout can now link to a repository stored in your Controller Connect account and sync with Push to Connect / Fetch from Connect in Git Actions, so work lands even while another Mac sleeps. GitHub remains mirrored and keeps pull request review.
-- Agents can do the same from inside a turn with the new `connect_repos`, `connect_repo_status`, `connect_repo_create`, `connect_repo_link`, `connect_repo_unlink`, `connect_repo_push` and `connect_repo_fetch` tools.
-- Sync is compare-and-swap: divergence is reported with the current Connect head instead of forced, fetches fast-forward only a clean checked-out branch, and a checkout's link lives in Git config (`connect.repoId`) rather than as a fake `git` remote.
-- Encrypted repositories can be created today; syncing them arrives with key management in a later release.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+67/Controller-1.0.51+67-arm64.zip" length="168378741" type="application/octet-stream" sparkle:edSignature="kLLzeTVTwd9IXDnxVWYBE/2h0hwqP5ZIT1sPiu8ctYPmt51lLctkZXN79OYvvx9onR0CL7jroyrlGacj5pHzBQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+67/Controller67-66.delta" sparkle:deltaFrom="66" length="2326562" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ycYr30QNu9K0UyEqIdhKax+HgqBrmB/E0R2O5a1kUv/pVMsNuar8wZDliN9HJUF1MIp1CpQKAXa2S+HqTGxBCQ=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: CrA54dJe5mBv9JUC8R32FK85bM9dKywo0d2EuiNA7HTPK664IzVY8WJo6UTKXMOjLmtIVWajUm4KPZl5CFFGDQ==
-length: 7191
+edSignature: lBw9Wr34qq+9DJkk2NWMt47YmULKcKnglAqJM1MfwJwLLpZ3HZDbUHeEAuLotz5IqSihAafaFI2nwxBanAqlCA==
+length: 7154
 -->
