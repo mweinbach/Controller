@@ -7,6 +7,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Thu, 15 Oct 2026 10:29:01 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>71</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (71)
+
+- **Settings → Connect Repos** on the Mac manages every project's Connect repository in one place. Link or unlink a project, create an encrypted repository named after its folder, turn **Sync automatically** on or off, and link, change or remove each repository's GitHub mirror.
+- **Delete Repository…** removes a Connect repository from your Mac, iPhone or iPad. Your checkouts are unlinked right away, and Connect purges the repository's data a day later.
+- Agents publish to Connect Repositories more smoothly. A commit on the default branch starts syncing as soon as the agent's turn ends, `connect_repo_push` waits for the GitHub mirror and reports its result, and a push that races auto-sync to the same commit no longer reports a conflict. Agents are also told how the linked repository, auto-sync and the mirror behave.
+- Connect Repos errors now give Connect's actual reason, for example when another repository already uses that GitHub link, instead of always asking you to fetch and merge.
+- When Cursor's SDK bridge stops, the thread shows its exit status and its last error lines.
+- Antigravity 1.4.0 is supported, including its separate thinking-level picker.
+- Fixed hangs while Controller builds a project's vocabulary profile, and a crash on iPhone and iPad during composer animations. Connect settings and repository lists also do less work per row.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+71/Controller-1.0.51+71-arm64.zip" length="168806597" type="application/octet-stream" sparkle:edSignature="PLlmTDuvkJ1+tDFuejZv00tJMu6eL42Na42cwvND6B3dxgsc3O9m4fbsbidUzsmmDrRF5q0hx1fDL3UY88dmAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+71/Controller71-70.delta" sparkle:deltaFrom="70" length="2627510" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PW+DJhUEquBxrU4TNQ5h+F1XMDxRwrj0Nvly56Ep6QzQGKKUjJEJg2IXdkuKFTP9UrlIJwrAqGbWYtlEcCl5CQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Wed, 14 Oct 2026 15:24:33 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>70</sparkle:version>
@@ -43,29 +65,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+69/Controller69-68.delta" sparkle:deltaFrom="68" length="2569270" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hv6luC9Eb5hxVlsCcdH8kaSO62RjOThbJkyOkxPicfWk2PP8zMOyCQaY9sI2E24WbgOfs1gFNU4h1vD4KnfZDQ=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Wed, 14 Oct 2026 10:14:37 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>68</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (68)
-
-- Connect hosting is more reliable. The OpenTunnel client now follows the latest reference client: a dropped or conflicting connection, a server restart, or a temporary Cloudflare error reconnects with backoff instead of failing with "The OpenTunnel connection closed", and the Mac keeps its address instead of replacing it under connected phones.
-- Certificates are now renewed by OpenTunnel itself. The Mac only picks up the renewed one, so renewal no longer pauses new connections, and a failed certificate is requested again on the same address.
-- OpenTunnel errors now say what actually happened, for example a Cloudflare 525 during a server restart.
-- Connect Repositories can mirror to GitHub: the Mac mirrors a linked repository after Push to Connect and on wake, shows divergence in Git Actions, and a GitHub link can now be removed as well as changed (also through `connect_repo_github_link` with `clear: true`).
-- Isolated checkouts find Git LFS correctly.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+68/Controller-1.0.51+68-arm64.zip" length="168499682" type="application/octet-stream" sparkle:edSignature="DKCt18PHRLY8QJleAjoMX+uLjz8V1SKDB5X4QkDNZzGgoLWJNQvBTQAkIhpg59OC1pOCIfFwBPHrAxxU9z8qBA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+68/Controller68-67.delta" sparkle:deltaFrom="67" length="2605958" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yyM4X5kPy4AL3rx37Mk9Wcz2LHlq8DgtxW5vpj5HKYghi0yIIucExIFHcQfXhv5mLCRnb77KlFYJvNNXKwwsCg=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: lBw9Wr34qq+9DJkk2NWMt47YmULKcKnglAqJM1MfwJwLLpZ3HZDbUHeEAuLotz5IqSihAafaFI2nwxBanAqlCA==
-length: 7154
+edSignature: b47otDnKrLxqzuuEqYaCdaqX4C8U+ONvI56JUXvvKw5AMrazvPoIhs++n2bhi3xyU9t7zPpBEmDNPjWn/12cCA==
+length: 7558
 -->
