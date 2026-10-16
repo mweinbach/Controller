@@ -7,6 +7,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Fri, 16 Oct 2026 17:49:58 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>73</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.51 (73)
+
+- Switch provider accounts between turns while keeping the conversation’s context, including on Android.
+- Fork conversations across providers and bring completed work back into the parent conversation.
+- Restore work with Git checkpoints and safer rollback recovery.
+- Manage queued messages and answer pending requests more reliably across devices.
+- Keep stopped work, expired approvals, and private secret requests in the correct state after interruptions or relaunches.
+- Show elapsed time for completed plan steps on iPhone and iPad.
+- Improve reliability when reconnecting to native provider sessions and recovering saved conversations.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+73/Controller-1.0.51+73-arm64.zip" length="169636584" type="application/octet-stream" sparkle:edSignature="m/mPc4FL98OuVGjXWdiZJo5f9eGA90Q/1O4rIzifCGkDjDgploFuEmsQg1GrPtRryBCITb1C+BFzsPPwRbbbAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+73/Controller73-72.delta" sparkle:deltaFrom="72" length="3851650" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2tH8Q3V4OH6iTZawTyhpjHr+ewidExnhUcZlVoZNbFLX/Rn5zJzFG/sA6mxSz0ZyRXfYhCQ2UqTkbnv4qj0sCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Fri, 16 Oct 2026 11:51:40 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>72</sparkle:version>
@@ -54,27 +76,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+71/Controller71-70.delta" sparkle:deltaFrom="70" length="2627510" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PW+DJhUEquBxrU4TNQ5h+F1XMDxRwrj0Nvly56Ep6QzQGKKUjJEJg2IXdkuKFTP9UrlIJwrAqGbWYtlEcCl5CQ=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Wed, 14 Oct 2026 15:24:33 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>70</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (70)
-
-- Connect Repositories sync on their own. New commits on a linked repository's default branch reach Connect within about half a minute, and from there your GitHub mirror. Commits from your other Macs and from GitHub are fetched in the background, and a clean checkout fast-forwards. Turn it off per checkout with **Sync automatically** in Git Actions.
-- Encrypted repositories now open on your iPhone, Android phone and other Macs. A Mac that has a repository's key hands it over Connect's end-to-end encrypted connection when one of your devices connects to it.
-- **Replace History** in Git Actions deliberately rewrites a branch in Connect after an amend, rebase, squash or reset. The GitHub mirror follows with a protected force push, but only if GitHub has nothing that the replaced history didn't already have.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+70/Controller-1.0.51+70-arm64.zip" length="168688816" type="application/octet-stream" sparkle:edSignature="XIJP2xo0u8MQjO4bdGlcBqLktDNVX6GgqODAWPnmJMe0/uQd7I4hXnzOKtxa75ErdoHzvmv5tg55KQVwXmImDw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+70/Controller70-69.delta" sparkle:deltaFrom="69" length="2405310" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dNOKikOcSI1HaHcEENc078Z6IRtEW4gMdSeKo5VQzkGUb2rgNcHSXmNJBnUBRCOXTF2Znds8o0hNiIarlbDjDg=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 3VTg4/DwVc+pYCsqS701iemvTO4TjlFV/4Vd5+GUaoTNhroSTM2LSvqs5SVKyE3ABG5cTntXrud8EW6LDrAoBw==
-length: 7211
+edSignature: yTCIHakJpiLldQ3k6QZ2I6X32FuKFJ+Zq/Ps0xwjVTUjErIEDCZaaR3l+bHnL/MRHIj67oGP1igD0XhMFEP/AA==
+length: 7040
 -->
