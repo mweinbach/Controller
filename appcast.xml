@@ -7,6 +7,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Fri, 16 Oct 2026 11:51:40 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>72</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (72)
+
+### Connect
+- Connect recovers an unreachable OpenTunnel route when a phone or another Mac reports it can't reach this Mac, instead of waiting for the tunnel to fail on its own.
+
+### iPhone, iPad and Android
+- A settled chat's question no longer stays on the Live Activity or the Android Live Update.
+- Opening a finished conversation keeps the transcript at the latest message.
+- On an unfolded iPhone Duo or an iPad, the chat list's sidebar shows one search button instead of two.
+- With the sidebar hidden on an unfolded iPhone Duo, the chat's title bar stays in place while you scroll.
+
+### Mac
+- New chats offer **Attach Pull Request** only for GitHub checkouts, as a quiet link.
+- Updating Antigravity replaces its runtime when you ask for the update, and unused versions are removed.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+72/Controller-1.0.51+72-arm64.zip" length="168450519" type="application/octet-stream" sparkle:edSignature="NQoxYngOf5Ptok+GSEGwmnL07u1h/cjB7lm8/TvJ1cAv4sxEDk7ntSFCInjUMQYromfdDVFQVTDIblxIbB/WAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+72/Controller72-71.delta" sparkle:deltaFrom="71" length="2459754" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="y5iUwkU5PqcsUFX3VrGBw7NXfb8/c74avsm2FJLKTbN4t53+3A/14JQ5VZLD/OGutA9v8mH6BjAB5I85RuTiCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Thu, 15 Oct 2026 10:29:01 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>71</sparkle:version>
@@ -45,29 +72,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+70/Controller70-69.delta" sparkle:deltaFrom="69" length="2405310" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dNOKikOcSI1HaHcEENc078Z6IRtEW4gMdSeKo5VQzkGUb2rgNcHSXmNJBnUBRCOXTF2Znds8o0hNiIarlbDjDg=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Wed, 14 Oct 2026 14:25:42 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>69</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (69)
-
-- Connect Repositories can be end-to-end encrypted. Each repository gets its own key, wrapped separately for each of your devices; Connect stores only sealed data, a Mac without the key can be provisioned by one that has it, and removing a device rotates the key so it can't read anything new.
-- Pull requests flow through Connect. When a pull request is merged on GitHub, the Mac lands the merge in Connect, and open pull requests' review branches are available to every Mac through Git Actions and the review tool.
-- Your iPhone and Android phone can browse Connect Repositories on their own, even while every Mac is asleep: branches, files, commits and comparisons, including encrypted repositories. Find it under Settings → Connect Repos (on Android, Settings → Controller Connect → Connect Repos).
-- New projects created with Git get a Connect Repository by default when you're signed in, with an optional GitHub Mirror. Existing projects are unchanged.
-- Connect Repositories have a 5 GB storage allowance per account, and old unused data is cleaned up automatically. A full allowance shows as a clear "storage full" message.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+69/Controller-1.0.51+69-arm64.zip" length="168639533" type="application/octet-stream" sparkle:edSignature="tSuDZL8iMrGoMpSQxuBcMIzGGl9RAUW8gZrKkqhYNhexSXgWEfd1gGI3pAbWuKZpqpdhZVYVIO66FqMFxP9/Aw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+69/Controller69-68.delta" sparkle:deltaFrom="68" length="2569270" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hv6luC9Eb5hxVlsCcdH8kaSO62RjOThbJkyOkxPicfWk2PP8zMOyCQaY9sI2E24WbgOfs1gFNU4h1vD4KnfZDQ=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: b47otDnKrLxqzuuEqYaCdaqX4C8U+ONvI56JUXvvKw5AMrazvPoIhs++n2bhi3xyU9t7zPpBEmDNPjWn/12cCA==
-length: 7558
+edSignature: 3VTg4/DwVc+pYCsqS701iemvTO4TjlFV/4Vd5+GUaoTNhroSTM2LSvqs5SVKyE3ABG5cTntXrud8EW6LDrAoBw==
+length: 7211
 -->
