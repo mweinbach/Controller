@@ -7,6 +7,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Sat, 17 Oct 2026 12:33:28 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>74</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Reliability update for Controller on Mac, iPhone, iPad, Apple Watch and Android.
+
+- Remote conversations: messages sent from another device are saved before delivery and checked again after a reconnect, so a dropped connection no longer loses or duplicates a prompt.
+- Connect: trusted workspaces stay connected when a host's address changes, and long repository histories load page by page.
+- Files: remote images, videos and documents share a storage budget per device. Files you are viewing are kept while older ones are cleared, and a full disk now shows a clear message.
+- Checkpoints: rolling back records its progress first, so an interrupted rollback can finish when Controller next opens.
+- Stability: Controller limits how much unsaved work can build up under heavy load, and catches up long-running threads from what is already saved.
+- Memory: saving memory notes is journaled, so an interrupted save is finished or undone the next time it runs.
+- Transcripts: very large messages no longer stall the window while they are formatted.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+74/Controller-1.0.51+74-arm64.zip" length="169885433" type="application/octet-stream" sparkle:edSignature="bLsSP+hZ5DoDIBY6329i+P6kOCyuvZynZlGhauyxZ6huk3kpF+WRDkUk4lEW9OyaJmbjrzkhgz60Fkl2K8huDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+74/Controller74-73.delta" sparkle:deltaFrom="73" length="3448666" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nUkvxaltf5fk3xoTKevdCjBY3A8V9YhhE+AcApnpNuv8A/mw3uST9uIm4c7IMb/92+T34Jfz+4kgaIjNzynxDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Fri, 16 Oct 2026 17:49:58 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>73</sparkle:version>
@@ -54,31 +76,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+72/Controller72-71.delta" sparkle:deltaFrom="71" length="2459754" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="y5iUwkU5PqcsUFX3VrGBw7NXfb8/c74avsm2FJLKTbN4t53+3A/14JQ5VZLD/OGutA9v8mH6BjAB5I85RuTiCg=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Thu, 15 Oct 2026 10:29:01 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>71</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (71)
-
-- **Settings → Connect Repos** on the Mac manages every project's Connect repository in one place. Link or unlink a project, create an encrypted repository named after its folder, turn **Sync automatically** on or off, and link, change or remove each repository's GitHub mirror.
-- **Delete Repository…** removes a Connect repository from your Mac, iPhone or iPad. Your checkouts are unlinked right away, and Connect purges the repository's data a day later.
-- Agents publish to Connect Repositories more smoothly. A commit on the default branch starts syncing as soon as the agent's turn ends, `connect_repo_push` waits for the GitHub mirror and reports its result, and a push that races auto-sync to the same commit no longer reports a conflict. Agents are also told how the linked repository, auto-sync and the mirror behave.
-- Connect Repos errors now give Connect's actual reason, for example when another repository already uses that GitHub link, instead of always asking you to fetch and merge.
-- When Cursor's SDK bridge stops, the thread shows its exit status and its last error lines.
-- Antigravity 1.4.0 is supported, including its separate thinking-level picker.
-- Fixed hangs while Controller builds a project's vocabulary profile, and a crash on iPhone and iPad during composer animations. Connect settings and repository lists also do less work per row.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+71/Controller-1.0.51+71-arm64.zip" length="168806597" type="application/octet-stream" sparkle:edSignature="PLlmTDuvkJ1+tDFuejZv00tJMu6eL42Na42cwvND6B3dxgsc3O9m4fbsbidUzsmmDrRF5q0hx1fDL3UY88dmAA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+71/Controller71-70.delta" sparkle:deltaFrom="70" length="2627510" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PW+DJhUEquBxrU4TNQ5h+F1XMDxRwrj0Nvly56Ep6QzQGKKUjJEJg2IXdkuKFTP9UrlIJwrAqGbWYtlEcCl5CQ=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: yTCIHakJpiLldQ3k6QZ2I6X32FuKFJ+Zq/Ps0xwjVTUjErIEDCZaaR3l+bHnL/MRHIj67oGP1igD0XhMFEP/AA==
-length: 7040
+edSignature: bqUkUIsHwBnQaS3zIUjVDk3OxxXGoGM4PJAGKMofABz+jAAPpmxuQkXC3RSLxrckGD7UPzvAAC6DuDvRGtxsBQ==
+length: 6687
 -->
