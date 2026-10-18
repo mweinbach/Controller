@@ -7,6 +7,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Sun, 18 Oct 2026 17:35:25 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>77</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (77)
+
+- **iPhone and iPad:** The model picker now uses the full height of its card. A sign-in or error status no longer floats mid-card, and the last model in the list scrolls fully into view instead of being cut off at the fold.
+- **iPhone and iPad:** Opening an active conversation now lands on its latest work and stays there as new output streams in, without taking back your scroll if you move away.
+- **Mac:** The New Thread palette keeps its focus when you reopen it, and focus returns to the composer when you close it.
+- **Android:** Sea Glass chrome is now a flat, sand-frosted sheet. Dark mode keeps its seafoam color, and secondary actions use an outline.
+- **Agents:** Threads coordinating across worktrees now send fewer, more useful messages, and they report status through their existing replies.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+77/Controller-1.0.51+77-arm64.zip" length="174282086" type="application/octet-stream" sparkle:edSignature="22590bKdBbyv6i131Z5KJaXi3FTzr29PQ/rWbLgTrfoYClQRMqdKfkMp4iqUykE3GTHAklHRK1yXArGfB67PBA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+77/Controller77-76.delta" sparkle:deltaFrom="76" length="1867878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="w1PDdahZ/sOlgcHfDOUOcvf7cWfhCLIBHRoX1o9Dr2qeFsKhNMBDLHrPXAUbLx5NYYxh7eb+P0v2Rtc53GmeCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Sun, 18 Oct 2026 12:45:32 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>76</sparkle:version>
@@ -50,31 +70,9 @@ Also includes the fixes prepared for build 75: messages are no longer refused af
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+74/Controller74-73.delta" sparkle:deltaFrom="73" length="3448666" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nUkvxaltf5fk3xoTKevdCjBY3A8V9YhhE+AcApnpNuv8A/mw3uST9uIm4c7IMb/92+T34Jfz+4kgaIjNzynxDg=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Fri, 16 Oct 2026 17:49:58 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>73</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.51 (73)
-
-- Switch provider accounts between turns while keeping the conversation’s context, including on Android.
-- Fork conversations across providers and bring completed work back into the parent conversation.
-- Restore work with Git checkpoints and safer rollback recovery.
-- Manage queued messages and answer pending requests more reliably across devices.
-- Keep stopped work, expired approvals, and private secret requests in the correct state after interruptions or relaunches.
-- Show elapsed time for completed plan steps on iPhone and iPad.
-- Improve reliability when reconnecting to native provider sessions and recovering saved conversations.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+73/Controller-1.0.51+73-arm64.zip" length="169636584" type="application/octet-stream" sparkle:edSignature="m/mPc4FL98OuVGjXWdiZJo5f9eGA90Q/1O4rIzifCGkDjDgploFuEmsQg1GrPtRryBCITb1C+BFzsPPwRbbbAw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+73/Controller73-72.delta" sparkle:deltaFrom="72" length="3851650" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2tH8Q3V4OH6iTZawTyhpjHr+ewidExnhUcZlVoZNbFLX/Rn5zJzFG/sA6mxSz0ZyRXfYhCQ2UqTkbnv4qj0sCA=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: VdfqMnlBmbd0AklYkIpC4+21lhUcsT7j5rzrpahmCzP7cFSxjMHKR4VFJq2CmGRYetvCUHYB7d7rZv1yck3rDQ==
-length: 7236
+edSignature: cQeyLOHg9bef73R+rqPAkFuRRH1NU8EKCp5BlxmNXyGsaTdJ7VquJpJAuVarn3oTsJBaND0PDOyt9PbWtK6UAQ==
+length: 7398
 -->
