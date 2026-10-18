@@ -7,6 +7,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Sun, 18 Oct 2026 12:45:32 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>76</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Built-in runtime for Cursor, Pi and Factory Droid, plus calmer connections, for Controller on Mac, iPhone, iPad, Apple Watch and Android.
+
+- Cursor: Controller now runs Cursor's SDK in its own built-in JavaScript runtime, and each Cursor chat runs in its own process, so a crash in one chat no longer stops your other Cursor chats. Download the Cursor SDK once from Settings → Harnesses; existing Cursor accounts show how until it is installed.
+- Pi and Factory Droid no longer need Node. If Pi is not already installed, Settings → Harnesses offers Download Pi.
+- Fixed Cursor and Pi chats occasionally failing to start with an "in use" message when another chat stopped at the same moment.
+- Connect: a Mac that stays unreachable is shown as offline and checked quietly in the background instead of reconnecting over and over. It is reached right away when it comes back, and sending work to it connects at once.
+- Connect: iPhones, iPads and Macs connected to a busy Mac no longer drop and reconnect every few seconds.
+- Connect: long conversations open faster on your other devices because their history is compressed.
+
+Also includes the fixes prepared for build 75: messages are no longer refused after a brief problem saving the workspace, updates Controller finds start downloading reliably, and agents can install a Controller update when you ask them to.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+76/Controller-1.0.51+76-arm64.zip" length="174280347" type="application/octet-stream" sparkle:edSignature="z2Q/M7lmDLxQxA5gXi8C/CAxFX+nqRLkKuFL2IWRIWEObXBDMmWfN6mBDcI/oS+6nM9G69iofQLc3IAfVDomDg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+76/Controller76-74.delta" sparkle:deltaFrom="74" length="5723442" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gAOYlWCq9bjDavZhmLqoHSnGYfzXtwKhIIQF37XsDQ10WuvGz72yFVddW6pbHrs0d0yVcpgxi4k7kM8uIQNhDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Sat, 17 Oct 2026 12:33:28 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>74</sparkle:version>
@@ -49,36 +72,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+73/Controller73-72.delta" sparkle:deltaFrom="72" length="3851650" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2tH8Q3V4OH6iTZawTyhpjHr+ewidExnhUcZlVoZNbFLX/Rn5zJzFG/sA6mxSz0ZyRXfYhCQ2UqTkbnv4qj0sCA=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Fri, 16 Oct 2026 11:51:40 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>72</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (72)
-
-### Connect
-- Connect recovers an unreachable OpenTunnel route when a phone or another Mac reports it can't reach this Mac, instead of waiting for the tunnel to fail on its own.
-
-### iPhone, iPad and Android
-- A settled chat's question no longer stays on the Live Activity or the Android Live Update.
-- Opening a finished conversation keeps the transcript at the latest message.
-- On an unfolded iPhone Duo or an iPad, the chat list's sidebar shows one search button instead of two.
-- With the sidebar hidden on an unfolded iPhone Duo, the chat's title bar stays in place while you scroll.
-
-### Mac
-- New chats offer **Attach Pull Request** only for GitHub checkouts, as a quiet link.
-- Updating Antigravity replaces its runtime when you ask for the update, and unused versions are removed.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+72/Controller-1.0.51+72-arm64.zip" length="168450519" type="application/octet-stream" sparkle:edSignature="NQoxYngOf5Ptok+GSEGwmnL07u1h/cjB7lm8/TvJ1cAv4sxEDk7ntSFCInjUMQYromfdDVFQVTDIblxIbB/WAA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+72/Controller72-71.delta" sparkle:deltaFrom="71" length="2459754" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="y5iUwkU5PqcsUFX3VrGBw7NXfb8/c74avsm2FJLKTbN4t53+3A/14JQ5VZLD/OGutA9v8mH6BjAB5I85RuTiCg=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: bqUkUIsHwBnQaS3zIUjVDk3OxxXGoGM4PJAGKMofABz+jAAPpmxuQkXC3RSLxrckGD7UPzvAAC6DuDvRGtxsBQ==
-length: 6687
+edSignature: VdfqMnlBmbd0AklYkIpC4+21lhUcsT7j5rzrpahmCzP7cFSxjMHKR4VFJq2CmGRYetvCUHYB7d7rZv1yck3rDQ==
+length: 7236
 -->
