@@ -7,6 +7,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Mon, 19 Oct 2026 17:34:00 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>80</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (80)
+
+- **Mac launch fix:** Fixed a crash on launch on earlier macOS 27.2 beta builds caused by weak-imported `Date` comparison operators in the macOS 27.2 SDK.
+- **iOS Simulator:** Finds Xcode when Command Line Tools is selected as the active developer directory, and displays the active screen on two-screen simulators.
+- **Antigravity:** Updated the bundled Antigravity ACP binary to 1.4.1 and preserved compaction status rows.
+- **Worktrees:** Excludes path-bound build directories when cloning worktrees and cleans up DerivedData for removed worktrees.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+80/Controller-1.0.51+80-arm64.zip" length="176819978" type="application/octet-stream" sparkle:edSignature="P/p9vCi6HRI3UrVsmQVd5Arp7sQT0AjJVDTPZYok875knt24CqboR2GrPTLmYHO2h83v8KfGZudXdLkInTvKDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+80/Controller80-79.delta" sparkle:deltaFrom="79" length="2551942" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="A5KT4p5Z3qDZQokBT4clb5jdFOUUwlI0v5G+jmKT82Cv/MBag4aWGOLNWOe15AWEgKjhSVtxOPoJCsiiNCb1Dg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Mon, 19 Oct 2026 11:55:29 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>79</sparkle:version>
@@ -44,29 +63,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+78/Controller78-77.delta" sparkle:deltaFrom="77" length="2500242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZgJhCFQsqEc4qUe+2Gu0YWfAeOkNiMlnFPbtikGkndQWyk5fokzkCK/b4/+kzZ3iwaw8GFeGBhxm4E9r6NGHCQ=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Sun, 18 Oct 2026 17:35:25 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>77</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (77)
-
-- **iPhone and iPad:** The model picker now uses the full height of its card. A sign-in or error status no longer floats mid-card, and the last model in the list scrolls fully into view instead of being cut off at the fold.
-- **iPhone and iPad:** Opening an active conversation now lands on its latest work and stays there as new output streams in, without taking back your scroll if you move away.
-- **Mac:** The New Thread palette keeps its focus when you reopen it, and focus returns to the composer when you close it.
-- **Android:** Sea Glass chrome is now a flat, sand-frosted sheet. Dark mode keeps its seafoam color, and secondary actions use an outline.
-- **Agents:** Threads coordinating across worktrees now send fewer, more useful messages, and they report status through their existing replies.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+77/Controller-1.0.51+77-arm64.zip" length="174282086" type="application/octet-stream" sparkle:edSignature="22590bKdBbyv6i131Z5KJaXi3FTzr29PQ/rWbLgTrfoYClQRMqdKfkMp4iqUykE3GTHAklHRK1yXArGfB67PBA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+77/Controller77-76.delta" sparkle:deltaFrom="76" length="1867878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="w1PDdahZ/sOlgcHfDOUOcvf7cWfhCLIBHRoX1o9Dr2qeFsKhNMBDLHrPXAUbLx5NYYxh7eb+P0v2Rtc53GmeCg=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: vFvwi7tjOPn+fqdZRodiMKWdOWUgAorPCvWj99qcLq9LrHmc+/GHr+SQhbk3MaSgtest7jKot1Y8KSZXrGZyBQ==
-length: 7067
+edSignature: togra5HSTt+K58wy9ADxgSyUYA/4XIbsmnVjxkJf/FClR1+SzqrgyiGuEjZbPLki9XOvGJyYEHVQyFmNP6HcAg==
+length: 6812
 -->
