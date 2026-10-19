@@ -7,6 +7,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Mon, 19 Oct 2026 11:55:29 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>79</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (79)
+
+- **New: iOS Simulator.** The inspector has a Simulator tab that shows a live iPhone or iPad simulator from this Mac, with Boot, Shut Down, Home and Take Control. Click, drag, hold and type to use it directly. The screen streams from the simulator's own display at up to 60 frames per second, with no Simulator window needed.
+- **New: agents can use the simulator.** Threads with Device access get on-demand simulator tools: pick a simulator, open apps, read the screen's elements, tap, type, swipe and take screenshots the model can see. Each thread drives only the simulator it selected, and taking control yourself pauses the agent. Tool rows summarize what happened without showing what was typed.
+- **Memory:** Memory keeps accepting new notes when its index grows large. Sessions now load the first part of MEMORY.md, with a pointer to the rest, instead of refusing a longer file, and memory consolidation no longer stops once the index fills up.
+- **Agents:** Clearer, shorter guidance for models. Conversations are told when browser, WebMCP, pull request, memory or Connect access becomes unavailable.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+79/Controller-1.0.51+79-arm64.zip" length="176810879" type="application/octet-stream" sparkle:edSignature="rRO4SeUj4JRN7GpaFs1EptVD8dpLlvUdwsKFL8QoY/133hx48/qdCG998wfheHnHIktAwLItl/FLHFA3E7DRDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+79/Controller79-78.delta" sparkle:deltaFrom="78" length="4914982" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8KlbPEZmAGsf2tHmJ0BOxr2GePOT52btXA9uO1CnPpfivLEPMDr8HkhTWUNPaDg2zzNXYGGlQi4xYSPpx17JCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Sun, 18 Oct 2026 21:00:54 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>78</sparkle:version>
@@ -45,32 +64,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+77/Controller77-76.delta" sparkle:deltaFrom="76" length="1867878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="w1PDdahZ/sOlgcHfDOUOcvf7cWfhCLIBHRoX1o9Dr2qeFsKhNMBDLHrPXAUbLx5NYYxh7eb+P0v2Rtc53GmeCg=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Sun, 18 Oct 2026 12:45:32 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>76</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Built-in runtime for Cursor, Pi and Factory Droid, plus calmer connections, for Controller on Mac, iPhone, iPad, Apple Watch and Android.
-
-- Cursor: Controller now runs Cursor's SDK in its own built-in JavaScript runtime, and each Cursor chat runs in its own process, so a crash in one chat no longer stops your other Cursor chats. Download the Cursor SDK once from Settings → Harnesses; existing Cursor accounts show how until it is installed.
-- Pi and Factory Droid no longer need Node. If Pi is not already installed, Settings → Harnesses offers Download Pi.
-- Fixed Cursor and Pi chats occasionally failing to start with an "in use" message when another chat stopped at the same moment.
-- Connect: a Mac that stays unreachable is shown as offline and checked quietly in the background instead of reconnecting over and over. It is reached right away when it comes back, and sending work to it connects at once.
-- Connect: iPhones, iPads and Macs connected to a busy Mac no longer drop and reconnect every few seconds.
-- Connect: long conversations open faster on your other devices because their history is compressed.
-
-Also includes the fixes prepared for build 75: messages are no longer refused after a brief problem saving the workspace, updates Controller finds start downloading reliably, and agents can install a Controller update when you ask them to.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+76/Controller-1.0.51+76-arm64.zip" length="174280347" type="application/octet-stream" sparkle:edSignature="z2Q/M7lmDLxQxA5gXi8C/CAxFX+nqRLkKuFL2IWRIWEObXBDMmWfN6mBDcI/oS+6nM9G69iofQLc3IAfVDomDg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+76/Controller76-74.delta" sparkle:deltaFrom="74" length="5723442" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gAOYlWCq9bjDavZhmLqoHSnGYfzXtwKhIIQF37XsDQ10WuvGz72yFVddW6pbHrs0d0yVcpgxi4k7kM8uIQNhDg=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: m4Z4hX79UUhFJ6hloRz0/RzSqoQfdyjEpF3lCbqi4Y+avbphxlgyH32dG/HbEZp+EIi/02bojJs09FoMs2lPBw==
-length: 7297
+edSignature: vFvwi7tjOPn+fqdZRodiMKWdOWUgAorPCvWj99qcLq9LrHmc+/GHr+SQhbk3MaSgtest7jKot1Y8KSZXrGZyBQ==
+length: 7067
 -->
