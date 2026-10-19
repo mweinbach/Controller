@@ -7,6 +7,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Sun, 18 Oct 2026 21:00:54 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>78</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (78)
+
+- **Performance:** Threads write far less to disk. Streaming replies, tool output and many parallel subagents now save in fewer, larger batches, which is easier on your SSD and keeps busy sessions responsive.
+- **Performance:** Checkpoints and worktree lists no longer pause the app. Checking files for a checkpoint happens off the main thread, and worktree size scans are incremental, cancelable and limited in how many run at once.
+- **Fix:** Rolling back to a checkpoint could silently leave a newer version of a file in place if it was edited right after the checkpoint. Rollback now restores it reliably and leaves your staged changes alone.
+- **Agents:** Finished reports from many subagents reach their parent in one saved batch, and a report that could not be saved is retried instead of lost.
+- **Remote:** Sending from iPhone, iPad or Android while another send is in flight now joins it instead of failing.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+78/Controller-1.0.51+78-arm64.zip" length="174307367" type="application/octet-stream" sparkle:edSignature="wERu7qtklyOtWC4omri7Au+a6knyFpKKOq093BI9T3ft08ykK92MbkE7LqfJvsBhtropOeWsswjBH+pHR2d4Cg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+78/Controller78-77.delta" sparkle:deltaFrom="77" length="2500242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZgJhCFQsqEc4qUe+2Gu0YWfAeOkNiMlnFPbtikGkndQWyk5fokzkCK/b4/+kzZ3iwaw8GFeGBhxm4E9r6NGHCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Sun, 18 Oct 2026 17:35:25 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>77</sparkle:version>
@@ -48,31 +68,9 @@ Also includes the fixes prepared for build 75: messages are no longer refused af
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+76/Controller76-74.delta" sparkle:deltaFrom="74" length="5723442" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gAOYlWCq9bjDavZhmLqoHSnGYfzXtwKhIIQF37XsDQ10WuvGz72yFVddW6pbHrs0d0yVcpgxi4k7kM8uIQNhDg=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Sat, 17 Oct 2026 12:33:28 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>74</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Reliability update for Controller on Mac, iPhone, iPad, Apple Watch and Android.
-
-- Remote conversations: messages sent from another device are saved before delivery and checked again after a reconnect, so a dropped connection no longer loses or duplicates a prompt.
-- Connect: trusted workspaces stay connected when a host's address changes, and long repository histories load page by page.
-- Files: remote images, videos and documents share a storage budget per device. Files you are viewing are kept while older ones are cleared, and a full disk now shows a clear message.
-- Checkpoints: rolling back records its progress first, so an interrupted rollback can finish when Controller next opens.
-- Stability: Controller limits how much unsaved work can build up under heavy load, and catches up long-running threads from what is already saved.
-- Memory: saving memory notes is journaled, so an interrupted save is finished or undone the next time it runs.
-- Transcripts: very large messages no longer stall the window while they are formatted.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+74/Controller-1.0.51+74-arm64.zip" length="169885433" type="application/octet-stream" sparkle:edSignature="bLsSP+hZ5DoDIBY6329i+P6kOCyuvZynZlGhauyxZ6huk3kpF+WRDkUk4lEW9OyaJmbjrzkhgz60Fkl2K8huDw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+74/Controller74-73.delta" sparkle:deltaFrom="73" length="3448666" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nUkvxaltf5fk3xoTKevdCjBY3A8V9YhhE+AcApnpNuv8A/mw3uST9uIm4c7IMb/92+T34Jfz+4kgaIjNzynxDg=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: cQeyLOHg9bef73R+rqPAkFuRRH1NU8EKCp5BlxmNXyGsaTdJ7VquJpJAuVarn3oTsJBaND0PDOyt9PbWtK6UAQ==
-length: 7398
+edSignature: m4Z4hX79UUhFJ6hloRz0/RzSqoQfdyjEpF3lCbqi4Y+avbphxlgyH32dG/HbEZp+EIi/02bojJs09FoMs2lPBw==
+length: 7297
 -->
