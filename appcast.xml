@@ -7,6 +7,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Mon, 19 Oct 2026 20:09:22 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>81</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (81)
+
+- **Translations:** Spanish, French, German, Japanese and Simplified Chinese now cover the Mac, iPhone, Apple Watch and Android apps, including accessibility labels, notifications and system permission prompts. Watch and Live Activity labels follow the language of the device showing them. Text written by agents and providers stays as written. A few of the newest labels are still in English.
+- **Composer tags:** A tagged item in your prompt now appears as a chip where the tag sits, matching the chips under the prompt. Copying text that contains a chip copies the tag.
+- **iOS Simulator:** Fold an iPhone Duo between Closed, Book, Open, Laptop and Tent from the panel's Fold menu, and agents can do the same with the new `simulator_fold` tool. The panel follows whichever screen is lit.
+- **Simulator input:** The panel sends touches and keys straight to the simulator, so drags, holds and edge swipes behave like a finger, and Escape, Delete and the arrow keys work. Home now responds right away, including on the iPhone Duo.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+81/Controller-1.0.51+81-arm64.zip" length="177064885" type="application/octet-stream" sparkle:edSignature="rvc1sEpNZhSmWn5TXexOhdiGl9kdMJFjZZL/A3UoGXGP3nWpfjuxkK3+3V7JHzd/TVdmemFkQ222lqlXyV/YDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+81/Controller81-80.delta" sparkle:deltaFrom="80" length="3251082" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ma8KCnajg6tKi6D+CcFx3zF15siFM2kNc3mr7un/d9wO2ES+A4j7pgBQne4yNsTO5tDuJoQqw4QtpZIl1SpNAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Mon, 19 Oct 2026 17:34:00 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>80</sparkle:version>
@@ -43,29 +62,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+79/Controller79-78.delta" sparkle:deltaFrom="78" length="4914982" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8KlbPEZmAGsf2tHmJ0BOxr2GePOT52btXA9uO1CnPpfivLEPMDr8HkhTWUNPaDg2zzNXYGGlQi4xYSPpx17JCQ=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Sun, 18 Oct 2026 21:00:54 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>78</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (78)
-
-- **Performance:** Threads write far less to disk. Streaming replies, tool output and many parallel subagents now save in fewer, larger batches, which is easier on your SSD and keeps busy sessions responsive.
-- **Performance:** Checkpoints and worktree lists no longer pause the app. Checking files for a checkpoint happens off the main thread, and worktree size scans are incremental, cancelable and limited in how many run at once.
-- **Fix:** Rolling back to a checkpoint could silently leave a newer version of a file in place if it was edited right after the checkpoint. Rollback now restores it reliably and leaves your staged changes alone.
-- **Agents:** Finished reports from many subagents reach their parent in one saved batch, and a report that could not be saved is retried instead of lost.
-- **Remote:** Sending from iPhone, iPad or Android while another send is in flight now joins it instead of failing.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+78/Controller-1.0.51+78-arm64.zip" length="174307367" type="application/octet-stream" sparkle:edSignature="wERu7qtklyOtWC4omri7Au+a6knyFpKKOq093BI9T3ft08ykK92MbkE7LqfJvsBhtropOeWsswjBH+pHR2d4Cg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+78/Controller78-77.delta" sparkle:deltaFrom="77" length="2500242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZgJhCFQsqEc4qUe+2Gu0YWfAeOkNiMlnFPbtikGkndQWyk5fokzkCK/b4/+kzZ3iwaw8GFeGBhxm4E9r6NGHCQ=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: togra5HSTt+K58wy9ADxgSyUYA/4XIbsmnVjxkJf/FClR1+SzqrgyiGuEjZbPLki9XOvGJyYEHVQyFmNP6HcAg==
-length: 6812
+edSignature: cAN8iZTGUtq8CcHQtbAmvCeb+4nrXxUMMWiMHi7UDdtaJvDUr3DEi4gcK4L9C6yyhiNd5WOUBuaZ+SHMUL3/Cg==
+length: 6925
 -->
