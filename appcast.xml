@@ -7,6 +7,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Mon, 19 Oct 2026 23:29:18 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>82</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (82)
+
+- **Device frames:** The Simulator panel shows each simulator inside its real device frame, drawn from Xcode's own artwork, for every iPhone, iPad and Apple Watch Xcode supports. Screens get their true corners and notches, and the iPhone Duo's frame turns with its inner screen when open.
+- **Apple Watch simulators:** The Simulator panel now lists watchOS simulators, with live screen, touches and swipes. Home presses the Digital Crown. Agent simulator tools still work with iOS simulators only.
+- **iPad simulators:** iPads no longer show sideways in the Simulator panel.
+- **Agents in the simulator:** An agent's simulator session no longer ends after a minute of thinking between steps. On iOS 27, agents can tap items on screens such as Settings → General that were wrongly treated as covered. Snapshots leave out the keyboard's individual keys and the previous screen after a full screen change, so agents read less noise. A keyboard or alert check with nothing to report no longer fails.
+- **Worked for:** A running turn on a thread that has used more than one account no longer shows an early "Worked for" label or treats a progress message as the final answer.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+82/Controller-1.0.51+82-arm64.zip" length="177134562" type="application/octet-stream" sparkle:edSignature="O+iA99eEVPYGmi6GZRrMB0EBHNZ4BJ6Cb8+FHM5OlUUhljYfyUJ4aLeuDy4VOGlTyHgTdPLdyk83/ex1JVEoAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+82/Controller82-81.delta" sparkle:deltaFrom="81" length="2953738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="in4LuuiipEv0JgTU8LpBF1LqDg//WpZWgY3USnnDQ/HMGX2rKUFjbyXqekQqf5pV/jbNNXmC1vgtYVsnG0bYAg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Mon, 19 Oct 2026 20:09:22 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>81</sparkle:version>
@@ -43,28 +63,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+80/Controller80-79.delta" sparkle:deltaFrom="79" length="2551942" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="A5KT4p5Z3qDZQokBT4clb5jdFOUUwlI0v5G+jmKT82Cv/MBag4aWGOLNWOe15AWEgKjhSVtxOPoJCsiiNCb1Dg=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Mon, 19 Oct 2026 11:55:29 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>79</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (79)
-
-- **New: iOS Simulator.** The inspector has a Simulator tab that shows a live iPhone or iPad simulator from this Mac, with Boot, Shut Down, Home and Take Control. Click, drag, hold and type to use it directly. The screen streams from the simulator's own display at up to 60 frames per second, with no Simulator window needed.
-- **New: agents can use the simulator.** Threads with Device access get on-demand simulator tools: pick a simulator, open apps, read the screen's elements, tap, type, swipe and take screenshots the model can see. Each thread drives only the simulator it selected, and taking control yourself pauses the agent. Tool rows summarize what happened without showing what was typed.
-- **Memory:** Memory keeps accepting new notes when its index grows large. Sessions now load the first part of MEMORY.md, with a pointer to the rest, instead of refusing a longer file, and memory consolidation no longer stops once the index fills up.
-- **Agents:** Clearer, shorter guidance for models. Conversations are told when browser, WebMCP, pull request, memory or Connect access becomes unavailable.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+79/Controller-1.0.51+79-arm64.zip" length="176810879" type="application/octet-stream" sparkle:edSignature="rRO4SeUj4JRN7GpaFs1EptVD8dpLlvUdwsKFL8QoY/133hx48/qdCG998wfheHnHIktAwLItl/FLHFA3E7DRDA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+79/Controller79-78.delta" sparkle:deltaFrom="78" length="4914982" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8KlbPEZmAGsf2tHmJ0BOxr2GePOT52btXA9uO1CnPpfivLEPMDr8HkhTWUNPaDg2zzNXYGGlQi4xYSPpx17JCQ=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: cAN8iZTGUtq8CcHQtbAmvCeb+4nrXxUMMWiMHi7UDdtaJvDUr3DEi4gcK4L9C6yyhiNd5WOUBuaZ+SHMUL3/Cg==
-length: 6925
+edSignature: cBISZe2+0AxJ+dPK1FswNF8E8u5qs6fboKOGlTI3tFx6kywjMJesIAn0aV4iLvf5ZY/pT1bQrvFFVO7xGbQtDw==
+length: 6988
 -->
