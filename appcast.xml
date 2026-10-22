@@ -7,6 +7,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Wed, 21 Oct 2026 10:12:54 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>83</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (83)
+
+- **Heartbeats steer busy threads.** A scheduled heartbeat that fires while a thread is working now steers the running turn instead of piling up identical queued prompts. Repeat ticks coalesce into one.
+- **Scheduled prompts settle only after delivery.** A one-shot heartbeat or PR watch whose prompt fails to reach its thread stays armed and reports the same activity again next time, instead of being marked done.
+- **Remote send_to_thread follows the local delivery rules.** Unsupported delivery modes are refused with an explanation instead of sending some other way.
+- **New simulator_run tool.** Agents can build the checkout's app and open it in Controller's Simulator panel without Xcode's Device Hub opening.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+83/Controller-1.0.51+83-arm64.zip" length="177176709" type="application/octet-stream" sparkle:edSignature="0xkLHjvvED9Xqt/NPOo3YNxIdFo4tRfuMXKT4ishH5Zae6hbuF4i8oRabycQzwdlivHe67H+CCbmi2wLoatRBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+83/Controller83-82.delta" sparkle:deltaFrom="82" length="2335018" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Cy0hsrm9Ac7w0aJpwNZn5lIC9+W1VXmpkx0MmO45nG9FtKLxtQhk9merDjEw8Z9BnLE5spuW3FILjCtXfbcHCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Mon, 19 Oct 2026 23:29:18 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>82</sparkle:version>
@@ -44,28 +63,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+81/Controller81-80.delta" sparkle:deltaFrom="80" length="3251082" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ma8KCnajg6tKi6D+CcFx3zF15siFM2kNc3mr7un/d9wO2ES+A4j7pgBQne4yNsTO5tDuJoQqw4QtpZIl1SpNAQ=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Mon, 19 Oct 2026 17:34:00 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>80</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (80)
-
-- **Mac launch fix:** Fixed a crash on launch on earlier macOS 27.2 beta builds caused by weak-imported `Date` comparison operators in the macOS 27.2 SDK.
-- **iOS Simulator:** Finds Xcode when Command Line Tools is selected as the active developer directory, and displays the active screen on two-screen simulators.
-- **Antigravity:** Updated the bundled Antigravity ACP binary to 1.4.1 and preserved compaction status rows.
-- **Worktrees:** Excludes path-bound build directories when cloning worktrees and cleans up DerivedData for removed worktrees.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+80/Controller-1.0.51+80-arm64.zip" length="176819978" type="application/octet-stream" sparkle:edSignature="P/p9vCi6HRI3UrVsmQVd5Arp7sQT0AjJVDTPZYok875knt24CqboR2GrPTLmYHO2h83v8KfGZudXdLkInTvKDQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+80/Controller80-79.delta" sparkle:deltaFrom="79" length="2551942" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="A5KT4p5Z3qDZQokBT4clb5jdFOUUwlI0v5G+jmKT82Cv/MBag4aWGOLNWOe15AWEgKjhSVtxOPoJCsiiNCb1Dg=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: cBISZe2+0AxJ+dPK1FswNF8E8u5qs6fboKOGlTI3tFx6kywjMJesIAn0aV4iLvf5ZY/pT1bQrvFFVO7xGbQtDw==
-length: 6988
+edSignature: RYLaMDWfqmv+o5LvNgtoD5bHF0SOino3dN2sb4oBpJZldCTUG2V8qmK6HchpPvSiYh1KmQ1EPdZheli2scuKDQ==
+length: 7154
 -->
