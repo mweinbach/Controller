@@ -7,6 +7,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Fri, 23 Oct 2026 10:52:01 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>84</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (84)
+
+- **3D simulator view.** The Simulator panel has a 2D/3D toggle that puts the running simulator in a lit 3D device model, including the iPhone Duo with a working fold. Touches, drags and typing pass through to the device. Reduce Motion is honored.
+- **Select Mode.** Point at any element in the simulator to see its frame and accessibility details, then send it to the chat as context.
+- **Agent cursor.** When an agent taps or swipes the simulator, a cursor shows where it is acting.
+- **New tools: generate_icon, search_docs and read_docs.** Agents can generate app icons into the project and search and read Apple developer documentation.
+- **Built-in skills.** Claude Code and Codex threads start with Controller's 15 built-in skills (SwiftUI, App Intents, animation and more). You can turn this off in Settings.
+- **Simulator stability fix.** Controller now fixes a PosterBoard crash when an iOS simulator boots.
+- **Connect pauses offline Macs.** A Mac that goes offline is paused until it reports in again. It stays resumable, and the environment switcher updates when a pause changes.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+84/Controller-1.0.51+84-arm64.zip" length="247538791" type="application/octet-stream" sparkle:edSignature="WYHGACPgjVt6BzXK+ThCF2UUq8jZhh8DVrcydmcUGAHbcaqM9Ig8fdq3bm85BQudaVAUe8WIBe+O7XXlNUR1BQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+84/Controller84-83.delta" sparkle:deltaFrom="83" length="60584866" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="W3XDn9jwFwoDn988y30xKpB99drqFIKo8XUYbnUN3SmJmDyPhued+WZQH4HDB7w3BrFwBhCni2Fy+vESKomWCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Wed, 21 Oct 2026 10:12:54 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>83</sparkle:version>
@@ -44,28 +66,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+82/Controller82-81.delta" sparkle:deltaFrom="81" length="2953738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="in4LuuiipEv0JgTU8LpBF1LqDg//WpZWgY3USnnDQ/HMGX2rKUFjbyXqekQqf5pV/jbNNXmC1vgtYVsnG0bYAg=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Mon, 19 Oct 2026 20:09:22 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>81</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (81)
-
-- **Translations:** Spanish, French, German, Japanese and Simplified Chinese now cover the Mac, iPhone, Apple Watch and Android apps, including accessibility labels, notifications and system permission prompts. Watch and Live Activity labels follow the language of the device showing them. Text written by agents and providers stays as written. A few of the newest labels are still in English.
-- **Composer tags:** A tagged item in your prompt now appears as a chip where the tag sits, matching the chips under the prompt. Copying text that contains a chip copies the tag.
-- **iOS Simulator:** Fold an iPhone Duo between Closed, Book, Open, Laptop and Tent from the panel's Fold menu, and agents can do the same with the new `simulator_fold` tool. The panel follows whichever screen is lit.
-- **Simulator input:** The panel sends touches and keys straight to the simulator, so drags, holds and edge swipes behave like a finger, and Escape, Delete and the arrow keys work. Home now responds right away, including on the iPhone Duo.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+81/Controller-1.0.51+81-arm64.zip" length="177064885" type="application/octet-stream" sparkle:edSignature="rvc1sEpNZhSmWn5TXexOhdiGl9kdMJFjZZL/A3UoGXGP3nWpfjuxkK3+3V7JHzd/TVdmemFkQ222lqlXyV/YDA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+81/Controller81-80.delta" sparkle:deltaFrom="80" length="3251082" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ma8KCnajg6tKi6D+CcFx3zF15siFM2kNc3mr7un/d9wO2ES+A4j7pgBQne4yNsTO5tDuJoQqw4QtpZIl1SpNAQ=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: RYLaMDWfqmv+o5LvNgtoD5bHF0SOino3dN2sb4oBpJZldCTUG2V8qmK6HchpPvSiYh1KmQ1EPdZheli2scuKDQ==
-length: 7154
+edSignature: fuq/ghuQ9As2TA3SwW7B7A5GrlO+4Qbk6yjn24PmwBotucE5AS8VkJD2OFfSHneX85C1VCyZeZ8H90m7gdrLAQ==
+length: 7217
 -->
