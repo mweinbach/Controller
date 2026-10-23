@@ -7,6 +7,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Fri, 23 Oct 2026 17:30:16 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>85</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (85)
+
+- **Kimi Code harness.** Kimi Code CLI is now available as a harness. It runs over ACP, lists its models, shows the real command in approval cards and supports Plan mode. Sign in with `kimi login` in Terminal.
+- **Built-in skills for Controller's own tools.** Six new built-in skills teach agents how to use Controller's threads, worktrees, pull requests, Connect Repos, browser, terminal, memory and workspace tools.
+- **Simulator paused for now.** The Simulator panel and the agent simulator tools are turned off while we fix reliability issues. Built-in skills no longer point agents to simulator tools while they are off.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+85/Controller-1.0.51+85-arm64.zip" length="234711854" type="application/octet-stream" sparkle:edSignature="wbGP1gLYzjqJtL0rEqhkilrfTavRLHZQ5jRBsnJLAnvpKqmfRCRYP9Xa9CLBoD8nSpTzDFe3vvQvsEszJUD/Bg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+85/Controller85-84.delta" sparkle:deltaFrom="84" length="2797710" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wLMJelVU2noOttXM7DmlvaW6QHts9jelt/L7JI19A354YYQK87/rgN80w84xexzU1FcwT/tqhP8frHXoiwrTBA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Fri, 23 Oct 2026 10:52:01 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>84</sparkle:version>
@@ -46,29 +64,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+83/Controller83-82.delta" sparkle:deltaFrom="82" length="2335018" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Cy0hsrm9Ac7w0aJpwNZn5lIC9+W1VXmpkx0MmO45nG9FtKLxtQhk9merDjEw8Z9BnLE5spuW3FILjCtXfbcHCw=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Mon, 19 Oct 2026 23:29:18 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>82</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (82)
-
-- **Device frames:** The Simulator panel shows each simulator inside its real device frame, drawn from Xcode's own artwork, for every iPhone, iPad and Apple Watch Xcode supports. Screens get their true corners and notches, and the iPhone Duo's frame turns with its inner screen when open.
-- **Apple Watch simulators:** The Simulator panel now lists watchOS simulators, with live screen, touches and swipes. Home presses the Digital Crown. Agent simulator tools still work with iOS simulators only.
-- **iPad simulators:** iPads no longer show sideways in the Simulator panel.
-- **Agents in the simulator:** An agent's simulator session no longer ends after a minute of thinking between steps. On iOS 27, agents can tap items on screens such as Settings → General that were wrongly treated as covered. Snapshots leave out the keyboard's individual keys and the previous screen after a full screen change, so agents read less noise. A keyboard or alert check with nothing to report no longer fails.
-- **Worked for:** A running turn on a thread that has used more than one account no longer shows an early "Worked for" label or treats a progress message as the final answer.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+82/Controller-1.0.51+82-arm64.zip" length="177134562" type="application/octet-stream" sparkle:edSignature="O+iA99eEVPYGmi6GZRrMB0EBHNZ4BJ6Cb8+FHM5OlUUhljYfyUJ4aLeuDy4VOGlTyHgTdPLdyk83/ex1JVEoAA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+82/Controller82-81.delta" sparkle:deltaFrom="81" length="2953738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="in4LuuiipEv0JgTU8LpBF1LqDg//WpZWgY3USnnDQ/HMGX2rKUFjbyXqekQqf5pV/jbNNXmC1vgtYVsnG0bYAg=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: fuq/ghuQ9As2TA3SwW7B7A5GrlO+4Qbk6yjn24PmwBotucE5AS8VkJD2OFfSHneX85C1VCyZeZ8H90m7gdrLAQ==
-length: 7217
+edSignature: qyte9FZHddXZsgl9tjaziRB7YjHyMPPePziQ1SM3Uhf0LxXj8+XcJbGu0ZPPsqtpl5X0EcPJEFIXFLsnPKJyBg==
+length: 6670
 -->
