@@ -7,6 +7,39 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Sun, 25 Oct 2026 23:15:26 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>87</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.51 (87)
+
+## Goals everywhere
+
+- Every harness now supports Controller goals, using native goal controls where available and Controller-driven goals where they are not.
+- Set a turn limit for each goal directly from the goal card.
+
+## Faster composer and mobile transcript
+
+- Removed a composer parsing path that could stall on long drafts with Unicode text or bridged strings.
+- Reduced SwiftUI work while scrolling and resizing long mobile conversations.
+- Improved queued prompt layout and made Codex steering take effect immediately.
+
+## Harness improvements
+
+- Kimi Code now appears at its native installation path, with supported reasoning efforts.
+- Added Claude Fast to the model controls and tightened Speed spacing.
+- Late Grok completion notifications no longer produce avoidable warnings.
+
+Includes matching iPhone, iPad, Apple Watch, and Android build 87.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+87/Controller-1.0.51+87-arm64.zip" length="247571572" type="application/octet-stream" sparkle:edSignature="tzDRzRjAVlJopYnWfikD11IK7fjkZk3wiia43FQ49Vkz13GOGg2mnFjI7r3yR+aAyXIIHl9STB8tfamHw24WBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+87/Controller87-86.delta" sparkle:deltaFrom="86" length="2827246" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+Ms3VXzLo1zZxTItGpBNoUIfgH1RHuSI1zwak3E0FOtGImZ89fdXoaW0wvJq7X55Hr+m7bzVsciy9R9pCZWtCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Fri, 23 Oct 2026 18:32:50 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>86</sparkle:version>
@@ -43,31 +76,9 @@ Includes matching iPhone, iPad, Apple Watch and Android build 86.
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+85/Controller85-84.delta" sparkle:deltaFrom="84" length="2797710" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wLMJelVU2noOttXM7DmlvaW6QHts9jelt/L7JI19A354YYQK87/rgN80w84xexzU1FcwT/tqhP8frHXoiwrTBA=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Fri, 23 Oct 2026 10:52:01 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>84</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (84)
-
-- **3D simulator view.** The Simulator panel has a 2D/3D toggle that puts the running simulator in a lit 3D device model, including the iPhone Duo with a working fold. Touches, drags and typing pass through to the device. Reduce Motion is honored.
-- **Select Mode.** Point at any element in the simulator to see its frame and accessibility details, then send it to the chat as context.
-- **Agent cursor.** When an agent taps or swipes the simulator, a cursor shows where it is acting.
-- **New tools: generate_icon, search_docs and read_docs.** Agents can generate app icons into the project and search and read Apple developer documentation.
-- **Built-in skills.** Claude Code and Codex threads start with Controller's 15 built-in skills (SwiftUI, App Intents, animation and more). You can turn this off in Settings.
-- **Simulator stability fix.** Controller now fixes a PosterBoard crash when an iOS simulator boots.
-- **Connect pauses offline Macs.** A Mac that goes offline is paused until it reports in again. It stays resumable, and the environment switcher updates when a pause changes.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+84/Controller-1.0.51+84-arm64.zip" length="247538791" type="application/octet-stream" sparkle:edSignature="WYHGACPgjVt6BzXK+ThCF2UUq8jZhh8DVrcydmcUGAHbcaqM9Ig8fdq3bm85BQudaVAUe8WIBe+O7XXlNUR1BQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+84/Controller84-83.delta" sparkle:deltaFrom="83" length="60584866" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="W3XDn9jwFwoDn988y30xKpB99drqFIKo8XUYbnUN3SmJmDyPhued+WZQH4HDB7w3BrFwBhCni2Fy+vESKomWCg=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: SAQdPfk88c0ZUIdNWBXn5ewe99vZCTvXlLH0ApnPxwPUEhTtMnx13wOBls8C5QeM1vIKX+QjQHRBYrkk/UIVCw==
-length: 6417
+edSignature: J2nwsBGbBenI/FV2CQGzMaLkvaL+NOrbX3dMCu+oROzf6+hdFW6eHXElEB7RrjTGCHIODUh30PBo4RmX1hAdDg==
+length: 6181
 -->
