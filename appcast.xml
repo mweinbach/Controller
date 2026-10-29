@@ -7,6 +7,48 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Thu, 29 Oct 2026 14:42:05 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>89</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.51 (89)
+
+## Much lighter while agents work
+
+- The activity orb's typing dots, the running-step shimmer, the streaming caret and subagent marks now animate in Core Animation. A window with a running turn uses about 0.3% of the main thread, down from 15–55%.
+- The orb's dots-to-check morph now plays when a turn finishes, on the Mac and iPhone.
+- Mac hang reporting pauses while update alerts and open panels are shown, and MetricKit diagnostics now reach crash reporting.
+
+## Reliability
+
+- Fixed crashes in the Apple documentation bridge and leaks in the terminal, browser and simulator when threads are deleted.
+- Connect pins device signing keys on first use, fails closed if a pinned key changes, and rotates host identity on sign-out or account switch.
+- Fixed connections to other Macs giving up before they started, and restarted tunnel backoff once the host is reachable again.
+- Agent Memory sync keeps project scopes intact across Macs, and Dream runs no longer overlap.
+- Fixes for the Codex, Claude, Cursor, Droid, Pi and Muse harnesses.
+
+## Interface
+
+- The sidebar now defaults to the Title First row layout.
+- Destructive Mac actions ask for confirmation, icon-only controls have labels, and more views honor Reduce Motion.
+- Review Changes opens Last Commit on a clean checkout on every platform.
+
+## iPhone, Apple Watch and Android
+
+- iPhone terminal polling, empty states and the diff picker were fixed; dictation cleans up when cancelled.
+- Apple Watch answers server questions and stays in sync with the phone.
+- Android: more reliable Connect sign-in and sign-out, Live Updates that survive going offline, Back closes expanded glass overlays, interrupted update downloads recover, photo orientation is respected, and background polling stops.
+
+Includes matching iPhone, iPad, Apple Watch, and Android build 89.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+89/Controller-1.0.51+89-arm64.zip" length="247674552" type="application/octet-stream" sparkle:edSignature="cjKcRBkL9q8qJrT86CX651rtdi/kziJJAyP+I7sNNZREJk7vm0cNpHuYv0MYu7su3oAiScQF/kzlBysnxeZNDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+89/Controller89-87.delta" sparkle:deltaFrom="87" length="3776018" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2ytaYGu3AxHeo5Ln0ilsZ+2Jt98wRXPIWxS9TqFUVX9TCRFsrEZ1eRnEQX6bF5OREKSgZfbvXcUG4PGM5uUeAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Sun, 25 Oct 2026 23:15:26 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>87</sparkle:version>
@@ -58,27 +100,9 @@ Includes matching iPhone, iPad, Apple Watch and Android build 86.
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+86/Controller86-85.delta" sparkle:deltaFrom="85" length="12723206" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nbGwcKRQEo+9I07EEToMKLEUyX6HmfuK/LOv3plDdAj+Ytazj+l2CMAFbVTGKGBpfMQdJT+qPT2UXFPmAydyAA=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Fri, 23 Oct 2026 17:30:16 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>85</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Controller 1.0.51 (85)
-
-- **Kimi Code harness.** Kimi Code CLI is now available as a harness. It runs over ACP, lists its models, shows the real command in approval cards and supports Plan mode. Sign in with `kimi login` in Terminal.
-- **Built-in skills for Controller's own tools.** Six new built-in skills teach agents how to use Controller's threads, worktrees, pull requests, Connect Repos, browser, terminal, memory and workspace tools.
-- **Simulator paused for now.** The Simulator panel and the agent simulator tools are turned off while we fix reliability issues. Built-in skills no longer point agents to simulator tools while they are off.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+85/Controller-1.0.51+85-arm64.zip" length="234711854" type="application/octet-stream" sparkle:edSignature="wbGP1gLYzjqJtL0rEqhkilrfTavRLHZQ5jRBsnJLAnvpKqmfRCRYP9Xa9CLBoD8nSpTzDFe3vvQvsEszJUD/Bg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+85/Controller85-84.delta" sparkle:deltaFrom="84" length="2797710" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wLMJelVU2noOttXM7DmlvaW6QHts9jelt/L7JI19A354YYQK87/rgN80w84xexzU1FcwT/tqhP8frHXoiwrTBA=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: J2nwsBGbBenI/FV2CQGzMaLkvaL+NOrbX3dMCu+oROzf6+hdFW6eHXElEB7RrjTGCHIODUh30PBo4RmX1hAdDg==
-length: 6181
+edSignature: dvCpGjTwoZO3pc5oYx9RtzGltqkEF8hoDBDiRlTLcbJMOR2tyjKwAuWkwoXhDY0D2V7xL0aTq6Lz2cWaRMwICg==
+length: 7379
 -->
