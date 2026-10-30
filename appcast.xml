@@ -7,6 +7,39 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Thu, 29 Oct 2026 20:00:35 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>90</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.51 (90)
+
+## Orchestration & Automation
+
+- Subagent context-window budget telemetry now tracks live token usage and warns as child sessions approach capacity.
+- Idle high-context sessions compact automatically in the background with safe cooldown and active-turn guards.
+- Pull requests opened from terminal commands (`gh pr create`, `glab mr create`) link to the active thread automatically.
+- Per-thread dev servers follow worktree cleanup and restart cleanly across worktree handoffs.
+- Provider usage-limit errors now parse reset windows, sleep with a live countdown, and resume turns automatically when quota resets.
+- Interactive `request_secret` prompts collect secrets directly into Keychain on Mac and iPhone without exposing values in chat transcripts.
+- Inline PR review guides and ephemeral review findings render alongside diffs, and worktree setup scripts stream live progress with one-click retry.
+
+## Controller Connect
+
+- Live guest thread sharing lets you share a read-only web link (including inline screenshots) and review guest messages before sending them to the agent.
+- Same-LAN connections prefer direct encrypted local sockets over tunnel hops when healthy, with on-demand external tunnel reachability probes on Mac and iPhone.
+- Coalesced GitHub webhook hints wake pull-request watchers without blind polling, with replay deduplication and wildcard event filters.
+- `controller://` deep links and environment invite URLs open threads and pair hosts directly on Mac and iPhone, and host main-thread stalls surface in Connect diagnostics.
+
+Includes matching iPhone, iPad, Apple Watch, and Android build 90.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+90/Controller-1.0.51+90-arm64.zip" length="248173284" type="application/octet-stream" sparkle:edSignature="vHKkLKguhkgqToJUSuoTWFQpUKewzDKIJkCDnq/Oe5ka0Z/bKBaOI52HcXXtGsCxz3fAXwH68Aalw1EcOaM3DQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+90/Controller90-89.delta" sparkle:deltaFrom="89" length="4123182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ErG8VDN6VGG2dgkC/E1VmJcIV+bVnCUMDVfmgh6cBajbqRgF8uWdGEA/VZShUhPQP5kn2TRqS27L4sSrQ1npCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Thu, 29 Oct 2026 14:42:05 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>89</sparkle:version>
@@ -80,29 +113,9 @@ Includes matching iPhone, iPad, Apple Watch, and Android build 87.
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+87/Controller87-86.delta" sparkle:deltaFrom="86" length="2827246" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+Ms3VXzLo1zZxTItGpBNoUIfgH1RHuSI1zwak3E0FOtGImZ89fdXoaW0wvJq7X55Hr+m7bzVsciy9R9pCZWtCQ=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Fri, 23 Oct 2026 18:32:50 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>86</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Workspace storage reliability
-
-- Fixes a startup recovery issue that could stop running chats and block new turns even when workspace storage was healthy.
-- Saves the latest checkpoint recovery state without flooding the write queue, preventing repeated recovery failures after relaunch.
-- Adds regression coverage for recovery, save retries, write ordering and running-turn continuity, plus clearer storage diagnostics.
-
-Includes matching iPhone, iPad, Apple Watch and Android build 86.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+86/Controller-1.0.51+86-arm64.zip" length="247529120" type="application/octet-stream" sparkle:edSignature="HpWb4B+XyQCZBciMZTbAihdt2FLMmdXJlUeqaMqgF3Ioeus0VG4l9Njn2RN5bN9JfATQhhmJYW3hj49byn4PCQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+86/Controller86-85.delta" sparkle:deltaFrom="85" length="12723206" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nbGwcKRQEo+9I07EEToMKLEUyX6HmfuK/LOv3plDdAj+Ytazj+l2CMAFbVTGKGBpfMQdJT+qPT2UXFPmAydyAA=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: dvCpGjTwoZO3pc5oYx9RtzGltqkEF8hoDBDiRlTLcbJMOR2tyjKwAuWkwoXhDY0D2V7xL0aTq6Lz2cWaRMwICg==
-length: 7379
+edSignature: TH2JZRpglN/fuxgiO1rs7ent7jnonhZQmk53kUl8QsebizlgeoB6QmcV5YqsYbdnkAh9x95oPAUPJgDIQTNwCg==
+length: 8535
 -->
