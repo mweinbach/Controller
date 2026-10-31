@@ -7,6 +7,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Fri, 30 Oct 2026 22:48:10 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>93</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.51 (93)
+
+- Long replies on iPhone and iPad keep appearing while more text arrives. Completed messages display their final Markdown formatting.
+- On Mac and iOS, the composer keeps your highlighted command or file selected when new results arrive. Return and Tab accept the item you chose.
+- Plans and expanded reasoning keep their last word visible between updates. Corrected text appears immediately, and new text fades in reading order.
+- On Mac, code continues fading in after a streaming pause. Updates to long paragraphs spend less time on the main thread.
+- Factory Droid keeps its session settings when a Mission sends a partial update after approval.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+93/Controller-1.0.51+93-arm64.zip" length="248424656" type="application/octet-stream" sparkle:edSignature="K2S1FrleUZ5erTQj8td1Z459oVF1u2IxEy35Ys0vzwkk6l7pZ5tXpj6MmDPEwD8p+SpZQwXAt8C4SKkZrGPEBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+93/Controller93-92.delta" sparkle:deltaFrom="92" length="2611526" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4iDKwyzofOveVSmVB1eRdGMYMJYOE8zOjn3pgY9xnZu/PmjjU1tCycIKEKZ8zjN4Fh/9o6/CzE+bWYH4YkOpAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Fri, 30 Oct 2026 14:11:14 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>92</sparkle:version>
@@ -71,51 +91,9 @@ Includes matching iPhone, iPad, Apple Watch, and Android build 90.
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+90/Controller90-89.delta" sparkle:deltaFrom="89" length="4123182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ErG8VDN6VGG2dgkC/E1VmJcIV+bVnCUMDVfmgh6cBajbqRgF8uWdGEA/VZShUhPQP5kn2TRqS27L4sSrQ1npCA=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Thu, 29 Oct 2026 14:42:05 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>89</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.51 (89)
-
-## Much lighter while agents work
-
-- The activity orb's typing dots, the running-step shimmer, the streaming caret and subagent marks now animate in Core Animation. A window with a running turn uses about 0.3% of the main thread, down from 15–55%.
-- The orb's dots-to-check morph now plays when a turn finishes, on the Mac and iPhone.
-- Mac hang reporting pauses while update alerts and open panels are shown, and MetricKit diagnostics now reach crash reporting.
-
-## Reliability
-
-- Fixed crashes in the Apple documentation bridge and leaks in the terminal, browser and simulator when threads are deleted.
-- Connect pins device signing keys on first use, fails closed if a pinned key changes, and rotates host identity on sign-out or account switch.
-- Fixed connections to other Macs giving up before they started, and restarted tunnel backoff once the host is reachable again.
-- Agent Memory sync keeps project scopes intact across Macs, and Dream runs no longer overlap.
-- Fixes for the Codex, Claude, Cursor, Droid, Pi and Muse harnesses.
-
-## Interface
-
-- The sidebar now defaults to the Title First row layout.
-- Destructive Mac actions ask for confirmation, icon-only controls have labels, and more views honor Reduce Motion.
-- Review Changes opens Last Commit on a clean checkout on every platform.
-
-## iPhone, Apple Watch and Android
-
-- iPhone terminal polling, empty states and the diff picker were fixed; dictation cleans up when cancelled.
-- Apple Watch answers server questions and stays in sync with the phone.
-- Android: more reliable Connect sign-in and sign-out, Live Updates that survive going offline, Back closes expanded glass overlays, interrupted update downloads recover, photo orientation is respected, and background polling stops.
-
-Includes matching iPhone, iPad, Apple Watch, and Android build 89.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+89/Controller-1.0.51+89-arm64.zip" length="247674552" type="application/octet-stream" sparkle:edSignature="cjKcRBkL9q8qJrT86CX651rtdi/kziJJAyP+I7sNNZREJk7vm0cNpHuYv0MYu7su3oAiScQF/kzlBysnxeZNDQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+89/Controller89-87.delta" sparkle:deltaFrom="87" length="3776018" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2ytaYGu3AxHeo5Ln0ilsZ+2Jt98wRXPIWxS9TqFUVX9TCRFsrEZ1eRnEQX6bF5OREKSgZfbvXcUG4PGM5uUeAw=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: QQDa7njlPxwdkFiOJ2eN4Fbie3YSGh5k8iyFcC5kmbSxpdEzhYxZNUI2bTaA2ZyEzt//ahuzS/XwEjjNceGEAA==
-length: 8920
+edSignature: J9kADmkYxPzyzS/dGzmXmVgNVBT6nMrRLhvH/QSvU7TnR8j0EZ4heK/yWya/0mmlByMdZLxdZuONBlx3tBLNCA==
+length: 7745
 -->
