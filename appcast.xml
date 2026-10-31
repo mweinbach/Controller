@@ -7,6 +7,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Sat, 31 Oct 2026 12:42:12 -0400</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>94</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.51 (94)
+
+- On Mac, chat images open in the native Quick Look panel alongside neighboring images in the same message or attachment row.
+- On Mac and iOS, remote file links in replies download directly into Quick Look with inline progress under the clicked link and offline cache reuse until the chat settles.
+- Fixes a Mac crash when opening the sidebar environment menu and improves Mac crash reporting for AppKit layout and constraint exceptions.
+- Fixes an iPhone crash when opening a chat while the Settled or Usage sheet is closing, and releases background chat timelines cleanly when switching chats on iPhone.
+- Fast worktree copies clean up discarded checkouts in a background helper process and handle nested Git folders and ignored build files more reliably.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+94/Controller-1.0.51+94-arm64.zip" length="248454964" type="application/octet-stream" sparkle:edSignature="nqNz+iDRpvffeR+tW1Nwec+ezRV4MGECbK1Lo+pcV4PctwhMmBlAonRXwEmYJkFjfWoLvAcnmUFlDsnyhrNdDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+94/Controller94-93.delta" sparkle:deltaFrom="93" length="2965582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CG14jVhlBGoWKgLr8jzn3Pf++auHam5AO7OAoEEaRybO+Df3n0oczPg2co0ve9dR66Al/zCpm9yNLqGlZFBdBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Fri, 30 Oct 2026 22:48:10 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>93</sparkle:version>
@@ -58,42 +78,9 @@ Includes matching iPhone, iPad, Apple Watch, and Android build 92.
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+92/Controller92-90.delta" sparkle:deltaFrom="90" length="3511322" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fsLK81dKlYyZgUVAvJUr3uaEKdRtDeNdi1co1GwDZSrsYTvKrDPYo5JgqoZmvRfF5QPxtA15rWqLi8KEinFUCQ=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Thu, 29 Oct 2026 20:00:35 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>90</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.51 (90)
-
-## Orchestration & Automation
-
-- Subagent context-window budget telemetry now tracks live token usage and warns as child sessions approach capacity.
-- Idle high-context sessions compact automatically in the background with safe cooldown and active-turn guards.
-- Pull requests opened from terminal commands (`gh pr create`, `glab mr create`) link to the active thread automatically.
-- Per-thread dev servers follow worktree cleanup and restart cleanly across worktree handoffs.
-- Provider usage-limit errors now parse reset windows, sleep with a live countdown, and resume turns automatically when quota resets.
-- Interactive `request_secret` prompts collect secrets directly into Keychain on Mac and iPhone without exposing values in chat transcripts.
-- Inline PR review guides and ephemeral review findings render alongside diffs, and worktree setup scripts stream live progress with one-click retry.
-
-## Controller Connect
-
-- Live guest thread sharing lets you share a read-only web link (including inline screenshots) and review guest messages before sending them to the agent.
-- Same-LAN connections prefer direct encrypted local sockets over tunnel hops when healthy, with on-demand external tunnel reachability probes on Mac and iPhone.
-- Coalesced GitHub webhook hints wake pull-request watchers without blind polling, with replay deduplication and wildcard event filters.
-- `controller://` deep links and environment invite URLs open threads and pair hosts directly on Mac and iPhone, and host main-thread stalls surface in Connect diagnostics.
-
-Includes matching iPhone, iPad, Apple Watch, and Android build 90.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+90/Controller-1.0.51+90-arm64.zip" length="248173284" type="application/octet-stream" sparkle:edSignature="vHKkLKguhkgqToJUSuoTWFQpUKewzDKIJkCDnq/Oe5ka0Z/bKBaOI52HcXXtGsCxz3fAXwH68Aalw1EcOaM3DQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+90/Controller90-89.delta" sparkle:deltaFrom="89" length="4123182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ErG8VDN6VGG2dgkC/E1VmJcIV+bVnCUMDVfmgh6cBajbqRgF8uWdGEA/VZShUhPQP5kn2TRqS27L4sSrQ1npCA=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: J9kADmkYxPzyzS/dGzmXmVgNVBT6nMrRLhvH/QSvU7TnR8j0EZ4heK/yWya/0mmlByMdZLxdZuONBlx3tBLNCA==
-length: 7745
+edSignature: n6PBZD7FEh1T4QYN8nQ+3AgOu/KhxTWBN6BJLoa3YPPlRrhROG/f25BFpuKbhedAPdU7d7K/AzKNuJwLlc+hCg==
+length: 6882
 -->
