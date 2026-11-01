@@ -7,6 +7,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Sun, 01 Nov 2026 11:12:05 -0500</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>95</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.51 (95)
+
+This is a rebuild of 1.0.51 (94) for Mac, iPhone, iPad, Apple Watch, and Android. There are no feature or behavior changes in this build.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+95/Controller-1.0.51+95-arm64.zip" length="248454991" type="application/octet-stream" sparkle:edSignature="pPLoAfX4h3C4D5JAizUTaFZaxsB/OUlj1wWxyGO2rvLVqhwypmrK88htdoqYK8rBGtCdyGy3RUEWTynaa1x+DA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+95/Controller95-94.delta" sparkle:deltaFrom="94" length="66490" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XGG8PhGp96M2INyYVYTTOp9ezgBu2bcEhSGA0i/KW2yuo3VuP5EC+QMYeOow9ztxGFbZlgbiAQ5rgnLSn4htBQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Sat, 31 Oct 2026 12:42:12 -0400</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>94</sparkle:version>
@@ -45,42 +61,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+93/Controller93-92.delta" sparkle:deltaFrom="92" length="2611526" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4iDKwyzofOveVSmVB1eRdGMYMJYOE8zOjn3pgY9xnZu/PmjjU1tCycIKEKZ8zjN4Fh/9o6/CzE+bWYH4YkOpAw=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Fri, 30 Oct 2026 14:11:14 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>92</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.51 (92)
-
-## Factory Droid Subagents & Missions
-
-- Droid SDK `Task` and `SpawnAgent` delegations appear as subagent rows, with live child session hydration and streaming, per-task Stop, and a wake when background work finishes after the turn ends.
-- Droid `TodoWrite` checklists render as native Controller plans.
-- Missions are available from `/mission` and a new `Workflow` selector (`Build` / `Mission`) on the model card. Mission proposals arrive as review cards, including under Full access, and milestones and workers show as workflow progress phases on Mac, iPhone, iPad, and Android.
-
-## Sidebars & Inspector
-
-- The sidebar has clean editorial thread rows with `Pinned`, `Active`, and collapsible `Settled` shelves, a soft scroll-edge fade, and a unified Liquid Glass footer dock.
-- The Inspector adds interactive glass capsules for `Overview`, `Files`, `Changes`, `Browser`, and `Terminal`.
-
-## Files, Browser & Pull Requests
-
-- A unified Files + Diff explorer with an inline `Code | Diff` toggle on modified files.
-- The browser uses a compact Safari-style Liquid Glass omnibox and tab strip.
-- Pull request review has a compact two-row header with release and tag readiness.
-
-Includes matching iPhone, iPad, Apple Watch, and Android build 92.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+92/Controller-1.0.51+92-arm64.zip" length="248416629" type="application/octet-stream" sparkle:edSignature="zIPSHGdsojmdyIaQ690Ydf9MU84tS+WDfBPG+EXitnxhXO/Dg14OY+disury2pB3X9wMFN2AikxSa2j7FN6DDw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+92/Controller92-90.delta" sparkle:deltaFrom="90" length="3511322" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fsLK81dKlYyZgUVAvJUr3uaEKdRtDeNdi1co1GwDZSrsYTvKrDPYo5JgqoZmvRfF5QPxtA15rWqLi8KEinFUCQ=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: n6PBZD7FEh1T4QYN8nQ+3AgOu/KhxTWBN6BJLoa3YPPlRrhROG/f25BFpuKbhedAPdU7d7K/AzKNuJwLlc+hCg==
-length: 6882
+edSignature: LVEd5raZaZ5lnIlen5oGrrKVO8slXax6QBMWs1c34qSzkCnWIPlSQ3Cu8v6WkBLi41uvOA5EsSRjnIzCqArYBQ==
+length: 5774
 -->
