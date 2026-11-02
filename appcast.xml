@@ -7,6 +7,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Sun, 01 Nov 2026 20:37:23 -0500</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>96</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.51 (96)
+
+Fixes for Mac, iPhone, iPad, Apple Watch, and Android.
+
+- Long Markdown tables no longer freeze the Mac app while they lay out, and table cells with long text wrap instead of stretching into one wide line. Tables on iPhone and iPad wrap long cells too.
+- Settings → Connect no longer warns that a healthy Mac's address timed out.
+- Connect Repos stops retrying a push that is too large for Connect and explains why it stopped.
+- Agent Memory keeps syncing between Macs when one project's memory can't be merged.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+96/Controller-1.0.51+96-arm64.zip" length="248467133" type="application/octet-stream" sparkle:edSignature="PSTE2hWmbPbXZ9QyOJoTk+I+JvVVw8jgOzIhTurEsiX2NzdkoeUbosw19S+/JIURa7ld6griGFFtpid5oQ0fAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+96/Controller96-95.delta" sparkle:deltaFrom="95" length="2309122" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hXWFxVlMBeVUitDYoTYJb/awHhiNzX0o6c94J7bxvS83ZU+bZ2VwfgNH1DaloYyHFQ3pST7UqrcVBh5ZV8LGBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Sun, 01 Nov 2026 11:12:05 -0500</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>95</sparkle:version>
@@ -41,29 +62,9 @@ This is a rebuild of 1.0.51 (94) for Mac, iPhone, iPad, Apple Watch, and Android
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+94/Controller94-93.delta" sparkle:deltaFrom="93" length="2965582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CG14jVhlBGoWKgLr8jzn3Pf++auHam5AO7OAoEEaRybO+Df3n0oczPg2co0ve9dR66Al/zCpm9yNLqGlZFBdBw=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Fri, 30 Oct 2026 22:48:10 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>93</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.51 (93)
-
-- Long replies on iPhone and iPad keep appearing while more text arrives. Completed messages display their final Markdown formatting.
-- On Mac and iOS, the composer keeps your highlighted command or file selected when new results arrive. Return and Tab accept the item you chose.
-- Plans and expanded reasoning keep their last word visible between updates. Corrected text appears immediately, and new text fades in reading order.
-- On Mac, code continues fading in after a streaming pause. Updates to long paragraphs spend less time on the main thread.
-- Factory Droid keeps its session settings when a Mission sends a partial update after approval.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+93/Controller-1.0.51+93-arm64.zip" length="248424656" type="application/octet-stream" sparkle:edSignature="K2S1FrleUZ5erTQj8td1Z459oVF1u2IxEy35Ys0vzwkk6l7pZ5tXpj6MmDPEwD8p+SpZQwXAt8C4SKkZrGPEBQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+93/Controller93-92.delta" sparkle:deltaFrom="92" length="2611526" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4iDKwyzofOveVSmVB1eRdGMYMJYOE8zOjn3pgY9xnZu/PmjjU1tCycIKEKZ8zjN4Fh/9o6/CzE+bWYH4YkOpAw=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: LVEd5raZaZ5lnIlen5oGrrKVO8slXax6QBMWs1c34qSzkCnWIPlSQ3Cu8v6WkBLi41uvOA5EsSRjnIzCqArYBQ==
-length: 5774
+edSignature: QzncVydwVQYcHZguxPPP1o/5K6ixfBAAJhlQQjUiAYOY5tVJOtz5QvaTp2y8PisSqxFeUT/8hDgHvQ1k8h3TAQ==
+length: 5638
 -->
