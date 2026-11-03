@@ -7,6 +7,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Tue, 03 Nov 2026 02:22:59 -0500</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>97</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.51 (97)
+
+SwiftDroid and Factory Droid updates for Mac, iPhone, iPad, Apple Watch, and Android.
+
+- Add SwiftDroid in Mac Settings and connect it to ChatGPT, Gemini, the Anthropic API, or your installed Claude Code. Choose a model from the connected account and start a Build or a resumable Mission.
+- Use a paired iPhone, iPad, or Android device to follow SwiftDroid progress, respond to approvals, send follow-ups, stop work, and return to the same conversation. Provider credentials stay on the Mac.
+- Factory Droid SDK accounts can run Workstreams and configure role models and validation stages.
+- Finished conversations release their managed worktrees.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+97/Controller-1.0.51+97-arm64.zip" length="250230899" type="application/octet-stream" sparkle:edSignature="MlDW1iYXpb9OQELS98PEnoewcKDU2eUNRWz5sEM6oM/3EGo2pkhx909MmQ57d39LVJYrcsKISHPQPkgkVlOwBA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+97/Controller97-96.delta" sparkle:deltaFrom="96" length="5072146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zNAknICiHw4C7xTeAWVDb0Yk8i+aPuXs6/zptoR96j7oWr7WP/0vGa4Mm3+MPfIdspZ/qe7Sh4lgE2BHcBSKAg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Sun, 01 Nov 2026 20:37:23 -0500</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>96</sparkle:version>
@@ -42,29 +63,9 @@ This is a rebuild of 1.0.51 (94) for Mac, iPhone, iPad, Apple Watch, and Android
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+95/Controller95-94.delta" sparkle:deltaFrom="94" length="66490" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XGG8PhGp96M2INyYVYTTOp9ezgBu2bcEhSGA0i/KW2yuo3VuP5EC+QMYeOow9ztxGFbZlgbiAQ5rgnLSn4htBQ=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Sat, 31 Oct 2026 12:42:12 -0400</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>94</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.51 (94)
-
-- On Mac, chat images open in the native Quick Look panel alongside neighboring images in the same message or attachment row.
-- On Mac and iOS, remote file links in replies download directly into Quick Look with inline progress under the clicked link and offline cache reuse until the chat settles.
-- Fixes a Mac crash when opening the sidebar environment menu and improves Mac crash reporting for AppKit layout and constraint exceptions.
-- Fixes an iPhone crash when opening a chat while the Settled or Usage sheet is closing, and releases background chat timelines cleanly when switching chats on iPhone.
-- Fast worktree copies clean up discarded checkouts in a background helper process and handle nested Git folders and ignored build files more reliably.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+94/Controller-1.0.51+94-arm64.zip" length="248454964" type="application/octet-stream" sparkle:edSignature="nqNz+iDRpvffeR+tW1Nwec+ezRV4MGECbK1Lo+pcV4PctwhMmBlAonRXwEmYJkFjfWoLvAcnmUFlDsnyhrNdDA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+94/Controller94-93.delta" sparkle:deltaFrom="93" length="2965582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CG14jVhlBGoWKgLr8jzn3Pf++auHam5AO7OAoEEaRybO+Df3n0oczPg2co0ve9dR66Al/zCpm9yNLqGlZFBdBw=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: QzncVydwVQYcHZguxPPP1o/5K6ixfBAAJhlQQjUiAYOY5tVJOtz5QvaTp2y8PisSqxFeUT/8hDgHvQ1k8h3TAQ==
-length: 5638
+edSignature: jQaSyoqoTWVC7ZaLOMlm5cWitoclxtD2sWwRt0WsAJa+67F8qOxlIxh5TfISCsnb/qHUWfyOASFcsPJCOOOTDA==
+length: 5527
 -->
