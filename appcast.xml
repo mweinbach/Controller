@@ -7,6 +7,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Tue, 03 Nov 2026 13:39:25 -0500</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>98</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.51 (98)
+
+Settings and SwiftDroid updates for Mac, iPhone, iPad, Apple Watch, and Android.
+
+- Settings has been rebuilt on the Mac and iPhone with unified cards and search that reaches individual settings.
+- SwiftDroid threads can now choose a reasoning effort. The composer offers the levels each model supports, and your choice applies to Builds and every Mission stage, including from a paired device.
+- When a direct Gemini request goes silent before its first response, SwiftDroid waits longer and retries once. If it still times out, the thread says so and you can continue to try again.
+- Factory Droid SDK accounts now use version 0.10.0 of Factory's SDK.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+98/Controller-1.0.51+98-arm64.zip" length="250611237" type="application/octet-stream" sparkle:edSignature="AVdgpetEHacz/BbqZejsrcxce1QLkrTIYVK0yar0iDHntzoM2R0WQ0FPct6slr/dV1EP77lKlyyKRucnYZRzBA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+98/Controller98-97.delta" sparkle:deltaFrom="97" length="3677646" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yBkSDpC8hBGrBa4zODhYFpCmrMmodOLjvKgd3SxuBYwFY32Cg0n71N52Zqeu2hUgOGEfLuDsG4dlN1xCZsuJCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Tue, 03 Nov 2026 02:22:59 -0500</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>97</sparkle:version>
@@ -47,25 +68,9 @@ Fixes for Mac, iPhone, iPad, Apple Watch, and Android.
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+96/Controller96-95.delta" sparkle:deltaFrom="95" length="2309122" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hXWFxVlMBeVUitDYoTYJb/awHhiNzX0o6c94J7bxvS83ZU+bZ2VwfgNH1DaloYyHFQ3pST7UqrcVBh5ZV8LGBg=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Sun, 01 Nov 2026 11:12:05 -0500</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>95</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.51 (95)
-
-This is a rebuild of 1.0.51 (94) for Mac, iPhone, iPad, Apple Watch, and Android. There are no feature or behavior changes in this build.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+95/Controller-1.0.51+95-arm64.zip" length="248454991" type="application/octet-stream" sparkle:edSignature="pPLoAfX4h3C4D5JAizUTaFZaxsB/OUlj1wWxyGO2rvLVqhwypmrK88htdoqYK8rBGtCdyGy3RUEWTynaa1x+DA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+95/Controller95-94.delta" sparkle:deltaFrom="94" length="66490" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XGG8PhGp96M2INyYVYTTOp9ezgBu2bcEhSGA0i/KW2yuo3VuP5EC+QMYeOow9ztxGFbZlgbiAQ5rgnLSn4htBQ=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: jQaSyoqoTWVC7ZaLOMlm5cWitoclxtD2sWwRt0WsAJa+67F8qOxlIxh5TfISCsnb/qHUWfyOASFcsPJCOOOTDA==
-length: 5527
+edSignature: KGsrC/YwvKqvmLspabThFmGYwLs/7BTpjcwFGazGY3/Mkz7iAoL5OGXMP6hIy1rcSRf3iyL5VnJFNUQQh8RlDw==
+length: 6045
 -->
