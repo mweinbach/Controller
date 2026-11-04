@@ -7,6 +7,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Wed, 04 Nov 2026 09:24:28 -0500</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>100</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.51 (100)
+
+Siri, Mac Live Activities, touch on Mac, and Cursor and Pi updates for Mac, iPhone, iPad, Apple Watch, and Android.
+
+- On iPhone and iPad with the iOS 27.3 Siri AI Developer Preview, Siri can list the Controller chats that need you, recap a chat, read its pending requests, open it, draft a prompt for review, or send a follow-up after you confirm the chat and text. Unsent drafts stay untouched. Sending a follow-up needs this version on the Mac too.
+- On macOS 27.3 and later, a Live Activity shows when a thread on this Mac is working or waiting for you, in the menu bar or Dynamic Island on supported hardware.
+- On a Mac with a touch screen, scrub the reasoning effort slider with your finger, tap away to dismiss the plan, and press and hold tabs, history entries and the send button for their actions. Model picker targets are larger on Mac, iPhone and iPad.
+- Cursor accounts now use version 1.3.0 of Cursor's SDK. Settings offers the new download. When a Cursor run fails, the thread now shows Cursor's message.
+- Managed Pi accounts now use Pi 1.5.0. If you use Pi's Azure provider, it is now named `azure`: rename `azure-openai-responses` in your Pi configuration or run `/login` again.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+100/Controller-1.0.51+100-arm64.zip" length="250751194" type="application/octet-stream" sparkle:edSignature="R2QbyC8ijWe/pFWXZPkLzdPI45JgvQ4tGV2mmoR4jV1rgE9zAlI3IKVaJMk0LFPpQb9kYwqdGN7X5HSTkKSiCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+100/Controller100-98.delta" sparkle:deltaFrom="98" length="3235842" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sdGuZ0Mf0qnPk/PbbIA7VlrzfWSdPBPsGF6rsi9HYDttm6R/+n90Px4/FWOusKu+uVyFAUVI58blBBAmbT7aAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Tue, 03 Nov 2026 13:39:25 -0500</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>98</sparkle:version>
@@ -47,30 +69,9 @@ SwiftDroid and Factory Droid updates for Mac, iPhone, iPad, Apple Watch, and And
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+97/Controller97-96.delta" sparkle:deltaFrom="96" length="5072146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zNAknICiHw4C7xTeAWVDb0Yk8i+aPuXs6/zptoR96j7oWr7WP/0vGa4Mm3+MPfIdspZ/qe7Sh4lgE2BHcBSKAg=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Sun, 01 Nov 2026 20:37:23 -0500</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>96</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.51 (96)
-
-Fixes for Mac, iPhone, iPad, Apple Watch, and Android.
-
-- Long Markdown tables no longer freeze the Mac app while they lay out, and table cells with long text wrap instead of stretching into one wide line. Tables on iPhone and iPad wrap long cells too.
-- Settings → Connect no longer warns that a healthy Mac's address timed out.
-- Connect Repos stops retrying a push that is too large for Connect and explains why it stopped.
-- Agent Memory keeps syncing between Macs when one project's memory can't be merged.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+96/Controller-1.0.51+96-arm64.zip" length="248467133" type="application/octet-stream" sparkle:edSignature="PSTE2hWmbPbXZ9QyOJoTk+I+JvVVw8jgOzIhTurEsiX2NzdkoeUbosw19S+/JIURa7ld6griGFFtpid5oQ0fAA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+96/Controller96-95.delta" sparkle:deltaFrom="95" length="2309122" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hXWFxVlMBeVUitDYoTYJb/awHhiNzX0o6c94J7bxvS83ZU+bZ2VwfgNH1DaloYyHFQ3pST7UqrcVBh5ZV8LGBg=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: KGsrC/YwvKqvmLspabThFmGYwLs/7BTpjcwFGazGY3/Mkz7iAoL5OGXMP6hIy1rcSRf3iyL5VnJFNUQQh8RlDw==
-length: 6045
+edSignature: esaG1E4PQqgA2dWJHOwMPnl+k0uAvcQBwAPjkZYXAf67i+LQOcNEJRTzUpjBgiv9rG7+SVLThLpOnb+y1hcoBw==
+length: 6735
 -->
