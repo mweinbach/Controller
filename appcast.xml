@@ -7,6 +7,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Wed, 04 Nov 2026 13:14:28 -0500</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>101</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.51 (101)
+
+Offline prompt delivery and more Siri actions for Mac, iPhone and iPad, plus matching builds for Apple Watch and Android.
+
+- Controller Connect can hold a text prompt for an existing chat when its Mac is offline, for up to seven days, and deliver it when that Mac reconnects. Siri tells you the prompt is pending, and the composer on Mac, iPhone and iPad lists it under **Waiting for this Mac**. Both the sending device and the Mac need this version, and the option appears once the Controller Connect service update reaches your account. Attachments, slash commands and new chats still need a live connection.
+- On iPhone and iPad with the iOS 27.3 Siri AI Developer Preview, Siri can find your computers and projects and start a new thread in a project, list only the chats waiting for your input or approval, and read further back through a chat.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+101/Controller-1.0.51+101-arm64.zip" length="250830741" type="application/octet-stream" sparkle:edSignature="7zXSVEDBmXF1G2TPPlBsyoRbBWUMO5gnF41Qq8l+ngLWlS5Iaai9g4lV6Hc2ZRxTJ+sbBGp3byRIGO9+yvTLDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+101/Controller101-100.delta" sparkle:deltaFrom="100" length="3117606" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VHzPT3HmSbf3eVofBNhziIoXeGwjA1IWyOJC4lgg9QeYYAzqSQrWXHnMHRp0UVuoz3Mc3rrvPD1+5DN1whkTCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Wed, 04 Nov 2026 09:24:28 -0500</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>100</sparkle:version>
@@ -48,30 +67,9 @@ Settings and SwiftDroid updates for Mac, iPhone, iPad, Apple Watch, and Android.
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+98/Controller98-97.delta" sparkle:deltaFrom="97" length="3677646" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yBkSDpC8hBGrBa4zODhYFpCmrMmodOLjvKgd3SxuBYwFY32Cg0n71N52Zqeu2hUgOGEfLuDsG4dlN1xCZsuJCQ=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Tue, 03 Nov 2026 02:22:59 -0500</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>97</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.51 (97)
-
-SwiftDroid and Factory Droid updates for Mac, iPhone, iPad, Apple Watch, and Android.
-
-- Add SwiftDroid in Mac Settings and connect it to ChatGPT, Gemini, the Anthropic API, or your installed Claude Code. Choose a model from the connected account and start a Build or a resumable Mission.
-- Use a paired iPhone, iPad, or Android device to follow SwiftDroid progress, respond to approvals, send follow-ups, stop work, and return to the same conversation. Provider credentials stay on the Mac.
-- Factory Droid SDK accounts can run Workstreams and configure role models and validation stages.
-- Finished conversations release their managed worktrees.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+97/Controller-1.0.51+97-arm64.zip" length="250230899" type="application/octet-stream" sparkle:edSignature="MlDW1iYXpb9OQELS98PEnoewcKDU2eUNRWz5sEM6oM/3EGo2pkhx909MmQ57d39LVJYrcsKISHPQPkgkVlOwBA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+97/Controller97-96.delta" sparkle:deltaFrom="96" length="5072146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zNAknICiHw4C7xTeAWVDb0Yk8i+aPuXs6/zptoR96j7oWr7WP/0vGa4Mm3+MPfIdspZ/qe7Sh4lgE2BHcBSKAg=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: esaG1E4PQqgA2dWJHOwMPnl+k0uAvcQBwAPjkZYXAf67i+LQOcNEJRTzUpjBgiv9rG7+SVLThLpOnb+y1hcoBw==
-length: 6735
+edSignature: JDVoVVxc/vhvl2jgCqd9lfjUdWj/BLwtTQ3DXl0ZhRj+7ERFA8XxZrfvVaTjTEafteQeiuUv2VU8qx2sFhubCw==
+length: 6945
 -->
