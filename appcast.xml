@@ -7,6 +7,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Wed, 04 Nov 2026 18:01:28 -0500</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>102</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- SwiftDroid's ChatGPT, Gemini, Anthropic and Claude Code connections now share one entry. Manage them from a single panel in Mac Settings, and browse their models together in the picker on Mac, iPhone, iPad and Android. Existing chats, favorites and permissions keep their provider.
+- SwiftDroid now uses version 0.5.2 of its SDK. Gemini requests send the reasoning levels the connected model supports, and Script reads get a larger payload budget.
+- In Mac Settings, right-click a harness in the sidebar to remove a provider account. The confirmation names the account you clicked.
+- Agents in Controller can use Apple's 19 Xcode skills, including translation with localization style guides and xctrace profiling.
+- On a Mac with a touch screen, drag one finger to scroll a browser page or local terminal. Tapping away closes the New Thread palette and folder browser, and in the folder browser a second tap opens the selected folder. Scrolling or long-pressing no longer dismisses an open model, context or plan card.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+102/Controller-1.0.51+102-arm64.zip" length="251807913" type="application/octet-stream" sparkle:edSignature="V0IeEjSunSfXyMhL4L+wcB/Hl97ASxRZ5z+Fdx1J1cDIGbobI4jFURzXmo9vJ6KY5HMp/ndCghShFQYJI2bYAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+102/Controller102-101.delta" sparkle:deltaFrom="101" length="3321646" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NZp2Rp1j0Ovh+n+w15H4rXUDm9osZ7sXqGWeyRk+XVw7bbMYrYraaGy+FViG37zGj8OFjdA870UlOmZq3R0rAg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Wed, 04 Nov 2026 13:14:28 -0500</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>101</sparkle:version>
@@ -46,30 +64,9 @@ Siri, Mac Live Activities, touch on Mac, and Cursor and Pi updates for Mac, iPho
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+100/Controller100-98.delta" sparkle:deltaFrom="98" length="3235842" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sdGuZ0Mf0qnPk/PbbIA7VlrzfWSdPBPsGF6rsi9HYDttm6R/+n90Px4/FWOusKu+uVyFAUVI58blBBAmbT7aAQ=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Tue, 03 Nov 2026 13:39:25 -0500</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>98</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.51 (98)
-
-Settings and SwiftDroid updates for Mac, iPhone, iPad, Apple Watch, and Android.
-
-- Settings has been rebuilt on the Mac and iPhone with unified cards and search that reaches individual settings.
-- SwiftDroid threads can now choose a reasoning effort. The composer offers the levels each model supports, and your choice applies to Builds and every Mission stage, including from a paired device.
-- When a direct Gemini request goes silent before its first response, SwiftDroid waits longer and retries once. If it still times out, the thread says so and you can continue to try again.
-- Factory Droid SDK accounts now use version 0.10.0 of Factory's SDK.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+98/Controller-1.0.51+98-arm64.zip" length="250611237" type="application/octet-stream" sparkle:edSignature="AVdgpetEHacz/BbqZejsrcxce1QLkrTIYVK0yar0iDHntzoM2R0WQ0FPct6slr/dV1EP77lKlyyKRucnYZRzBA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+98/Controller98-97.delta" sparkle:deltaFrom="97" length="3677646" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yBkSDpC8hBGrBa4zODhYFpCmrMmodOLjvKgd3SxuBYwFY32Cg0n71N52Zqeu2hUgOGEfLuDsG4dlN1xCZsuJCQ=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: JDVoVVxc/vhvl2jgCqd9lfjUdWj/BLwtTQ3DXl0ZhRj+7ERFA8XxZrfvVaTjTEafteQeiuUv2VU8qx2sFhubCw==
-length: 6945
+edSignature: o2SYdK7EiIYQ8q8evFFMeq779ByF4EsFKnnBBIWzdGewHy3CTgU0icb8DG4geiig/HLTENjHtvOy4cR0Y2biDw==
+length: 7293
 -->
