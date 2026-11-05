@@ -7,6 +7,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Wed, 04 Nov 2026 22:31:05 -0500</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>103</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- The Mac commit sheet commits only the files you reviewed and selected, and leaves other staged changes alone. Resolved merges can be committed from it, and a commit that finished before a timeout is no longer reported as failed.
+- Branch changes apply to the checkout of the thread you are viewing. On iPhone and iPad, Send and Queue wait until the Mac confirms the branch change, and a refusal from the Mac is shown in the composer.
+- Pull request handoffs and thread links now match the right repository when two repositories use the same pull request number.
+- A question stays filled in if the response is refused, so you can retry it without retyping, on Mac, iPhone and iPad. On Android, answered questions keep their selection when a chat reloads, and options use native radio buttons and checkboxes.
+- Apple Watch uses secure entry for private answers and sends requests that need an external page to iPhone. Signing out on iPhone clears chat details, drafts and pending replies from the watch.
+- Collapsing a transcript section while it is still loading now stays collapsed. Leaving a chat on iPhone or iPad cancels a dictation that was still starting, and file listings there reload with your current hidden-file setting. The project and Mac menus in the new chat header open from the name you tap, including in languages with a different word order.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+103/Controller-1.0.51+103-arm64.zip" length="251847426" type="application/octet-stream" sparkle:edSignature="B7CinTpJrIByD78YpvSafCkmd9JI0jd8ZJwZO9ekXXt11FuQ46+ySMbcSch7UtqBbRT7SNbzx6sJJDuxiLhdAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+103/Controller103-102.delta" sparkle:deltaFrom="102" length="3098950" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uyIvY02H92vXQ39gjyXPQtqeI+q67HnSCGYf7T1qkp5y4hehRxWzmVQe3JqaFgrzSTgr7BlKNsbj4e6RbILkCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Wed, 04 Nov 2026 18:01:28 -0500</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>102</sparkle:version>
@@ -42,31 +61,9 @@ Offline prompt delivery and more Siri actions for Mac, iPhone and iPad, plus mat
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+101/Controller101-100.delta" sparkle:deltaFrom="100" length="3117606" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VHzPT3HmSbf3eVofBNhziIoXeGwjA1IWyOJC4lgg9QeYYAzqSQrWXHnMHRp0UVuoz3Mc3rrvPD1+5DN1whkTCg=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Wed, 04 Nov 2026 09:24:28 -0500</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>100</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.51 (100)
-
-Siri, Mac Live Activities, touch on Mac, and Cursor and Pi updates for Mac, iPhone, iPad, Apple Watch, and Android.
-
-- On iPhone and iPad with the iOS 27.3 Siri AI Developer Preview, Siri can list the Controller chats that need you, recap a chat, read its pending requests, open it, draft a prompt for review, or send a follow-up after you confirm the chat and text. Unsent drafts stay untouched. Sending a follow-up needs this version on the Mac too.
-- On macOS 27.3 and later, a Live Activity shows when a thread on this Mac is working or waiting for you, in the menu bar or Dynamic Island on supported hardware.
-- On a Mac with a touch screen, scrub the reasoning effort slider with your finger, tap away to dismiss the plan, and press and hold tabs, history entries and the send button for their actions. Model picker targets are larger on Mac, iPhone and iPad.
-- Cursor accounts now use version 1.3.0 of Cursor's SDK. Settings offers the new download. When a Cursor run fails, the thread now shows Cursor's message.
-- Managed Pi accounts now use Pi 1.5.0. If you use Pi's Azure provider, it is now named `azure`: rename `azure-openai-responses` in your Pi configuration or run `/login` again.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+100/Controller-1.0.51+100-arm64.zip" length="250751194" type="application/octet-stream" sparkle:edSignature="R2QbyC8ijWe/pFWXZPkLzdPI45JgvQ4tGV2mmoR4jV1rgE9zAlI3IKVaJMk0LFPpQb9kYwqdGN7X5HSTkKSiCA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+100/Controller100-98.delta" sparkle:deltaFrom="98" length="3235842" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sdGuZ0Mf0qnPk/PbbIA7VlrzfWSdPBPsGF6rsi9HYDttm6R/+n90Px4/FWOusKu+uVyFAUVI58blBBAmbT7aAQ=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: o2SYdK7EiIYQ8q8evFFMeq779ByF4EsFKnnBBIWzdGewHy3CTgU0icb8DG4geiig/HLTENjHtvOy4cR0Y2biDw==
-length: 7293
+edSignature: keoj0twCcGQyZuzX8a1oESZasZwIaIZLRdiS8DXyLpOAI2dahZGE2hwRfX2cpPp5VLXGQpV3b7XVDa00MIjMBA==
+length: 7433
 -->
