@@ -7,6 +7,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Tue, 24 Nov 2026 23:29:58 -0500</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>107</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- **Edit from here & deeper search:** Rewind any sent message in place (choosing to revert or keep files in isolated worktrees) and edit your prompt before resending. Search across full thread history (`⌘F`), including older unloaded turns, match branches, pull requests, and message text in sidebar search, and cite any assistant excerpt directly into the composer as a `@quote` chip.
+- **Sidebar triage & Command Palette:** Active runs that don’t need your input now fold into a collapsible **Working** shelf on Mac and iPhone so Active stays focused on what needs attention. Settle, snooze, unpin, and archive show a 5-second Undo toast (`⌘Z` on Mac), with multi-select bulk triage, custom snooze times, editable presets, and opt-in idle auto-settle with a per-thread *Never Auto-Settle* toggle. Press `⌘K` on Mac for the new Command Palette and `⌘1–⌘9` to jump straight to inbox threads.
+- **Composer upgrades & multi-model fan-out:** Edit queued prompts in place, promote any queued prompt with *Send Now*, reorder the queue, and pick your default Queue vs. Steer follow-up mode. Large pastes (≥ 32 KiB) attach automatically as files, `↑`/`↓` recalls earlier prompts, `⌘S` stashes drafts for later, `⌘⌥⏎` sends in the background and opens a fresh draft, and *Compare Models…* launches parallel isolated worktree threads across multiple models.
+- **Inspector tabs, Git review & automatic worktree cleanup:** The Mac Inspector now opens files, diffs, PRs, subagents, and browser pages as multi-instance tabs with *Close Others* and `⇧⌘T` reopen, plus scoped per-turn and per-tool diffs. Pull request review adds per-file *Viewed* tracking, Auto-Merge, Revert PR, optional AI credit stripping, clean default-branch auto-pull, and branch naming prefixes. Settings → Worktrees adds opt-in safe automatic worktree cleanup with an audit log.
+- **Schedules, CLI, deep links & Mac polish:** View, create, pause, run now, and delete recurring schedules and `/heartbeat` prompts from Settings → **Schedules** on Mac and iPhone. Install the `controller` CLI from Settings → General (`controller .`, `controller new`, `controller run --wait`) or open prefilled drafts via `controller://new?...` deep links. Mac also adds Launch at Login, a Dock attention badge, distinct completion and needs-input sound cues, and smarter onboarding discovery for harnesses, local Git repos, and past Claude/Codex sessions.
+- **iPhone widgets, Share Extension, multi-Mac & UI polish:** iPhone and iPad add Home and Lock Screen widgets for active agents and subscription usage, an iOS Share Extension for sending links, text, images, and files straight into Controller, *Auto (Least Busy Mac)* selection with live host headroom, loopback-safe remote dev server preview forwarding, refined iPhone Duo composer/model picker/task plan chip animations, and improved Antigravity 1.5.16 native edit diffs.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+107/Controller-1.0.51+107-arm64.zip" length="254813683" type="application/octet-stream" sparkle:edSignature="3WBC/pO9M+/rDKCGvDJ7rX7XPx2QsXvdiQAAMxcPdzo44jXn/Y9mdhGFkzGABk/JAdd336E07IcFosAeTSFpAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+107/Controller107-106.delta" sparkle:deltaFrom="106" length="6024850" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jvWP0HA6Bwj6KF6jmWxbyyRsDRggDT3MM+mc2BXRPUY3E4jnsYuBhmcEWzgvI/sD02sq0j0e9kEvOym1+g6OCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Tue, 24 Nov 2026 20:18:50 -0500</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>106</sparkle:version>
@@ -45,28 +64,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+105/Controller105-103.delta" sparkle:deltaFrom="103" length="7221298" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RCpPNsMNwuiDJae9mtP0AFaLGY+uZC/fYz5zFKnfHVNuOSX14y2ooJmZqr9kHV5rqXzeeQQAsu6F1gWcf6TfDQ=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Wed, 04 Nov 2026 22:31:05 -0500</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>103</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- The Mac commit sheet commits only the files you reviewed and selected, and leaves other staged changes alone. Resolved merges can be committed from it, and a commit that finished before a timeout is no longer reported as failed.
-- Branch changes apply to the checkout of the thread you are viewing. On iPhone and iPad, Send and Queue wait until the Mac confirms the branch change, and a refusal from the Mac is shown in the composer.
-- Pull request handoffs and thread links now match the right repository when two repositories use the same pull request number.
-- A question stays filled in if the response is refused, so you can retry it without retyping, on Mac, iPhone and iPad. On Android, answered questions keep their selection when a chat reloads, and options use native radio buttons and checkboxes.
-- Apple Watch uses secure entry for private answers and sends requests that need an external page to iPhone. Signing out on iPhone clears chat details, drafts and pending replies from the watch.
-- Collapsing a transcript section while it is still loading now stays collapsed. Leaving a chat on iPhone or iPad cancels a dictation that was still starting, and file listings there reload with your current hidden-file setting. The project and Mac menus in the new chat header open from the name you tap, including in languages with a different word order.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+103/Controller-1.0.51+103-arm64.zip" length="251847426" type="application/octet-stream" sparkle:edSignature="B7CinTpJrIByD78YpvSafCkmd9JI0jd8ZJwZO9ekXXt11FuQ46+ySMbcSch7UtqBbRT7SNbzx6sJJDuxiLhdAQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+103/Controller103-102.delta" sparkle:deltaFrom="102" length="3098950" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uyIvY02H92vXQ39gjyXPQtqeI+q67HnSCGYf7T1qkp5y4hehRxWzmVQe3JqaFgrzSTgr7BlKNsbj4e6RbILkCg=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: QEI+7ttWlaoVsBnV93ogwG2MdzinpRmGvXpGERUSisqH7lj9VX9GgcP2C1gWWK1L4KYlQObhwLxDmZ9kd8cEDw==
-length: 9089
+edSignature: eCpFqjMgkf9Qp8c2kbpr/m3EfYNOK+GIc86cW+PfrIYzzV6K/wwlQ/igyJWMeqi2XNTq/ebB2OQwbcRk0O3eBA==
+length: 10640
 -->
