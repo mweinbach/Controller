@@ -7,6 +7,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Wed, 25 Nov 2026 12:17:36 -0500</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>108</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- Dev server banners now show only servers started by that thread, from its own terminal or agent. Other apps, the agent harnesses themselves, servers from sibling threads and processes in broad folders such as your home folder no longer appear, and Stop never targets a harness process.
+- On iPhone Duo, Send and the microphone respond again when folded. The composer now stays inside its bar instead of running under the toolbar rail, which also keeps it clear of the Thread Actions button when the keyboard is up.
+- On Mac, the sidebar's titlebar controls stay locked to the sidebar edge while it opens, closes or is resized, without lag or stutter, and the new-thread capsule's glass morph runs smoothly (honoring Reduce Motion).
+- The Inspector's titlebar buttons no longer jump or drift when the Inspector opens, closes or is resized, its tabs stay attached to its edge, and switching Inspector tabs is faster.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+108/Controller-1.0.51+108-arm64.zip" length="254863577" type="application/octet-stream" sparkle:edSignature="eoF1V8zg7l/R3hWe29ChWaSir08dnr1Ek+eHF/8Cc/dXVP3q5ecTGhkO67D6C+xwWYGjXo1IGhiUzbmcYjrDBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+108/Controller108-107.delta" sparkle:deltaFrom="107" length="3549566" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6TB7e09tf/9eL/OX3seUvIWTPSPWX84JyllFQHLC4F+7GdhoHXuDBFIZytE3CIHTRAK6YZW1ddGWY01t/jFCAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Tue, 24 Nov 2026 23:29:58 -0500</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>107</sparkle:version>
@@ -42,31 +59,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+106/Controller106-105.delta" sparkle:deltaFrom="105" length="3025982" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="erFoUmLYwUBIAfwdmPT5bMbYHxVo+K2dPi0rqSpE1xyxYyopSIncB+BqzB34xT3N8vu618TqZbjSsfG99hL9BQ=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Tue, 24 Nov 2026 19:09:03 -0500</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>105</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- Streamed replies on Mac, iPhone and iPad now glide in with spring-driven Metal animations, voice dictation morphs into the composer with a smoke transition and glowing waveform, and the reasoning effort slider renders animated sparkles and speed streaks on the GPU (all honoring Reduce Motion).
-- Antigravity updates to ACP 1.5.0 with compaction progress reporting and now supports running through your installed `agy` CLI.
-- Siri on Mac can now discover and interact with your local chats, and Siri on iPhone and iPad resolves projects by host Mac.
-- Long chats stay smoother while an agent is replying: Mac, iPhone and iPad reuse work on the active reply (including tables and file links), iPhone keeps offscreen rows out of memory, and Claude Code threads release finished messages sooner.
-- Broad reliability, memory and battery improvements across Mac, iPhone, iPad and Apple Watch reduce idle wakeups, redundant Git and Connect polling, and view leaks while keeping composer paste, page navigation, and repository browsing responsive.
-- The task plan pill grows to fit larger text sizes on Mac, iPhone and iPad, nearby composer cards make room for it, and on iPhone Settled, New Chat and expanded project rows stay reliably visible and tappable.
-- Controller Connect is more dependable and quieter in the background. A Mac no longer shows as reachable after its tunnel fails, an expired tunnel certificate is replaced instead of served, reconnecting downloads only what changed, returning to the app on iPhone or iPad no longer wakes a sleeping Mac, and an idle Mac makes fewer requests. A Mac with **Notify me about remote work** off can still relay a wake request at once.
-- Remote access is tighter. The local network shortcut accepts only private addresses and encrypted sessions, a pairing link asks before it saves a new Mac, memory sync runs only between your own Macs over encrypted sessions, and remote devices can no longer add the home folder or a folder holding credentials as a project.
-- Agents that run other agents stay within their own access. Scheduled threads inherit the limits of the thread that scheduled them, approving another thread's request needs the access to have run it yourself, and commit and pull request text is written without letting the model run tools. A thread no longer stays stuck sending after a harness fails to start, queued steering prompts are no longer lost, and approval cards expire instead of vanishing when a harness quits.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+105/Controller-1.0.51+105-arm64.zip" length="253352066" type="application/octet-stream" sparkle:edSignature="cOviOlM5xewbmis95BCqs899P7mj2WS8gWdXO7hmirjxldmF2+miCusRAVN5SF9G4Exu1XR79Fh1N6avlBPIAA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+105/Controller105-103.delta" sparkle:deltaFrom="103" length="7221298" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RCpPNsMNwuiDJae9mtP0AFaLGY+uZC/fYz5zFKnfHVNuOSX14y2ooJmZqr9kHV5rqXzeeQQAsu6F1gWcf6TfDQ=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: eCpFqjMgkf9Qp8c2kbpr/m3EfYNOK+GIc86cW+PfrIYzzV6K/wwlQ/igyJWMeqi2XNTq/ebB2OQwbcRk0O3eBA==
-length: 10640
+edSignature: cz59Rw0iqzTyg5yI1qESvP4gNhcp+T+wYIUCvxFMaMM1/si/dr4Ig5NGvRTCNXT4r+lCrpyb8Z5ACkMrREAwDA==
+length: 9074
 -->
