@@ -7,6 +7,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Tue, 24 Nov 2026 19:09:03 -0500</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>105</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- Streamed replies on Mac, iPhone and iPad now glide in with spring-driven Metal animations, voice dictation morphs into the composer with a smoke transition and glowing waveform, and the reasoning effort slider renders animated sparkles and speed streaks on the GPU (all honoring Reduce Motion).
+- Antigravity updates to ACP 1.5.0 with compaction progress reporting and now supports running through your installed `agy` CLI.
+- Siri on Mac can now discover and interact with your local chats, and Siri on iPhone and iPad resolves projects by host Mac.
+- Long chats stay smoother while an agent is replying: Mac, iPhone and iPad reuse work on the active reply (including tables and file links), iPhone keeps offscreen rows out of memory, and Claude Code threads release finished messages sooner.
+- Broad reliability, memory and battery improvements across Mac, iPhone, iPad and Apple Watch reduce idle wakeups, redundant Git and Connect polling, and view leaks while keeping composer paste, page navigation, and repository browsing responsive.
+- The task plan pill grows to fit larger text sizes on Mac, iPhone and iPad, nearby composer cards make room for it, and on iPhone Settled, New Chat and expanded project rows stay reliably visible and tappable.
+- Controller Connect is more dependable and quieter in the background. A Mac no longer shows as reachable after its tunnel fails, an expired tunnel certificate is replaced instead of served, reconnecting downloads only what changed, returning to the app on iPhone or iPad no longer wakes a sleeping Mac, and an idle Mac makes fewer requests. A Mac with **Notify me about remote work** off can still relay a wake request at once.
+- Remote access is tighter. The local network shortcut accepts only private addresses and encrypted sessions, a pairing link asks before it saves a new Mac, memory sync runs only between your own Macs over encrypted sessions, and remote devices can no longer add the home folder or a folder holding credentials as a project.
+- Agents that run other agents stay within their own access. Scheduled threads inherit the limits of the thread that scheduled them, approving another thread's request needs the access to have run it yourself, and commit and pull request text is written without letting the model run tools. A thread no longer stays stuck sending after a harness fails to start, queued steering prompts are no longer lost, and approval cards expire instead of vanishing when a harness quits.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+105/Controller-1.0.51+105-arm64.zip" length="253352066" type="application/octet-stream" sparkle:edSignature="cOviOlM5xewbmis95BCqs899P7mj2WS8gWdXO7hmirjxldmF2+miCusRAVN5SF9G4Exu1XR79Fh1N6avlBPIAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+105/Controller105-103.delta" sparkle:deltaFrom="103" length="7221298" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RCpPNsMNwuiDJae9mtP0AFaLGY+uZC/fYz5zFKnfHVNuOSX14y2ooJmZqr9kHV5rqXzeeQQAsu6F1gWcf6TfDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Wed, 04 Nov 2026 22:31:05 -0500</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>103</sparkle:version>
@@ -42,28 +64,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+102/Controller102-101.delta" sparkle:deltaFrom="101" length="3321646" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NZp2Rp1j0Ovh+n+w15H4rXUDm9osZ7sXqGWeyRk+XVw7bbMYrYraaGy+FViG37zGj8OFjdA870UlOmZq3R0rAg=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Wed, 04 Nov 2026 13:14:28 -0500</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>101</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Controller 1.0.51 (101)
-
-Offline prompt delivery and more Siri actions for Mac, iPhone and iPad, plus matching builds for Apple Watch and Android.
-
-- Controller Connect can hold a text prompt for an existing chat when its Mac is offline, for up to seven days, and deliver it when that Mac reconnects. Siri tells you the prompt is pending, and the composer on Mac, iPhone and iPad lists it under **Waiting for this Mac**. Both the sending device and the Mac need this version, and the option appears once the Controller Connect service update reaches your account. Attachments, slash commands and new chats still need a live connection.
-- On iPhone and iPad with the iOS 27.3 Siri AI Developer Preview, Siri can find your computers and projects and start a new thread in a project, list only the chats waiting for your input or approval, and read further back through a chat.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+101/Controller-1.0.51+101-arm64.zip" length="250830741" type="application/octet-stream" sparkle:edSignature="7zXSVEDBmXF1G2TPPlBsyoRbBWUMO5gnF41Qq8l+ngLWlS5Iaai9g4lV6Hc2ZRxTJ+sbBGp3byRIGO9+yvTLDA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+101/Controller101-100.delta" sparkle:deltaFrom="100" length="3117606" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VHzPT3HmSbf3eVofBNhziIoXeGwjA1IWyOJC4lgg9QeYYAzqSQrWXHnMHRp0UVuoz3Mc3rrvPD1+5DN1whkTCg=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: keoj0twCcGQyZuzX8a1oESZasZwIaIZLRdiS8DXyLpOAI2dahZGE2hwRfX2cpPp5VLXGQpV3b7XVDa00MIjMBA==
-length: 7433
+edSignature: OFVOzN0FH8TaVgIV7pQpdtyi1Ay5ERPAD1nTucRn5/lzokeNuhMx833Kkmo0MZ6pQHQQG4gt/D0AFUl3Dz9gBg==
+length: 9039
 -->
