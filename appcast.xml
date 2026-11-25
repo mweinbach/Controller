@@ -7,6 +7,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Tue, 24 Nov 2026 20:18:50 -0500</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>106</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- You can now remove any non-built-in harness account even when it has existing conversations, native bindings, or project defaults. Idle conversations keep their history, switch to your fallback account, and hand off prior context automatically on the next turn; removal is only blocked while active work or pending requests are running on that account.
+- Fixed an error where Muse Code could show `Swift.CancellationError` after background discovery refreshed unchanged account settings while it was connecting.
+- Antigravity updates to Google's official Antigravity CLI 1.5.16 runtime with direct mid-turn steering (keeping running subagents and background tasks alive), native system prompt append, tool-free sessions, ACP form elicitation, and isolated file token storage.
+- Managed Pi accounts now use Pi 1.6.0, Cursor accounts now use Cursor SDK 1.5.0 (Settings offers the new downloads), Factory Droid SDK accounts now use `@factory/droid-sdk` 0.11.0, and Muse Code adds Muse 1.4.24 session-rename capability negotiation and described reasoning effort variants.
+
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+106/Controller-1.0.51+106-arm64.zip" length="253436417" type="application/octet-stream" sparkle:edSignature="59TIaikI5/cO/qig+0//G3sr/ST/6yfrA8vEewqd2gaiceNJz/xo3cRm1WMniWWGlXTXYrAro3U7379MUM9mBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+106/Controller106-105.delta" sparkle:deltaFrom="105" length="3025982" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="erFoUmLYwUBIAfwdmPT5bMbYHxVo+K2dPi0rqSpE1xyxYyopSIncB+BqzB34xT3N8vu618TqZbjSsfG99hL9BQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Tue, 24 Nov 2026 19:09:03 -0500</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>105</sparkle:version>
@@ -46,27 +64,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+103/Controller103-102.delta" sparkle:deltaFrom="102" length="3098950" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uyIvY02H92vXQ39gjyXPQtqeI+q67HnSCGYf7T1qkp5y4hehRxWzmVQe3JqaFgrzSTgr7BlKNsbj4e6RbILkCg=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Wed, 04 Nov 2026 18:01:28 -0500</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>102</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- SwiftDroid's ChatGPT, Gemini, Anthropic and Claude Code connections now share one entry. Manage them from a single panel in Mac Settings, and browse their models together in the picker on Mac, iPhone, iPad and Android. Existing chats, favorites and permissions keep their provider.
-- SwiftDroid now uses version 0.5.2 of its SDK. Gemini requests send the reasoning levels the connected model supports, and Script reads get a larger payload budget.
-- In Mac Settings, right-click a harness in the sidebar to remove a provider account. The confirmation names the account you clicked.
-- Agents in Controller can use Apple's 19 Xcode skills, including translation with localization style guides and xctrace profiling.
-- On a Mac with a touch screen, drag one finger to scroll a browser page or local terminal. Tapping away closes the New Thread palette and folder browser, and in the folder browser a second tap opens the selected folder. Scrolling or long-pressing no longer dismisses an open model, context or plan card.
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+102/Controller-1.0.51+102-arm64.zip" length="251807913" type="application/octet-stream" sparkle:edSignature="V0IeEjSunSfXyMhL4L+wcB/Hl97ASxRZ5z+Fdx1J1cDIGbobI4jFURzXmo9vJ6KY5HMp/ndCghShFQYJI2bYAQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+102/Controller102-101.delta" sparkle:deltaFrom="101" length="3321646" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NZp2Rp1j0Ovh+n+w15H4rXUDm9osZ7sXqGWeyRk+XVw7bbMYrYraaGy+FViG37zGj8OFjdA870UlOmZq3R0rAg=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: OFVOzN0FH8TaVgIV7pQpdtyi1Ay5ERPAD1nTucRn5/lzokeNuhMx833Kkmo0MZ6pQHQQG4gt/D0AFUl3Dz9gBg==
-length: 9039
+edSignature: QEI+7ttWlaoVsBnV93ogwG2MdzinpRmGvXpGERUSisqH7lj9VX9GgcP2C1gWWK1L4KYlQObhwLxDmZ9kd8cEDw==
+length: 9089
 -->
