@@ -7,6 +7,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Controller</title>
         <item>
             <title>1.0.51</title>
+            <pubDate>Wed, 25 Nov 2026 18:50:54 -0500</pubDate>
+            <link>https://github.com/mweinbach/Controller</link>
+            <sparkle:version>109</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- The sidebar is back to a single Active list on Mac, iPhone and iPad. Working and monitoring threads stay in Active order with their status badges, and the collapsible Working shelf is gone. Undo, multi-select triage and selection advancement work as before.
+- The activity orb now morphs into its card and back using native Liquid Glass on Mac, iPhone and iPad, honoring Reduce Motion. On iPhone and iPad it hands off cleanly from the navigation bar, reverses smoothly if you change your mind mid-animation, and pinned cards unpin without a blur flash.
+- Streamed replies fade in strictly left to right along each line, including around inline code, bold text and links. Later words no longer finish appearing before the text to their left.
+- Running tool calls no longer show doubled or ghosted text in their shimmer when a long command is truncated.
+- Slash commands for Antigravity, Grok, Kimi Code, Factory Droid and custom ACP agents now come from the agent itself, including skills. They appear in the composer right away and stay current as the agent updates them, on your Mac and on connected iPhones, iPads and other Macs.
+- Antigravity `/swarm` workers now appear as subagents with readable board-tool titles, and schedule and long-running execute tools keep running after the prompt ends instead of being marked done. Controller's own tools can be allowed once in Auto modes without a prompt.
+- When Antigravity hits a quota or rate limit, an invalid thinking signature, a Google account validation failure or another upstream API error, the turn now reports it, with the reset time when one is available, instead of ending as if it had succeeded.
+]]></description>
+            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+109/Controller-1.0.51+109-arm64.zip" length="254889610" type="application/octet-stream" sparkle:edSignature="p0Tm+nnkrF/6CzPvKnGhecuF0ugEx3t1GcEtxJ452CQ2HTTcDBIYj2OnfTMu5BzDcCxr30W2HvKHTt6CAk+IBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+109/Controller109-108.delta" sparkle:deltaFrom="108" length="3697398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UtyZK57Z+M+7XEzHtDURNWYDT/Nw9s0CYhQLcn67K9F5Uu8iRmxUTN9qnOeAbRNVms/TgHe00ISieh/i3u+qDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.51</title>
             <pubDate>Wed, 25 Nov 2026 12:17:36 -0500</pubDate>
             <link>https://github.com/mweinbach/Controller</link>
             <sparkle:version>108</sparkle:version>
@@ -41,27 +61,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+107/Controller107-106.delta" sparkle:deltaFrom="106" length="6024850" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jvWP0HA6Bwj6KF6jmWxbyyRsDRggDT3MM+mc2BXRPUY3E4jnsYuBhmcEWzgvI/sD02sq0j0e9kEvOym1+g6OCg=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Tue, 24 Nov 2026 20:18:50 -0500</pubDate>
-            <link>https://github.com/mweinbach/Controller</link>
-            <sparkle:version>106</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- You can now remove any non-built-in harness account even when it has existing conversations, native bindings, or project defaults. Idle conversations keep their history, switch to your fallback account, and hand off prior context automatically on the next turn; removal is only blocked while active work or pending requests are running on that account.
-- Fixed an error where Muse Code could show `Swift.CancellationError` after background discovery refreshed unchanged account settings while it was connecting.
-- Antigravity updates to Google's official Antigravity CLI 1.5.16 runtime with direct mid-turn steering (keeping running subagents and background tasks alive), native system prompt append, tool-free sessions, ACP form elicitation, and isolated file token storage.
-- Managed Pi accounts now use Pi 1.6.0, Cursor accounts now use Cursor SDK 1.5.0 (Settings offers the new downloads), Factory Droid SDK accounts now use `@factory/droid-sdk` 0.11.0, and Muse Code adds Muse 1.4.24 session-rename capability negotiation and described reasoning effort variants.
-
-]]></description>
-            <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+106/Controller-1.0.51+106-arm64.zip" length="253436417" type="application/octet-stream" sparkle:edSignature="59TIaikI5/cO/qig+0//G3sr/ST/6yfrA8vEewqd2gaiceNJz/xo3cRm1WMniWWGlXTXYrAro3U7379MUM9mBw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mweinbach/Controller/releases/download/v1.0.51+106/Controller106-105.delta" sparkle:deltaFrom="105" length="3025982" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="erFoUmLYwUBIAfwdmPT5bMbYHxVo+K2dPi0rqSpE1xyxYyopSIncB+BqzB34xT3N8vu618TqZbjSsfG99hL9BQ=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: cz59Rw0iqzTyg5yI1qESvP4gNhcp+T+wYIUCvxFMaMM1/si/dr4Ig5NGvRTCNXT4r+lCrpyb8Z5ACkMrREAwDA==
-length: 9074
+edSignature: GK98Bv1zv6U0yp4UlsJ3tbPBjffjcgbiWQUPObFOom5OdxEPvx3bdyRApGXsTxoZSr3oS05C9REAqPs+MZoJDg==
+length: 9664
 -->
